@@ -1,0 +1,9 @@
+{
+ "finetune": {
+  "UA": 0.6000000052154064,
+  "forget_class_rate": 99.40000176429749,
+  "retain_cond_acc": 97.28000164031982,
+  "FID_retain": 17.580855212171286,
+  "unlearn_time_s": 0.0
+ }
+}

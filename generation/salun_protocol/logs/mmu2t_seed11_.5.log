@@ -1,0 +1,11 @@
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+setup random seed = 11
+The normalize layer is contained in the network
+setup random seed = 11
+setup random seed = 11
+RESULT {'UA': 10.159999132156372, 'RA': 93.92444491386414, 'TA': 86.43999695777893, 'MIA': 14.813333333333334, 'RTE_min': 0.7470012861342791, 'seed': 11, 'ratio': 0.5, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'test', 'hyperparameters': {'lr': 0.005, 'epochs': 5, 'alpha': 0.2, 'density': 0.5}}

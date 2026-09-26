@@ -1,0 +1,593 @@
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+setup random seed = 4
+The normalize layer is contained in the network
+setup random seed = 4
+setup random seed = 4
+train_accuracy 20.049
+retrain.pt epoch 0 seconds 3.1653872809838504
+train_accuracy 35.480
+retrain.pt epoch 1 seconds 6.164708729018457
+train_accuracy 42.507
+retrain.pt epoch 2 seconds 9.131959629012272
+train_accuracy 49.320
+retrain.pt epoch 3 seconds 12.091004834976047
+train_accuracy 54.738
+retrain.pt epoch 4 seconds 15.053529205964878
+train_accuracy 60.462
+retrain.pt epoch 5 seconds 18.009965823963284
+train_accuracy 62.827
+retrain.pt epoch 6 seconds 20.962706845020875
+train_accuracy 67.440
+retrain.pt epoch 7 seconds 23.762999290018342
+train_accuracy 70.471
+retrain.pt epoch 8 seconds 26.634651549044065
+train_accuracy 73.604
+retrain.pt epoch 9 seconds 29.60305012902245
+train_accuracy 76.102
+retrain.pt epoch 10 seconds 32.56674875097815
+train_accuracy 78.209
+retrain.pt epoch 11 seconds 35.58120537002105
+train_accuracy 79.640
+retrain.pt epoch 12 seconds 38.54296472505666
+train_accuracy 80.964
+retrain.pt epoch 13 seconds 41.50926161999814
+train_accuracy 81.880
+retrain.pt epoch 14 seconds 44.47157217503991
+train_accuracy 83.316
+retrain.pt epoch 15 seconds 47.442395193036646
+train_accuracy 84.364
+retrain.pt epoch 16 seconds 50.379682678030804
+train_accuracy 85.311
+retrain.pt epoch 17 seconds 53.34526445204392
+train_accuracy 85.604
+retrain.pt epoch 18 seconds 56.30854298302438
+train_accuracy 86.196
+retrain.pt epoch 19 seconds 59.27207212697249
+train_accuracy 87.524
+retrain.pt epoch 20 seconds 62.23945940495469
+train_accuracy 87.498
+retrain.pt epoch 21 seconds 65.26525563700125
+train_accuracy 88.511
+retrain.pt epoch 22 seconds 68.23703968001064
+train_accuracy 88.844
+retrain.pt epoch 23 seconds 71.20701871998608
+train_accuracy 89.164
+retrain.pt epoch 24 seconds 74.180537497974
+train_accuracy 89.498
+retrain.pt epoch 25 seconds 77.1444486649707
+train_accuracy 89.662
+retrain.pt epoch 26 seconds 80.11120962700807
+train_accuracy 90.338
+retrain.pt epoch 27 seconds 83.07645270496141
+train_accuracy 90.893
+retrain.pt epoch 28 seconds 86.04285237600561
+train_accuracy 90.960
+retrain.pt epoch 29 seconds 89.0096012899885
+train_accuracy 91.364
+retrain.pt epoch 30 seconds 91.97260834800545
+train_accuracy 91.569
+retrain.pt epoch 31 seconds 95.02197232202161
+train_accuracy 92.040
+retrain.pt epoch 32 seconds 97.99105066794436
+train_accuracy 91.969
+retrain.pt epoch 33 seconds 100.9570891490439
+train_accuracy 92.369
+retrain.pt epoch 34 seconds 103.92351715301629
+train_accuracy 92.924
+retrain.pt epoch 35 seconds 106.88939143402968
+train_accuracy 92.244
+retrain.pt epoch 36 seconds 109.86256596702151
+train_accuracy 92.533
+retrain.pt epoch 37 seconds 112.83225314202718
+train_accuracy 93.298
+retrain.pt epoch 38 seconds 115.80276859004516
+train_accuracy 92.840
+retrain.pt epoch 39 seconds 118.77297200204339
+train_accuracy 93.173
+retrain.pt epoch 40 seconds 121.74458132800646
+train_accuracy 93.622
+retrain.pt epoch 41 seconds 124.77894359396305
+train_accuracy 94.093
+retrain.pt epoch 42 seconds 127.71437424700707
+train_accuracy 93.329
+retrain.pt epoch 43 seconds 130.50590745394584
+train_accuracy 94.484
+retrain.pt epoch 44 seconds 133.30090605502483
+train_accuracy 93.720
+retrain.pt epoch 45 seconds 136.10095042095054
+train_accuracy 94.560
+retrain.pt epoch 46 seconds 139.04127705097198
+train_accuracy 94.560
+retrain.pt epoch 47 seconds 141.98681084101554
+train_accuracy 94.587
+retrain.pt epoch 48 seconds 144.83166173903737
+train_accuracy 94.698
+retrain.pt epoch 49 seconds 147.8030735340435
+train_accuracy 94.396
+retrain.pt epoch 50 seconds 150.7707922270056
+train_accuracy 94.778
+retrain.pt epoch 51 seconds 153.81227540201508
+train_accuracy 94.644
+retrain.pt epoch 52 seconds 156.77753897104412
+train_accuracy 94.938
+retrain.pt epoch 53 seconds 159.7449548220029
+train_accuracy 95.578
+retrain.pt epoch 54 seconds 162.71703313302714
+train_accuracy 95.169
+retrain.pt epoch 55 seconds 165.68189042294398
+train_accuracy 95.236
+retrain.pt epoch 56 seconds 168.64688472100534
+train_accuracy 95.476
+retrain.pt epoch 57 seconds 171.6092469750438
+train_accuracy 95.489
+retrain.pt epoch 58 seconds 174.58439775195438
+train_accuracy 95.609
+retrain.pt epoch 59 seconds 177.55467874300666
+train_accuracy 95.760
+retrain.pt epoch 60 seconds 180.5249549469445
+train_accuracy 95.413
+retrain.pt epoch 61 seconds 183.55964992998634
+train_accuracy 95.787
+retrain.pt epoch 62 seconds 186.51568884099834
+train_accuracy 96.116
+retrain.pt epoch 63 seconds 189.4492560919607
+train_accuracy 96.284
+retrain.pt epoch 64 seconds 192.42349508800544
+train_accuracy 96.440
+retrain.pt epoch 65 seconds 195.39776486204937
+train_accuracy 96.227
+retrain.pt epoch 66 seconds 198.36752127297223
+train_accuracy 95.742
+retrain.pt epoch 67 seconds 201.33736123004928
+train_accuracy 96.489
+retrain.pt epoch 68 seconds 204.30569288798142
+train_accuracy 96.680
+retrain.pt epoch 69 seconds 207.2746954089962
+train_accuracy 96.591
+retrain.pt epoch 70 seconds 210.24667881603818
+train_accuracy 96.640
+retrain.pt epoch 71 seconds 213.2836923849536
+train_accuracy 96.547
+retrain.pt epoch 72 seconds 216.19291768502444
+train_accuracy 97.164
+retrain.pt epoch 73 seconds 219.11925900599454
+train_accuracy 97.000
+retrain.pt epoch 74 seconds 221.92475968401413
+train_accuracy 96.720
+retrain.pt epoch 75 seconds 224.71366486197803
+train_accuracy 96.933
+retrain.pt epoch 76 seconds 227.50793795695063
+train_accuracy 97.058
+retrain.pt epoch 77 seconds 230.3037609650055
+train_accuracy 96.436
+retrain.pt epoch 78 seconds 233.09842323395424
+train_accuracy 97.622
+retrain.pt epoch 79 seconds 235.89067602797877
+train_accuracy 97.680
+retrain.pt epoch 80 seconds 238.68576833198313
+train_accuracy 97.462
+retrain.pt epoch 81 seconds 241.54952781496104
+train_accuracy 97.693
+retrain.pt epoch 82 seconds 244.34728854801506
+train_accuracy 97.516
+retrain.pt epoch 83 seconds 247.1424708099803
+train_accuracy 97.809
+retrain.pt epoch 84 seconds 249.94026313198265
+train_accuracy 97.516
+retrain.pt epoch 85 seconds 252.73590882995632
+train_accuracy 97.360
+retrain.pt epoch 86 seconds 255.5387775329873
+train_accuracy 97.969
+retrain.pt epoch 87 seconds 258.3370690459851
+train_accuracy 98.187
+retrain.pt epoch 88 seconds 261.1337741089519
+train_accuracy 98.058
+retrain.pt epoch 89 seconds 263.92991526203696
+train_accuracy 98.209
+retrain.pt epoch 90 seconds 266.72685395600274
+train_accuracy 98.169
+retrain.pt epoch 91 seconds 269.5999973959988
+train_accuracy 98.320
+retrain.pt epoch 92 seconds 272.39759155898355
+train_accuracy 98.107
+retrain.pt epoch 93 seconds 275.19167551002465
+train_accuracy 98.387
+retrain.pt epoch 94 seconds 277.9882999949623
+train_accuracy 98.200
+retrain.pt epoch 95 seconds 280.78564608097076
+train_accuracy 98.560
+retrain.pt epoch 96 seconds 283.5818916079588
+train_accuracy 98.444
+retrain.pt epoch 97 seconds 286.3780328260036
+train_accuracy 98.538
+retrain.pt epoch 98 seconds 289.1809157660464
+train_accuracy 98.653
+retrain.pt epoch 99 seconds 291.98157035699114
+train_accuracy 98.973
+retrain.pt epoch 100 seconds 294.78046097804327
+train_accuracy 99.018
+retrain.pt epoch 101 seconds 297.6477427079808
+train_accuracy 98.920
+retrain.pt epoch 102 seconds 300.44804002402816
+train_accuracy 98.342
+retrain.pt epoch 103 seconds 303.24893443100154
+train_accuracy 98.778
+retrain.pt epoch 104 seconds 306.0544798109913
+train_accuracy 98.907
+retrain.pt epoch 105 seconds 308.8541499909479
+train_accuracy 98.796
+retrain.pt epoch 106 seconds 311.65603469801135
+train_accuracy 99.027
+retrain.pt epoch 107 seconds 314.4581257200334
+train_accuracy 99.396
+retrain.pt epoch 108 seconds 317.2603588280035
+train_accuracy 99.471
+retrain.pt epoch 109 seconds 320.06509481405374
+train_accuracy 99.622
+retrain.pt epoch 110 seconds 322.869986757054
+train_accuracy 99.489
+retrain.pt epoch 111 seconds 325.72981432895176
+train_accuracy 99.351
+retrain.pt epoch 112 seconds 328.5278271409916
+train_accuracy 99.493
+retrain.pt epoch 113 seconds 331.3242876660079
+train_accuracy 99.502
+retrain.pt epoch 114 seconds 334.1199388980167
+train_accuracy 99.627
+retrain.pt epoch 115 seconds 336.9195294169476
+train_accuracy 99.707
+retrain.pt epoch 116 seconds 339.7171955599915
+train_accuracy 99.733
+retrain.pt epoch 117 seconds 342.51013532595243
+train_accuracy 99.693
+retrain.pt epoch 118 seconds 345.3071188989561
+train_accuracy 99.769
+retrain.pt epoch 119 seconds 348.1056892509805
+train_accuracy 99.836
+retrain.pt epoch 120 seconds 350.900518067996
+train_accuracy 99.844
+retrain.pt epoch 121 seconds 353.77377115399577
+train_accuracy 99.876
+retrain.pt epoch 122 seconds 356.70452928799205
+train_accuracy 99.760
+retrain.pt epoch 123 seconds 359.67749615199864
+train_accuracy 99.853
+retrain.pt epoch 124 seconds 362.5609103050083
+train_accuracy 99.956
+retrain.pt epoch 125 seconds 365.360166864004
+train_accuracy 99.991
+retrain.pt epoch 126 seconds 368.1594691829523
+train_accuracy 99.938
+retrain.pt epoch 127 seconds 370.9569262180012
+train_accuracy 99.951
+retrain.pt epoch 128 seconds 373.75811130704824
+train_accuracy 99.991
+retrain.pt epoch 129 seconds 376.55259648000356
+train_accuracy 100.000
+retrain.pt epoch 130 seconds 379.35168044501916
+train_accuracy 99.978
+retrain.pt epoch 131 seconds 382.2177048979793
+train_accuracy 99.987
+retrain.pt epoch 132 seconds 385.0207697650185
+train_accuracy 100.000
+retrain.pt epoch 133 seconds 387.8186666909605
+train_accuracy 99.996
+retrain.pt epoch 134 seconds 390.618432215997
+train_accuracy 99.991
+retrain.pt epoch 135 seconds 393.4182728959713
+train_accuracy 99.996
+retrain.pt epoch 136 seconds 396.21540874103084
+train_accuracy 100.000
+retrain.pt epoch 137 seconds 399.01195676997304
+train_accuracy 99.996
+retrain.pt epoch 138 seconds 401.8074352670228
+train_accuracy 100.000
+retrain.pt epoch 139 seconds 404.6062141379807
+train_accuracy 99.991
+retrain.pt epoch 140 seconds 407.43740609905217
+train_accuracy 99.996
+retrain.pt epoch 141 seconds 410.29941286495887
+train_accuracy 99.982
+retrain.pt epoch 142 seconds 413.0959976699669
+train_accuracy 100.000
+retrain.pt epoch 143 seconds 415.88940514903516
+train_accuracy 100.000
+retrain.pt epoch 144 seconds 418.68864225805737
+train_accuracy 99.996
+retrain.pt epoch 145 seconds 421.47985700296704
+train_accuracy 100.000
+retrain.pt epoch 146 seconds 424.2706949940184
+train_accuracy 100.000
+retrain.pt epoch 147 seconds 427.06002456403803
+train_accuracy 99.996
+retrain.pt epoch 148 seconds 429.84942216798663
+train_accuracy 100.000
+retrain.pt epoch 149 seconds 432.64559087797534
+train_accuracy 99.996
+retrain.pt epoch 150 seconds 435.4386101750424
+train_accuracy 99.996
+retrain.pt epoch 151 seconds 438.3349834709661
+train_accuracy 99.996
+retrain.pt epoch 152 seconds 441.3020357040223
+train_accuracy 99.996
+retrain.pt epoch 153 seconds 444.2771572440397
+train_accuracy 100.000
+retrain.pt epoch 154 seconds 447.2433543240186
+train_accuracy 100.000
+retrain.pt epoch 155 seconds 450.2049141000025
+train_accuracy 100.000
+retrain.pt epoch 156 seconds 453.167192874942
+train_accuracy 100.000
+retrain.pt epoch 157 seconds 456.1432233999949
+train_accuracy 100.000
+retrain.pt epoch 158 seconds 458.979109390988
+train_accuracy 100.000
+retrain.pt epoch 159 seconds 461.88607833499555
+train_accuracy 100.000
+retrain.pt epoch 160 seconds 464.84793230099604
+train_accuracy 100.000
+retrain.pt epoch 161 seconds 467.8913766560145
+train_accuracy 100.000
+retrain.pt epoch 162 seconds 470.857493913034
+train_accuracy 100.000
+retrain.pt epoch 163 seconds 473.8298758850433
+train_accuracy 100.000
+retrain.pt epoch 164 seconds 476.8000469550025
+train_accuracy 99.996
+retrain.pt epoch 165 seconds 479.769291582983
+train_accuracy 100.000
+retrain.pt epoch 166 seconds 482.7348743149778
+train_accuracy 100.000
+retrain.pt epoch 167 seconds 485.68039504194167
+train_accuracy 100.000
+retrain.pt epoch 168 seconds 488.65202255395707
+train_accuracy 100.000
+retrain.pt epoch 169 seconds 491.6214586830465
+train_accuracy 100.000
+retrain.pt epoch 170 seconds 494.54581162903924
+train_accuracy 100.000
+retrain.pt epoch 171 seconds 497.5789008110296
+train_accuracy 100.000
+retrain.pt epoch 172 seconds 500.5419895700179
+train_accuracy 100.000
+retrain.pt epoch 173 seconds 503.5062418739544
+train_accuracy 100.000
+retrain.pt epoch 174 seconds 506.469707036973
+train_accuracy 100.000
+retrain.pt epoch 175 seconds 509.4353834730573
+train_accuracy 100.000
+retrain.pt epoch 176 seconds 512.4013011760544
+train_accuracy 100.000
+retrain.pt epoch 177 seconds 515.3695357029792
+train_accuracy 100.000
+retrain.pt epoch 178 seconds 518.3342259849887
+train_accuracy 100.000
+retrain.pt epoch 179 seconds 521.2962106900522
+train_accuracy 100.000
+retrain.pt epoch 180 seconds 524.2590688680066
+train_accuracy 100.000
+retrain.pt epoch 181 seconds 527.296413730015
+RESULT {'UA': 7.440000772476196, 'RA': 100.0, 'TA': 92.30999946594238, 'MIA': 20.044444444444444, 'RTE_min': 8.78997327715042, 'seed': 4, 'ratio': 0.5, 'method': 'retrain', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'test', 'hyperparameters': {'lr': 0.1, 'epochs': 182, 'alpha': 0, 'density': 1}}
+setup random seed = 4
+Epoch #0, Learning rate: 0.1
+train_accuracy 85.880
+one epoch duration:2.924219846725464
+Epoch #1, Learning rate: 0.1
+train_accuracy 73.773
+one epoch duration:2.9516379833221436
+Epoch #2, Learning rate: 0.1
+train_accuracy 81.378
+one epoch duration:2.9532971382141113
+Epoch #3, Learning rate: 0.1
+train_accuracy 84.191
+one epoch duration:2.9534096717834473
+Epoch #4, Learning rate: 0.1
+train_accuracy 86.378
+one epoch duration:2.950620412826538
+Epoch #5, Learning rate: 0.1
+train_accuracy 87.884
+one epoch duration:2.9513659477233887
+Epoch #6, Learning rate: 0.1
+train_accuracy 89.098
+one epoch duration:2.9530751705169678
+Epoch #7, Learning rate: 0.1
+train_accuracy 90.489
+one epoch duration:2.831876277923584
+Epoch #8, Learning rate: 0.1
+train_accuracy 91.280
+one epoch duration:2.7791073322296143
+Epoch #9, Learning rate: 0.1
+train_accuracy 91.547
+one epoch duration:2.7745108604431152
+RESULT {'UA': 16.91555380821228, 'RA': 87.58222460746765, 'TA': 81.87999725341797, 'MIA': 21.519999999999996, 'RTE_min': 0.4837246194831096, 'seed': 4, 'ratio': 0.5, 'method': 'FT', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'test', 'hyperparameters': {'lr': 0.1, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 4
+Epoch #0, Learning rate: 0.01
+one epoch duration:4.869025468826294
+Epoch #1, Learning rate: 0.01
+one epoch duration:4.907269716262817
+Epoch #2, Learning rate: 0.01
+one epoch duration:5.002006530761719
+Epoch #3, Learning rate: 0.01
+one epoch duration:5.00827169418335
+Epoch #4, Learning rate: 0.01
+one epoch duration:4.884449243545532
+Epoch #5, Learning rate: 0.01
+one epoch duration:5.001262903213501
+Epoch #6, Learning rate: 0.01
+one epoch duration:5.02118992805481
+Epoch #7, Learning rate: 0.01
+one epoch duration:5.0297300815582275
+Epoch #8, Learning rate: 0.01
+one epoch duration:5.030457258224487
+Epoch #9, Learning rate: 0.01
+one epoch duration:5.0293145179748535
+RESULT {'UA': 6.177777051925659, 'RA': 96.02222442626953, 'TA': 89.99999761581421, 'MIA': 15.05333333333333, 'RTE_min': 0.8297277274502751, 'seed': 4, 'ratio': 0.5, 'method': 'RL', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'test', 'hyperparameters': {'lr': 0.01, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 4
+Epoch #0, Learning rate: 0.0001
+train_accuracy 100.000
+one epoch duration:2.9449355602264404
+Epoch #1, Learning rate: 0.0001
+train_accuracy 100.000
+one epoch duration:2.952641248703003
+Epoch #2, Learning rate: 0.0001
+train_accuracy 99.996
+one epoch duration:2.9522721767425537
+Epoch #3, Learning rate: 0.0001
+train_accuracy 100.000
+one epoch duration:2.9506537914276123
+Epoch #4, Learning rate: 0.0001
+train_accuracy 100.000
+one epoch duration:2.9489386081695557
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.06999850273132, 'MIA': 0.0888888888888939, 'RTE_min': 0.24582960818273325, 'seed': 4, 'ratio': 0.5, 'method': 'GA', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'test', 'hyperparameters': {'lr': 0.0001, 'epochs': 5, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 4
+  0%|          | 0/88 [00:00<?, ?it/s]  6%|▌         | 5/88 [00:00<00:01, 49.72it/s] 11%|█▏        | 10/88 [00:00<00:01, 46.69it/s] 17%|█▋        | 15/88 [00:00<00:01, 45.33it/s] 23%|██▎       | 20/88 [00:00<00:01, 44.50it/s] 28%|██▊       | 25/88 [00:00<00:01, 43.98it/s] 34%|███▍      | 30/88 [00:00<00:01, 43.65it/s] 40%|███▉      | 35/88 [00:00<00:01, 43.45it/s] 45%|████▌     | 40/88 [00:00<00:01, 43.31it/s] 51%|█████     | 45/88 [00:01<00:00, 43.21it/s] 57%|█████▋    | 50/88 [00:01<00:00, 43.14it/s] 62%|██████▎   | 55/88 [00:01<00:00, 43.10it/s] 68%|██████▊   | 60/88 [00:01<00:00, 43.02it/s] 74%|███████▍  | 65/88 [00:01<00:00, 42.99it/s] 80%|███████▉  | 70/88 [00:01<00:00, 42.99it/s] 85%|████████▌ | 75/88 [00:01<00:00, 42.93it/s] 91%|█████████ | 80/88 [00:01<00:00, 42.93it/s] 97%|█████████▋| 85/88 [00:01<00:00, 42.89it/s]100%|██████████| 88/88 [00:02<00:00, 43.45it/s]
+  0%|          | 0/88 [00:00<?, ?it/s]  6%|▌         | 5/88 [00:00<00:01, 44.06it/s] 11%|█▏        | 10/88 [00:00<00:01, 43.33it/s] 17%|█▋        | 15/88 [00:00<00:01, 43.14it/s] 23%|██▎       | 20/88 [00:00<00:01, 43.00it/s] 28%|██▊       | 25/88 [00:00<00:01, 42.97it/s] 34%|███▍      | 30/88 [00:00<00:01, 42.89it/s] 40%|███▉      | 35/88 [00:00<00:01, 42.84it/s] 45%|████▌     | 40/88 [00:00<00:01, 42.85it/s] 51%|█████     | 45/88 [00:01<00:01, 42.81it/s] 57%|█████▋    | 50/88 [00:01<00:00, 42.81it/s] 62%|██████▎   | 55/88 [00:01<00:00, 42.85it/s] 68%|██████▊   | 60/88 [00:01<00:00, 42.82it/s] 74%|███████▍  | 65/88 [00:01<00:00, 42.83it/s] 80%|███████▉  | 70/88 [00:01<00:00, 42.81it/s] 85%|████████▌ | 75/88 [00:01<00:00, 42.79it/s] 91%|█████████ | 80/88 [00:01<00:00, 42.83it/s] 97%|█████████▋| 85/88 [00:01<00:00, 42.80it/s]100%|██████████| 88/88 [00:02<00:00, 42.88it/s]
+  0%|          | 0/22500 [00:00<?, ?it/s]  0%|          | 31/22500 [00:00<01:13, 305.70it/s]  0%|          | 75/22500 [00:00<00:58, 383.26it/s]  1%|          | 120/22500 [00:00<00:54, 410.21it/s]  1%|          | 164/22500 [00:00<00:52, 421.57it/s]  1%|          | 208/22500 [00:00<00:52, 427.47it/s]  1%|          | 252/22500 [00:00<00:51, 430.40it/s]  1%|▏         | 296/22500 [00:00<00:51, 432.20it/s]  2%|▏         | 340/22500 [00:00<00:51, 433.83it/s]  2%|▏         | 384/22500 [00:00<00:50, 435.71it/s]  2%|▏         | 428/22500 [00:01<00:50, 434.49it/s]  2%|▏         | 472/22500 [00:01<00:50, 435.82it/s]  2%|▏         | 516/22500 [00:01<00:50, 436.55it/s]  2%|▏         | 560/22500 [00:01<00:50, 437.34it/s]  3%|▎         | 604/22500 [00:01<00:50, 437.01it/s]  3%|▎         | 648/22500 [00:01<00:49, 437.51it/s]  3%|▎         | 692/22500 [00:01<00:50, 434.59it/s]  3%|▎         | 736/22500 [00:01<00:50, 435.26it/s]  3%|▎         | 780/22500 [00:01<00:49, 435.92it/s]  4%|▎         | 824/22500 [00:01<00:49, 436.87it/s]  4%|▍         | 868/22500 [00:02<00:49, 436.92it/s]  4%|▍         | 912/22500 [00:02<00:49, 436.61it/s]  4%|▍         | 957/22500 [00:02<00:49, 437.83it/s]  4%|▍         | 1001/22500 [00:02<00:49, 436.94it/s]  4%|▍         | 1001/22500 [00:02<00:49, 430.98it/s]
+RESULT {'UA': 30.19999861717224, 'RA': 70.00444531440735, 'TA': 65.41999578475952, 'MIA': 24.906666666666666, 'RTE_min': 0.10670410668438611, 'seed': 4, 'ratio': 0.5, 'method': 'IU', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'test', 'hyperparameters': {'lr': 0.01, 'epochs': 1, 'alpha': 20, 'density': 0.5}}
+setup random seed = 4
+Epoch #0, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:2.943234443664551
+Epoch #1, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:2.9577972888946533
+Epoch #2, Learning rate: 1e-06
+train_accuracy 99.996
+one epoch duration:2.9522018432617188
+Epoch #3, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:2.944338321685791
+Epoch #4, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:2.7891082763671875
+Epoch #5, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:2.9293041229248047
+Epoch #6, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:2.9679548740386963
+Epoch #7, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:2.9593160152435303
+Epoch #8, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:2.9556171894073486
+Epoch #9, Learning rate: 1e-06
+train_accuracy 99.996
+one epoch duration:2.9560585021972656
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.06999850273132, 'MIA': 0.0888888888888939, 'RTE_min': 0.48926983030008464, 'seed': 4, 'ratio': 0.5, 'method': 'BE', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'test', 'hyperparameters': {'lr': 1e-06, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 4
+Epoch #0, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:5.541245698928833
+Epoch #1, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:5.589958429336548
+Epoch #2, Learning rate: 1e-06
+train_accuracy 99.996
+one epoch duration:5.59933614730835
+Epoch #3, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:5.619024038314819
+Epoch #4, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:5.629145860671997
+Epoch #5, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:5.633102655410767
+Epoch #6, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:5.6375532150268555
+Epoch #7, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:5.560675859451294
+Epoch #8, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:5.51593279838562
+Epoch #9, Learning rate: 1e-06
+train_accuracy 99.996
+one epoch duration:5.5226616859436035
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.09999752044678, 'MIA': 0.09333333333333416, 'RTE_min': 0.9308697412663605, 'seed': 4, 'ratio': 0.5, 'method': 'BS', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'test', 'hyperparameters': {'lr': 1e-06, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 4
+Epoch #0, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.8217203617095947
+Epoch #1, Learning rate: 0.01
+train_accuracy 99.996
+one epoch duration:2.817613124847412
+Epoch #2, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.8185791969299316
+Epoch #3, Learning rate: 0.01
+train_accuracy 99.996
+one epoch duration:2.8233227729797363
+Epoch #4, Learning rate: 0.01
+train_accuracy 99.987
+one epoch duration:2.821794033050537
+Epoch #5, Learning rate: 0.01
+train_accuracy 99.840
+one epoch duration:2.820751428604126
+Epoch #6, Learning rate: 0.01
+train_accuracy 98.404
+one epoch duration:2.8175363540649414
+Epoch #7, Learning rate: 0.01
+train_accuracy 96.147
+one epoch duration:2.8213324546813965
+Epoch #8, Learning rate: 0.01
+train_accuracy 95.951
+one epoch duration:2.816892623901367
+Epoch #9, Learning rate: 0.01
+train_accuracy 96.436
+one epoch duration:2.8162708282470703
+RESULT {'UA': 7.822221517562866, 'RA': 94.43111419677734, 'TA': 87.63999938964844, 'MIA': 15.097777777777777, 'RTE_min': 0.4699364697172617, 'seed': 4, 'ratio': 0.5, 'method': 'l1_sparse', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'test', 'hyperparameters': {'lr': 0.01, 'epochs': 10, 'alpha': 0.0001, 'density': 0.5}}
+setup random seed = 4
+Epoch #0, Learning rate: 0.005
+one epoch duration:5.934539556503296
+Epoch #1, Learning rate: 0.005
+one epoch duration:5.936441421508789
+Epoch #2, Learning rate: 0.005
+one epoch duration:5.950892686843872
+Epoch #3, Learning rate: 0.005
+one epoch duration:5.9450061321258545
+Epoch #4, Learning rate: 0.005
+one epoch duration:5.950496673583984
+Epoch #5, Learning rate: 0.005
+one epoch duration:5.94787073135376
+Epoch #6, Learning rate: 0.005
+one epoch duration:5.950385332107544
+Epoch #7, Learning rate: 0.005
+one epoch duration:5.966293573379517
+Epoch #8, Learning rate: 0.005
+one epoch duration:5.958398103713989
+Epoch #9, Learning rate: 0.005
+one epoch duration:5.95355224609375
+RESULT {'UA': 0.4533350467681885, 'RA': 99.8711109161377, 'TA': 93.78999471664429, 'MIA': 9.586666666666666, 'RTE_min': 1.025955917967561, 'seed': 4, 'ratio': 0.5, 'method': 'SalUn', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'test', 'hyperparameters': {'lr': 0.005, 'epochs': 10, 'alpha': 0.2, 'density': 0.9}}
+setup random seed = 4
+Epoch #0, Learning rate: 0.013
+one epoch duration:5.993647575378418
+Epoch #1, Learning rate: 0.013
+one epoch duration:6.067163467407227
+Epoch #2, Learning rate: 0.013
+one epoch duration:6.106754541397095
+Epoch #3, Learning rate: 0.013
+one epoch duration:5.915683031082153
+Epoch #4, Learning rate: 0.013
+one epoch duration:5.898615598678589
+Epoch #5, Learning rate: 0.013
+one epoch duration:5.878627061843872
+Epoch #6, Learning rate: 0.013
+one epoch duration:5.8635923862457275
+Epoch #7, Learning rate: 0.013
+one epoch duration:5.925426006317139
+Epoch #8, Learning rate: 0.013
+one epoch duration:6.1181321144104
+Epoch #9, Learning rate: 0.013
+one epoch duration:5.804924249649048
+RESULT {'UA': 2.897775173187256, 'RA': 99.53333735466003, 'TA': 91.42999649047852, 'MIA': 17.675555555555555, 'RTE_min': 0.9928875436676511, 'seed': 4, 'ratio': 0.5, 'method': 'SalUn_soft', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'test', 'hyperparameters': {'lr': 0.013, 'epochs': 10, 'alpha': 0.2, 'density': 0.9}}
+setup random seed = 4
+RESULT {'UA': 0.14222264289855957, 'RA': 99.94222521781921, 'TA': 94.34999823570251, 'MIA': 1.7022222222222272, 'RTE_min': 0.332345138550348, 'seed': 4, 'ratio': 0.5, 'method': 'MMU', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'test', 'hyperparameters': {'lr': 0.0005, 'epochs': 5, 'alpha': 1, 'density': 0.5}}

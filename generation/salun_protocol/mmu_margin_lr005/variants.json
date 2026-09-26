@@ -1,0 +1,68 @@
+[
+  {
+    "name": "MMU margin / full",
+    "family": "source_roles",
+    "nest": false,
+    "head": "tied",
+    "weight": "mrl",
+    "margin": 0.05,
+    "teacher": "width-aligned source",
+    "attraction_forget": false,
+    "id": "V06"
+  },
+  {
+    "name": "MMU margin / nested MRL / sum",
+    "family": "source_roles",
+    "nest": true,
+    "head": "independent",
+    "weight": "mrl",
+    "margin": 0.05,
+    "teacher": "width-aligned source",
+    "attraction_forget": false,
+    "id": "V07"
+  },
+  {
+    "name": "MMU margin / nested MRL / weighted mean",
+    "family": "source_roles",
+    "nest": true,
+    "head": "independent",
+    "weight": "normalised",
+    "margin": 0.05,
+    "teacher": "width-aligned source",
+    "attraction_forget": false,
+    "id": "V08"
+  },
+  {
+    "name": "MMU margin / nested MRL-E / sum",
+    "family": "source_roles",
+    "nest": true,
+    "head": "tied",
+    "weight": "mrl",
+    "margin": 0.05,
+    "teacher": "width-aligned source",
+    "attraction_forget": false,
+    "id": "V09"
+  },
+  {
+    "name": "MMU margin / nested MRL-E / weighted mean",
+    "family": "source_roles",
+    "nest": true,
+    "head": "tied",
+    "weight": "normalised",
+    "margin": 0.05,
+    "teacher": "width-aligned source",
+    "attraction_forget": false,
+    "id": "V10"
+  },
+  {
+    "name": "MMU margin / nested MRL / full privileged teacher",
+    "family": "source_roles",
+    "nest": true,
+    "head": "independent",
+    "weight": "normalised",
+    "margin": 0.05,
+    "teacher": "full source",
+    "attraction_forget": false,
+    "id": "V11"
+  }
+]

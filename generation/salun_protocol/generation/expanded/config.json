@@ -1,0 +1,19 @@
+{
+  "seed": 10043,
+  "previous_seed": 10042,
+  "new_samples_per_class": 16,
+  "total_samples_per_class": 32,
+  "steps": 1000,
+  "guidance": 2,
+  "batch_size": 160,
+  "checkpoints": {
+    "Source": "generation/diffusion_mmu/ckpt/source.pt",
+    "Retrain reference": "generation/diffusion_mmu/ckpt/retrain_c0.pt",
+    "SalUn (local)": "generation/salun_protocol/generation/salun.pt",
+    "Random mask (local)": "generation/salun_protocol/generation/random.pt",
+    "MMU full width, beta=1": "generation/diffusion_mmu/results/full_redirect_20260907_c0_seed42/mmu_fullwidth.pt",
+    "MMU full width, beta=4": "generation/diffusion_mmu/results/improve_b4_c0_seed42/mmu_fullwidth.pt",
+    "MMU nested, warm-up=2": "generation/diffusion_mmu/results/improve_warm2_c0_seed42/mmu.pt"
+  },
+  "note": "Same sampler as original figure. No training, filtering, enhancement or cherry-picking."
+}

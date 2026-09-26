@@ -1,0 +1,268 @@
+{
+  "name": "fullwidth_scrub",
+  "seed": 2,
+  "widths": [
+    512
+  ],
+  "initial_gradient": [
+    {
+      "student_mode": "eval",
+      "teacher_mode": "eval",
+      "loss": -9.313225746154785e-10,
+      "gradient_l2": 1.502888949289627e-06,
+      "max_logit_difference": 0.0
+    },
+    {
+      "student_mode": "train",
+      "teacher_mode": "eval",
+      "loss": -0.24590250849723816,
+      "gradient_l2": 5.613678932189941,
+      "max_logit_difference": 6.700587749481201
+    }
+  ],
+  "passes": [
+    {
+      "epoch": 0,
+      "phase": "forget",
+      "batches": 18,
+      "mean_loss": -0.04525635060336855,
+      "mean_gradient_l2": 1.2042974829673767
+    },
+    {
+      "epoch": 0,
+      "phase": "retain",
+      "batches": 159,
+      "mean_loss": 0.053421233528814976,
+      "mean_gradient_l2": 1.3600374085348357
+    },
+    {
+      "epoch": 1,
+      "phase": "forget",
+      "batches": 18,
+      "mean_loss": -0.10474476963281631,
+      "mean_gradient_l2": 2.212902228037516
+    },
+    {
+      "epoch": 1,
+      "phase": "retain",
+      "batches": 159,
+      "mean_loss": 0.07698150663841632,
+      "mean_gradient_l2": 1.6161692239953287
+    },
+    {
+      "epoch": 2,
+      "phase": "retain",
+      "batches": 159,
+      "mean_loss": 0.046707228405998565,
+      "mean_gradient_l2": 1.2827964293881782
+    },
+    {
+      "epoch": 3,
+      "phase": "retain",
+      "batches": 159,
+      "mean_loss": 0.04309857781367295,
+      "mean_gradient_l2": 1.2696680853951652
+    },
+    {
+      "epoch": 4,
+      "phase": "retain",
+      "batches": 159,
+      "mean_loss": 0.04257107864620176,
+      "mean_gradient_l2": 1.279665119992862
+    }
+  ],
+  "probes": [
+    {
+      "stage": "source",
+      "sets": {
+        "forget": {
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": -3.698137076134521e-08
+          }
+        },
+        "retain_probe": {
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": -3.9406586438417435e-08
+          }
+        },
+        "test_probe": {
+          "512": {
+            "accuracy": 93.84765625,
+            "teacher_kl": -3.3993273973464966e-08
+          }
+        }
+      },
+      "parameter_distance_l2": 0.0
+    },
+    {
+      "stage": "epoch0_forget",
+      "sets": {
+        "forget": {
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.028704027391142316
+          }
+        },
+        "retain_probe": {
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.028780711581930518
+          }
+        },
+        "test_probe": {
+          "512": {
+            "accuracy": 93.84765625,
+            "teacher_kl": 0.029877769062295556
+          }
+        }
+      },
+      "parameter_distance_l2": 0.035678453743457794
+    },
+    {
+      "stage": "epoch0_retain",
+      "sets": {
+        "forget": {
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.005396789932416545
+          }
+        },
+        "retain_probe": {
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.005629075225442648
+          }
+        },
+        "test_probe": {
+          "512": {
+            "accuracy": 93.896484375,
+            "teacher_kl": 0.008130543516017497
+          }
+        }
+      },
+      "parameter_distance_l2": 0.10824204981327057
+    },
+    {
+      "stage": "epoch1_forget",
+      "sets": {
+        "forget": {
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.6488091156747606
+          }
+        },
+        "retain_probe": {
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.6592063382267952
+          }
+        },
+        "test_probe": {
+          "512": {
+            "accuracy": 94.091796875,
+            "teacher_kl": 0.6178895756602287
+          }
+        }
+      },
+      "parameter_distance_l2": 0.1968424767255783
+    },
+    {
+      "stage": "epoch1_retain",
+      "sets": {
+        "forget": {
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.004570008141299089
+          }
+        },
+        "retain_probe": {
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.004540620546322316
+          }
+        },
+        "test_probe": {
+          "512": {
+            "accuracy": 93.896484375,
+            "teacher_kl": 0.007154580729547888
+          }
+        }
+      },
+      "parameter_distance_l2": 0.20807981491088867
+    },
+    {
+      "stage": "epoch2_retain",
+      "sets": {
+        "forget": {
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.00601508758465449
+          }
+        },
+        "retain_probe": {
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.0060745858936570585
+          }
+        },
+        "test_probe": {
+          "512": {
+            "accuracy": 94.04296875,
+            "teacher_kl": 0.00944760290440172
+          }
+        }
+      },
+      "parameter_distance_l2": 0.24810807406902313
+    },
+    {
+      "stage": "epoch3_retain",
+      "sets": {
+        "forget": {
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.004613584206749995
+          }
+        },
+        "retain_probe": {
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.004541325848549604
+          }
+        },
+        "test_probe": {
+          "512": {
+            "accuracy": 93.84765625,
+            "teacher_kl": 0.007268954475875944
+          }
+        }
+      },
+      "parameter_distance_l2": 0.29221680760383606
+    },
+    {
+      "stage": "epoch4_retain",
+      "sets": {
+        "forget": {
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.005681551701906654
+          }
+        },
+        "retain_probe": {
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.00581583718303591
+          }
+        },
+        "test_probe": {
+          "512": {
+            "accuracy": 93.9453125,
+            "teacher_kl": 0.007629485160578042
+          }
+        }
+      },
+      "parameter_distance_l2": 0.3374844789505005
+    }
+  ]
+}

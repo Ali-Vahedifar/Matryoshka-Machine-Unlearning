@@ -1,0 +1,167 @@
+[
+  {
+    "name": "MMU unbounded / full",
+    "family": "source_roles",
+    "nest": false,
+    "head": "tied",
+    "weight": "mrl",
+    "margin": null,
+    "teacher": "width-aligned source",
+    "attraction_forget": false,
+    "id": "V01"
+  },
+  {
+    "name": "MMU unbounded / nested MRL / sum",
+    "family": "source_roles",
+    "nest": true,
+    "head": "independent",
+    "weight": "mrl",
+    "margin": null,
+    "teacher": "width-aligned source",
+    "attraction_forget": false,
+    "id": "V02"
+  },
+  {
+    "name": "MMU unbounded / nested MRL / weighted mean",
+    "family": "source_roles",
+    "nest": true,
+    "head": "independent",
+    "weight": "normalised",
+    "margin": null,
+    "teacher": "width-aligned source",
+    "attraction_forget": false,
+    "id": "V03"
+  },
+  {
+    "name": "MMU unbounded / nested MRL-E / sum",
+    "family": "source_roles",
+    "nest": true,
+    "head": "tied",
+    "weight": "mrl",
+    "margin": null,
+    "teacher": "width-aligned source",
+    "attraction_forget": false,
+    "id": "V04"
+  },
+  {
+    "name": "MMU unbounded / nested MRL-E / weighted mean",
+    "family": "source_roles",
+    "nest": true,
+    "head": "tied",
+    "weight": "normalised",
+    "margin": null,
+    "teacher": "width-aligned source",
+    "attraction_forget": false,
+    "id": "V05"
+  },
+  {
+    "name": "MMU margin / full",
+    "family": "source_roles",
+    "nest": false,
+    "head": "tied",
+    "weight": "mrl",
+    "margin": 0.05,
+    "teacher": "width-aligned source",
+    "attraction_forget": false,
+    "id": "V06"
+  },
+  {
+    "name": "MMU margin / nested MRL / sum",
+    "family": "source_roles",
+    "nest": true,
+    "head": "independent",
+    "weight": "mrl",
+    "margin": 0.05,
+    "teacher": "width-aligned source",
+    "attraction_forget": false,
+    "id": "V07"
+  },
+  {
+    "name": "MMU margin / nested MRL / weighted mean",
+    "family": "source_roles",
+    "nest": true,
+    "head": "independent",
+    "weight": "normalised",
+    "margin": 0.05,
+    "teacher": "width-aligned source",
+    "attraction_forget": false,
+    "id": "V08"
+  },
+  {
+    "name": "MMU margin / nested MRL-E / sum",
+    "family": "source_roles",
+    "nest": true,
+    "head": "tied",
+    "weight": "mrl",
+    "margin": 0.05,
+    "teacher": "width-aligned source",
+    "attraction_forget": false,
+    "id": "V09"
+  },
+  {
+    "name": "MMU margin / nested MRL-E / weighted mean",
+    "family": "source_roles",
+    "nest": true,
+    "head": "tied",
+    "weight": "normalised",
+    "margin": 0.05,
+    "teacher": "width-aligned source",
+    "attraction_forget": false,
+    "id": "V10"
+  },
+  {
+    "name": "MMU margin / nested MRL / full privileged teacher",
+    "family": "source_roles",
+    "nest": true,
+    "head": "independent",
+    "weight": "normalised",
+    "margin": 0.05,
+    "teacher": "full source",
+    "attraction_forget": false,
+    "id": "V11"
+  },
+  {
+    "name": "MMU retain-FT two-network / full / attraction only",
+    "family": "retain_ft_adapter",
+    "nest": false,
+    "head": "independent",
+    "weight": "normalised",
+    "margin": null,
+    "teacher": "full retain-FT + full source",
+    "attraction_forget": true,
+    "id": "V12"
+  },
+  {
+    "name": "MMU retain-FT two-network / full / attraction + margin",
+    "family": "retain_ft_adapter",
+    "nest": false,
+    "head": "independent",
+    "weight": "normalised",
+    "margin": 0.002,
+    "teacher": "full retain-FT + full source",
+    "attraction_forget": true,
+    "id": "V13"
+  },
+  {
+    "name": "MMU retain-FT two-network / nested MRL / attraction only",
+    "family": "retain_ft_adapter",
+    "nest": true,
+    "head": "independent",
+    "weight": "normalised",
+    "margin": null,
+    "teacher": "full retain-FT + full source",
+    "attraction_forget": true,
+    "id": "V14"
+  },
+  {
+    "name": "MMU retain-FT two-network / nested MRL / attraction + margin",
+    "family": "retain_ft_adapter",
+    "nest": true,
+    "head": "independent",
+    "weight": "normalised",
+    "margin": 0.002,
+    "teacher": "full retain-FT + full source",
+    "attraction_forget": true,
+    "id": "V15"
+  }
+]

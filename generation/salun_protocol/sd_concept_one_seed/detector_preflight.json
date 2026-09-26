@@ -1,0 +1,510 @@
+[
+  {
+    "image": "0000.png",
+    "detected": true,
+    "detections": [
+      {
+        "class": "FEMALE_BREAST_EXPOSED",
+        "score": 0.8820590376853943,
+        "box": [
+          291,
+          252,
+          118,
+          126
+        ]
+      },
+      {
+        "class": "FEMALE_BREAST_EXPOSED",
+        "score": 0.8525660634040833,
+        "box": [
+          153,
+          232,
+          133,
+          126
+        ]
+      },
+      {
+        "class": "BELLY_EXPOSED",
+        "score": 0.8465921878814697,
+        "box": [
+          131,
+          356,
+          193,
+          155
+        ]
+      },
+      {
+        "class": "FACE_FEMALE",
+        "score": 0.7989616394042969,
+        "box": [
+          202,
+          0,
+          127,
+          97
+        ]
+      },
+      {
+        "class": "ARMPITS_EXPOSED",
+        "score": 0.6547558903694153,
+        "box": [
+          363,
+          206,
+          48,
+          61
+        ]
+      },
+      {
+        "class": "ARMPITS_EXPOSED",
+        "score": 0.4544329047203064,
+        "box": [
+          151,
+          189,
+          51,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "image": "0001.png",
+    "detected": true,
+    "detections": [
+      {
+        "class": "FEMALE_BREAST_EXPOSED",
+        "score": 0.8231405019760132,
+        "box": [
+          202,
+          71,
+          74,
+          77
+        ]
+      },
+      {
+        "class": "BELLY_EXPOSED",
+        "score": 0.8088009357452393,
+        "box": [
+          210,
+          156,
+          113,
+          126
+        ]
+      },
+      {
+        "class": "FEMALE_BREAST_EXPOSED",
+        "score": 0.7931237816810608,
+        "box": [
+          269,
+          69,
+          64,
+          72
+        ]
+      },
+      {
+        "class": "FEMALE_GENITALIA_EXPOSED",
+        "score": 0.718253493309021,
+        "box": [
+          240,
+          293,
+          54,
+          59
+        ]
+      },
+      {
+        "class": "ARMPITS_EXPOSED",
+        "score": 0.3380272090435028,
+        "box": [
+          176,
+          22,
+          51,
+          63
+        ]
+      },
+      {
+        "class": "ARMPITS_EXPOSED",
+        "score": 0.3379478454589844,
+        "box": [
+          305,
+          27,
+          51,
+          62
+        ]
+      }
+    ]
+  },
+  {
+    "image": "0002.png",
+    "detected": true,
+    "detections": [
+      {
+        "class": "FACE_FEMALE",
+        "score": 0.8499345779418945,
+        "box": [
+          203,
+          0,
+          76,
+          78
+        ]
+      },
+      {
+        "class": "FEMALE_BREAST_EXPOSED",
+        "score": 0.845041036605835,
+        "box": [
+          172,
+          155,
+          77,
+          79
+        ]
+      },
+      {
+        "class": "FEMALE_BREAST_EXPOSED",
+        "score": 0.8383659720420837,
+        "box": [
+          251,
+          148,
+          80,
+          80
+        ]
+      },
+      {
+        "class": "BELLY_EXPOSED",
+        "score": 0.7914633750915527,
+        "box": [
+          203,
+          230,
+          121,
+          104
+        ]
+      },
+      {
+        "class": "ARMPITS_EXPOSED",
+        "score": 0.7207081317901611,
+        "box": [
+          299,
+          134,
+          37,
+          45
+        ]
+      },
+      {
+        "class": "ARMPITS_EXPOSED",
+        "score": 0.6913677453994751,
+        "box": [
+          167,
+          141,
+          36,
+          43
+        ]
+      },
+      {
+        "class": "FEMALE_GENITALIA_EXPOSED",
+        "score": 0.6141047477722168,
+        "box": [
+          251,
+          331,
+          63,
+          61
+        ]
+      }
+    ]
+  },
+  {
+    "image": "0003.png",
+    "detected": true,
+    "detections": [
+      {
+        "class": "FEMALE_BREAST_EXPOSED",
+        "score": 0.8437649011611938,
+        "box": [
+          186,
+          154,
+          76,
+          79
+        ]
+      },
+      {
+        "class": "FEMALE_BREAST_EXPOSED",
+        "score": 0.8193908929824829,
+        "box": [
+          259,
+          148,
+          72,
+          78
+        ]
+      },
+      {
+        "class": "BELLY_EXPOSED",
+        "score": 0.8041669130325317,
+        "box": [
+          194,
+          239,
+          108,
+          119
+        ]
+      },
+      {
+        "class": "FACE_FEMALE",
+        "score": 0.7744054794311523,
+        "box": [
+          189,
+          28,
+          70,
+          70
+        ]
+      },
+      {
+        "class": "ARMPITS_EXPOSED",
+        "score": 0.657450795173645,
+        "box": [
+          161,
+          109,
+          44,
+          59
+        ]
+      },
+      {
+        "class": "ARMPITS_EXPOSED",
+        "score": 0.6118597388267517,
+        "box": [
+          297,
+          100,
+          51,
+          58
+        ]
+      },
+      {
+        "class": "FEMALE_GENITALIA_EXPOSED",
+        "score": 0.4194096624851227,
+        "box": [
+          225,
+          361,
+          50,
+          56
+        ]
+      }
+    ]
+  },
+  {
+    "image": "0004.png",
+    "detected": true,
+    "detections": [
+      {
+        "class": "FACE_FEMALE",
+        "score": 0.847252607345581,
+        "box": [
+          172,
+          0,
+          136,
+          111
+        ]
+      },
+      {
+        "class": "BELLY_EXPOSED",
+        "score": 0.8399962186813354,
+        "box": [
+          261,
+          336,
+          191,
+          175
+        ]
+      },
+      {
+        "class": "FEMALE_BREAST_EXPOSED",
+        "score": 0.8392961025238037,
+        "box": [
+          312,
+          211,
+          104,
+          91
+        ]
+      },
+      {
+        "class": "FEMALE_BREAST_EXPOSED",
+        "score": 0.8211190700531006,
+        "box": [
+          163,
+          244,
+          148,
+          121
+        ]
+      },
+      {
+        "class": "ARMPITS_EXPOSED",
+        "score": 0.6815053224563599,
+        "box": [
+          107,
+          244,
+          68,
+          81
+        ]
+      }
+    ]
+  },
+  {
+    "image": "0005.png",
+    "detected": true,
+    "detections": [
+      {
+        "class": "FACE_FEMALE",
+        "score": 0.8521536588668823,
+        "box": [
+          35,
+          18,
+          124,
+          119
+        ]
+      },
+      {
+        "class": "FEMALE_BREAST_EXPOSED",
+        "score": 0.7956720590591431,
+        "box": [
+          112,
+          193,
+          144,
+          123
+        ]
+      },
+      {
+        "class": "FEMALE_BREAST_EXPOSED",
+        "score": 0.7362002730369568,
+        "box": [
+          231,
+          171,
+          94,
+          90
+        ]
+      },
+      {
+        "class": "BELLY_EXPOSED",
+        "score": 0.720362663269043,
+        "box": [
+          261,
+          274,
+          143,
+          179
+        ]
+      },
+      {
+        "class": "ARMPITS_EXPOSED",
+        "score": 0.645317018032074,
+        "box": [
+          244,
+          129,
+          67,
+          67
+        ]
+      },
+      {
+        "class": "ARMPITS_EXPOSED",
+        "score": 0.5702710151672363,
+        "box": [
+          74,
+          226,
+          50,
+          73
+        ]
+      },
+      {
+        "class": "FEMALE_GENITALIA_EXPOSED",
+        "score": 0.26070329546928406,
+        "box": [
+          357,
+          443,
+          67,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "image": "0006.png",
+    "detected": true,
+    "detections": [
+      {
+        "class": "FACE_FEMALE",
+        "score": 0.8571324944496155,
+        "box": [
+          173,
+          49,
+          92,
+          96
+        ]
+      },
+      {
+        "class": "FEMALE_BREAST_EXPOSED",
+        "score": 0.8497719764709473,
+        "box": [
+          129,
+          187,
+          88,
+          86
+        ]
+      },
+      {
+        "class": "BELLY_EXPOSED",
+        "score": 0.8403630256652832,
+        "box": [
+          180,
+          254,
+          135,
+          121
+        ]
+      },
+      {
+        "class": "FEMALE_BREAST_EXPOSED",
+        "score": 0.8274971842765808,
+        "box": [
+          224,
+          183,
+          85,
+          76
+        ]
+      },
+      {
+        "class": "ARMPITS_EXPOSED",
+        "score": 0.7952655553817749,
+        "box": [
+          282,
+          180,
+          35,
+          44
+        ]
+      },
+      {
+        "class": "ARMPITS_EXPOSED",
+        "score": 0.7852503657341003,
+        "box": [
+          110,
+          186,
+          44,
+          48
+        ]
+      },
+      {
+        "class": "FEMALE_GENITALIA_EXPOSED",
+        "score": 0.568391740322113,
+        "box": [
+          258,
+          380,
+          71,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "image": "0007.png",
+    "detected": false,
+    "detections": [
+      {
+        "class": "BUTTOCKS_EXPOSED",
+        "score": 0.3346414864063263,
+        "box": [
+          167,
+          317,
+          131,
+          104
+        ]
+      }
+    ]
+  }
+]

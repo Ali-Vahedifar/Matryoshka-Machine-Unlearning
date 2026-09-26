@@ -1,0 +1,18 @@
+{
+  "seed": 2,
+  "ratio": 0.1,
+  "epochs": 5,
+  "lr": 0.001,
+  "batch_size": 256,
+  "forget_weight": 0.1111111111111111,
+  "temperature_retain": 4,
+  "forget_target": "uniform",
+  "retain_teacher": "full_width",
+  "width_reduction": "mean",
+  "controls": [
+    "fullwidth_joint",
+    "nested_joint"
+  ],
+  "checkpoint_rule": "final epoch, fixed before training",
+  "note": "Exploratory surrogate, not exact unlearning or a SCRUB reproduction. Multiple changes vs archived MMU; only width differs between new controls. Forget data are recycled once per retain batch, increasing exposures."
+}

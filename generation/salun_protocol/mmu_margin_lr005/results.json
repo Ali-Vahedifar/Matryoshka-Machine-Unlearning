@@ -1,0 +1,454 @@
+{
+  "class/seed42": {
+    "Source": {
+      "id": "Source",
+      "name": "Source",
+      "mode": "class",
+      "seed": 42,
+      "metrics": {
+        "forget_acc": 93.5,
+        "retain_acc": 92.67777777777778,
+        "test_acc": 92.75999999999999,
+        "mia": 57.43888888888888,
+        "mia_auc": 57.6344,
+        "kl_divergence": 0.031867341107458896,
+        "output_kl_divergence": 4.54642768498439
+      },
+      "config": {}
+    },
+    "Retrain": {
+      "id": "Retrain",
+      "name": "Retrain",
+      "mode": "class",
+      "seed": 42,
+      "metrics": {
+        "forget_acc": 0.0,
+        "retain_acc": 93.62222222222222,
+        "test_acc": 84.26,
+        "mia": 51.62777777777777,
+        "mia_auc": 52.599822222222215,
+        "kl_divergence": 0.0,
+        "output_kl_divergence": -2.1420129231912736e-10
+      },
+      "config": {}
+    },
+    "V06": {
+      "id": "V06",
+      "name": "MMU margin / full [lr 0.005]",
+      "mode": "class",
+      "seed": 42,
+      "metrics": {
+        "forget_acc": 93.30000000000001,
+        "retain_acc": 92.57777777777778,
+        "test_acc": 92.65,
+        "mia": 56.833333333333336,
+        "mia_auc": 57.51546666666667,
+        "kl_divergence": 0.035963521697725556,
+        "output_kl_divergence": 4.485442588283758
+      },
+      "seconds": 5.440576791763306,
+      "config": {
+        "lr": 0.005,
+        "epochs": 5,
+        "msteps": 3,
+        "max_grad_norm": 5.0,
+        "head_mode": "tied",
+        "weighting": "mrl",
+        "bad_margin": 0.05
+      }
+    },
+    "V07": {
+      "id": "V07",
+      "name": "MMU margin / nested MRL / sum [lr 0.005]",
+      "mode": "class",
+      "seed": 42,
+      "metrics": {
+        "forget_acc": 92.80000000000001,
+        "retain_acc": 92.72222222222221,
+        "test_acc": 92.73,
+        "mia": 57.37777777777777,
+        "mia_auc": 57.547777777777775,
+        "kl_divergence": 0.0359648824619374,
+        "output_kl_divergence": 4.490007003401495
+      },
+      "seconds": 5.785315990447998,
+      "config": {
+        "lr": 0.005,
+        "epochs": 5,
+        "msteps": 3,
+        "max_grad_norm": 5.0,
+        "head_mode": "independent",
+        "weighting": "mrl",
+        "bad_margin": 0.05
+      }
+    },
+    "V08": {
+      "id": "V08",
+      "name": "MMU margin / nested MRL / weighted mean [lr 0.005]",
+      "mode": "class",
+      "seed": 42,
+      "metrics": {
+        "forget_acc": 94.39999999999999,
+        "retain_acc": 92.52222222222221,
+        "test_acc": 92.71000000000001,
+        "mia": 57.51111111111111,
+        "mia_auc": 57.96671111111111,
+        "kl_divergence": 0.03597491997076553,
+        "output_kl_divergence": 4.653683213671302
+      },
+      "seconds": 5.842340469360352,
+      "config": {
+        "lr": 0.005,
+        "epochs": 5,
+        "msteps": 3,
+        "max_grad_norm": 5.0,
+        "head_mode": "independent",
+        "weighting": "normalised",
+        "bad_margin": 0.05
+      }
+    },
+    "V09": {
+      "id": "V09",
+      "name": "MMU margin / nested MRL-E / sum [lr 0.005]",
+      "mode": "class",
+      "seed": 42,
+      "metrics": {
+        "forget_acc": 92.0,
+        "retain_acc": 92.7,
+        "test_acc": 92.63,
+        "mia": 56.52222222222222,
+        "mia_auc": 57.02906666666667,
+        "kl_divergence": 0.03595819425179969,
+        "output_kl_divergence": 4.433055222414102
+      },
+      "seconds": 5.836532115936279,
+      "config": {
+        "lr": 0.005,
+        "epochs": 5,
+        "msteps": 3,
+        "max_grad_norm": 5.0,
+        "head_mode": "tied",
+        "weighting": "mrl",
+        "bad_margin": 0.05
+      }
+    },
+    "V10": {
+      "id": "V10",
+      "name": "MMU margin / nested MRL-E / weighted mean [lr 0.005]",
+      "mode": "class",
+      "seed": 42,
+      "metrics": {
+        "forget_acc": 93.8,
+        "retain_acc": 92.73333333333333,
+        "test_acc": 92.84,
+        "mia": 56.75,
+        "mia_auc": 57.44440000000001,
+        "kl_divergence": 0.03596612036856928,
+        "output_kl_divergence": 4.561331866653102
+      },
+      "seconds": 5.78364372253418,
+      "config": {
+        "lr": 0.005,
+        "epochs": 5,
+        "msteps": 3,
+        "max_grad_norm": 5.0,
+        "head_mode": "tied",
+        "weighting": "normalised",
+        "bad_margin": 0.05
+      }
+    },
+    "V11": {
+      "id": "V11",
+      "name": "MMU margin / nested MRL / full privileged teacher [lr 0.005]",
+      "mode": "class",
+      "seed": 42,
+      "metrics": {
+        "forget_acc": 93.2,
+        "retain_acc": 92.2,
+        "test_acc": 92.30000000000001,
+        "mia": 57.105555555555554,
+        "mia_auc": 57.67862222222222,
+        "kl_divergence": 0.03608897719548418,
+        "output_kl_divergence": 4.612285150084526
+      },
+      "seconds": 5.817315101623535,
+      "config": {
+        "lr": 0.005,
+        "epochs": 5,
+        "msteps": 3,
+        "max_grad_norm": 5.0,
+        "head_mode": "independent",
+        "weighting": "normalised",
+        "bad_margin": 0.05
+      }
+    }
+  },
+  "class/seed43": {
+    "Source": {
+      "id": "Source",
+      "name": "Source",
+      "mode": "class",
+      "seed": 43,
+      "metrics": {
+        "forget_acc": 95.19999999999999,
+        "retain_acc": 92.42222222222222,
+        "test_acc": 92.7,
+        "mia": 56.46666666666667,
+        "mia_auc": 57.30040000000001,
+        "kl_divergence": 0.009288208006087031,
+        "output_kl_divergence": 3.9090013997569963
+      },
+      "config": {}
+    },
+    "Retrain": {
+      "id": "Retrain",
+      "name": "Retrain",
+      "mode": "class",
+      "seed": 43,
+      "metrics": {
+        "forget_acc": 0.0,
+        "retain_acc": 93.27777777777779,
+        "test_acc": 83.95,
+        "mia": 48.50555555555556,
+        "mia_auc": 49.294133333333335,
+        "kl_divergence": 0.0,
+        "output_kl_divergence": -2.524983778325821e-10
+      },
+      "config": {}
+    },
+    "V06": {
+      "id": "V06",
+      "name": "MMU margin / full [lr 0.005]",
+      "mode": "class",
+      "seed": 43,
+      "metrics": {
+        "forget_acc": 94.0,
+        "retain_acc": 92.5111111111111,
+        "test_acc": 92.66,
+        "mia": 57.37777777777778,
+        "mia_auc": 57.62142222222222,
+        "kl_divergence": 0.005982037721060915,
+        "output_kl_divergence": 3.8586275395314407
+      },
+      "seconds": 8.211185693740845,
+      "config": {
+        "lr": 0.005,
+        "epochs": 10,
+        "msteps": 2,
+        "max_grad_norm": 5.0,
+        "head_mode": "tied",
+        "weighting": "mrl",
+        "bad_margin": 0.05
+      }
+    },
+    "V07": {
+      "id": "V07",
+      "name": "MMU margin / nested MRL / sum [lr 0.005]",
+      "mode": "class",
+      "seed": 43,
+      "metrics": {
+        "forget_acc": 92.9,
+        "retain_acc": 92.5111111111111,
+        "test_acc": 92.55,
+        "mia": 57.06111111111112,
+        "mia_auc": 57.8476,
+        "kl_divergence": 0.005991986074926334,
+        "output_kl_divergence": 3.7643877920831086
+      },
+      "seconds": 8.746547937393188,
+      "config": {
+        "lr": 0.005,
+        "epochs": 10,
+        "msteps": 2,
+        "max_grad_norm": 5.0,
+        "head_mode": "independent",
+        "weighting": "mrl",
+        "bad_margin": 0.05
+      }
+    },
+    "V08": {
+      "id": "V08",
+      "name": "MMU margin / nested MRL / weighted mean [lr 0.005]",
+      "mode": "class",
+      "seed": 43,
+      "metrics": {
+        "forget_acc": 94.39999999999999,
+        "retain_acc": 92.57777777777778,
+        "test_acc": 92.75999999999999,
+        "mia": 56.87777777777778,
+        "mia_auc": 57.79862222222222,
+        "kl_divergence": 0.005990442694809714,
+        "output_kl_divergence": 3.854090284390055
+      },
+      "seconds": 8.65734314918518,
+      "config": {
+        "lr": 0.005,
+        "epochs": 10,
+        "msteps": 2,
+        "max_grad_norm": 5.0,
+        "head_mode": "independent",
+        "weighting": "normalised",
+        "bad_margin": 0.05
+      }
+    },
+    "V09": {
+      "id": "V09",
+      "name": "MMU margin / nested MRL-E / sum [lr 0.005]",
+      "mode": "class",
+      "seed": 43,
+      "metrics": {
+        "forget_acc": 94.0,
+        "retain_acc": 92.71111111111111,
+        "test_acc": 92.84,
+        "mia": 57.52777777777778,
+        "mia_auc": 57.47888888888889,
+        "kl_divergence": 0.0059961627493495895,
+        "output_kl_divergence": 3.824231859984671
+      },
+      "seconds": 8.777754783630371,
+      "config": {
+        "lr": 0.005,
+        "epochs": 10,
+        "msteps": 2,
+        "max_grad_norm": 5.0,
+        "head_mode": "tied",
+        "weighting": "mrl",
+        "bad_margin": 0.05
+      }
+    },
+    "V10": {
+      "id": "V10",
+      "name": "MMU margin / nested MRL-E / weighted mean [lr 0.005]",
+      "mode": "class",
+      "seed": 43,
+      "metrics": {
+        "forget_acc": 94.69999999999999,
+        "retain_acc": 92.55555555555556,
+        "test_acc": 92.77,
+        "mia": 56.8,
+        "mia_auc": 57.89786666666667,
+        "kl_divergence": 0.00600217782298962,
+        "output_kl_divergence": 3.8788175734744708
+      },
+      "seconds": 8.831836938858032,
+      "config": {
+        "lr": 0.005,
+        "epochs": 10,
+        "msteps": 2,
+        "max_grad_norm": 5.0,
+        "head_mode": "tied",
+        "weighting": "normalised",
+        "bad_margin": 0.05
+      }
+    },
+    "V11": {
+      "id": "V11",
+      "name": "MMU margin / nested MRL / full privileged teacher [lr 0.005]",
+      "mode": "class",
+      "seed": 43,
+      "metrics": {
+        "forget_acc": 94.5,
+        "retain_acc": 92.21111111111111,
+        "test_acc": 92.44,
+        "mia": 57.13333333333333,
+        "mia_auc": 57.868177777777774,
+        "kl_divergence": 0.006125380993280979,
+        "output_kl_divergence": 3.9444489038673933
+      },
+      "seconds": 8.683146238327026,
+      "config": {
+        "lr": 0.005,
+        "epochs": 10,
+        "msteps": 2,
+        "max_grad_norm": 5.0,
+        "head_mode": "independent",
+        "weighting": "normalised",
+        "bad_margin": 0.05
+      }
+    }
+  },
+  "class/seed44": {
+    "Source": {
+      "id": "Source",
+      "name": "Source",
+      "mode": "class",
+      "seed": 44,
+      "metrics": {
+        "forget_acc": 93.0,
+        "retain_acc": 93.13333333333334,
+        "test_acc": 93.12,
+        "mia": 57.31111111111111,
+        "mia_auc": 58.56239999999999,
+        "kl_divergence": 0.0005731181822993315,
+        "output_kl_divergence": 3.9497752140282065
+      },
+      "config": {}
+    },
+    "Retrain": {
+      "id": "Retrain",
+      "name": "Retrain",
+      "mode": "class",
+      "seed": 44,
+      "metrics": {
+        "forget_acc": 0.0,
+        "retain_acc": 92.82222222222222,
+        "test_acc": 83.54,
+        "mia": 50.544444444444444,
+        "mia_auc": 51.239466666666665,
+        "kl_divergence": 0.0,
+        "output_kl_divergence": -4.1423904045080575e-10
+      },
+      "config": {}
+    },
+    "V06": {
+      "id": "V06",
+      "name": "MMU margin / full [lr 0.005]",
+      "mode": "class",
+      "seed": 44,
+      "metrics": {
+        "forget_acc": 91.9,
+        "retain_acc": 93.21111111111111,
+        "test_acc": 93.08,
+        "mia": 56.85555555555556,
+        "mia_auc": 57.84404444444444,
+        "kl_divergence": 0.00016813268910756044,
+        "output_kl_divergence": 3.8614530848090056
+      },
+      "seconds": 9.056373119354248,
+      "config": {
+        "lr": 0.005,
+        "epochs": 10,
+        "msteps": 3,
+        "max_grad_norm": 5.0,
+        "head_mode": "tied",
+        "weighting": "mrl",
+        "bad_margin": 0.05
+      }
+    },
+    "V07": {
+      "id": "V07",
+      "name": "MMU margin / nested MRL / sum [lr 0.005]",
+      "mode": "class",
+      "seed": 44,
+      "metrics": {
+        "forget_acc": 92.2,
+        "retain_acc": 93.04444444444444,
+        "test_acc": 92.96,
+        "mia": 57.47222222222222,
+        "mia_auc": 58.10808888888887,
+        "kl_divergence": 0.0001697745025413701,
+        "output_kl_divergence": 3.8791768163632434
+      },
+      "seconds": 10.206196069717407,
+      "config": {
+        "lr": 0.005,
+        "epochs": 10,
+        "msteps": 3,
+        "max_grad_norm": 5.0,
+        "head_mode": "independent",
+        "weighting": "mrl",
+        "bad_margin": 0.05
+      }
+    }
+  }
+}

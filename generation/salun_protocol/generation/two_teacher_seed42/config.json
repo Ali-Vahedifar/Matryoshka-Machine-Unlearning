@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "steps": 1000,
+  "lr": 0.0001,
+  "batch_size": 128,
+  "margin": 0.002,
+  "retain_weight": 3.072,
+  "preservation_weight": 3.072,
+  "gradient_clip": 1.0,
+  "widths": [
+    1.0
+  ],
+  "good_condition": 1,
+  "bad_condition": 0,
+  "sampling_steps": 1000,
+  "guidance": 2,
+  "sampling_seeds": [
+    10042,
+    10043
+  ],
+  "samples_per_class": 32,
+  "note": "Full width only; frozen source supplies both roles. Retain denoising coefficient matches CIFAR SalUn sum-pixel loss (0.001*3072); equal additional teacher-preservation coefficient. Fixed transferred margin, not tuned."
+}

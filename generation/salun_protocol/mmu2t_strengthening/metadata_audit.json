@@ -1,0 +1,12 @@
+{
+  "evaluations_verified": 104,
+  "corrected_aggregate_removed_lists": [
+    "sequential/stage1/MMU",
+    "sequential/stage2/MMU",
+    "sequential/stage1/Random_mask",
+    "sequential/stage2/Random_mask",
+    "sequential/stage1/SalUn",
+    "sequential/stage2/SalUn"
+  ],
+  "explanation": "Sequential aggregate entries aliased an expanding Python list. Restored stage-specific metadata from independently saved evaluation JSON. Training, predictions, metric counts and reported endpoint numbers are unchanged."
+}

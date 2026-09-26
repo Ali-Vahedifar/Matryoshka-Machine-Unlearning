@@ -1,0 +1,41 @@
+panel,method,width,mean,sd
+forgotten,Original,8,34.32,31.68
+forgotten,Original,16,59.93,33.04
+forgotten,Original,32,94.59,7.77
+forgotten,Original,64,99.36,0.27
+retained,Original,8,40.80,13.25
+retained,Original,16,58.90,8.69
+retained,Original,32,76.83,7.93
+retained,Original,64,91.39,0.09
+forgotten,Retrain (oracle),8,0.14,0.16
+forgotten,Retrain (oracle),16,0.01,0.01
+forgotten,Retrain (oracle),32,0.00,0.00
+forgotten,Retrain (oracle),64,0.00,0.00
+retained,Retrain (oracle),8,39.54,15.20
+retained,Retrain (oracle),16,58.99,25.67
+retained,Retrain (oracle),32,80.43,5.85
+retained,Retrain (oracle),64,91.08,0.64
+forgotten,Fine-tune,8,6.29,5.40
+forgotten,Fine-tune,16,1.12,1.88
+forgotten,Fine-tune,32,16.05,27.80
+forgotten,Fine-tune,64,12.42,21.52
+retained,Fine-tune,8,30.39,17.59
+retained,Fine-tune,16,46.17,12.05
+retained,Fine-tune,32,67.97,12.96
+retained,Fine-tune,64,81.67,6.76
+forgotten,SCRUB,8,0.00,0.00
+forgotten,SCRUB,16,0.00,0.00
+forgotten,SCRUB,32,0.00,0.00
+forgotten,SCRUB,64,0.00,0.00
+retained,SCRUB,8,39.69,16.61
+retained,SCRUB,16,46.62,12.42
+retained,SCRUB,32,59.74,22.42
+retained,SCRUB,64,90.48,2.46
+forgotten,MMU,8,4.63,8.02
+forgotten,MMU,16,0.01,0.01
+forgotten,MMU,32,0.00,0.00
+forgotten,MMU,64,0.00,0.00
+retained,MMU,8,47.06,23.89
+retained,MMU,16,68.56,9.87
+retained,MMU,32,80.55,5.38
+retained,MMU,64,89.36,1.51

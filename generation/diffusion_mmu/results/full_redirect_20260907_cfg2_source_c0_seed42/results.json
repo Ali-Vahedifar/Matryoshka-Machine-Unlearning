@@ -1,0 +1,9 @@
+{
+ "source": {
+  "UA": 1.4000000432133675,
+  "forget_class_rate": 98.60000014305115,
+  "retain_cond_acc": 98.2200026512146,
+  "FID_retain": 16.01912736843451,
+  "unlearn_time_s": 0.0
+ }
+}

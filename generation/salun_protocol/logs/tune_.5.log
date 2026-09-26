@@ -1,0 +1,1617 @@
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+setup random seed = 1
+The normalize layer is contained in the network
+setup random seed = 1
+setup random seed = 1
+train_accuracy 19.018
+retrain.pt epoch 0 seconds 3.13908221910242
+train_accuracy 33.058
+retrain.pt epoch 1 seconds 6.111462880042382
+train_accuracy 42.462
+retrain.pt epoch 2 seconds 9.043221325031482
+train_accuracy 48.298
+retrain.pt epoch 3 seconds 11.977977944072336
+train_accuracy 54.267
+retrain.pt epoch 4 seconds 14.91503888904117
+train_accuracy 59.378
+retrain.pt epoch 5 seconds 17.842657639062963
+train_accuracy 63.707
+retrain.pt epoch 6 seconds 20.775510565028526
+train_accuracy 67.538
+retrain.pt epoch 7 seconds 23.70602974900976
+train_accuracy 71.053
+retrain.pt epoch 8 seconds 26.634870333014987
+train_accuracy 74.698
+retrain.pt epoch 9 seconds 29.569634865038097
+train_accuracy 76.658
+retrain.pt epoch 10 seconds 32.50230996904429
+train_accuracy 78.604
+retrain.pt epoch 11 seconds 35.49390916002449
+train_accuracy 79.702
+retrain.pt epoch 12 seconds 38.4326069020899
+train_accuracy 81.387
+retrain.pt epoch 13 seconds 41.3647394280415
+train_accuracy 82.400
+retrain.pt epoch 14 seconds 44.307472507003695
+train_accuracy 83.356
+retrain.pt epoch 15 seconds 47.2423556400463
+train_accuracy 84.129
+retrain.pt epoch 16 seconds 50.179497341043316
+train_accuracy 85.378
+retrain.pt epoch 17 seconds 53.113132013008
+train_accuracy 85.991
+retrain.pt epoch 18 seconds 56.04869155108463
+train_accuracy 86.791
+retrain.pt epoch 19 seconds 58.99379109404981
+train_accuracy 87.427
+retrain.pt epoch 20 seconds 61.9325491230702
+train_accuracy 88.671
+retrain.pt epoch 21 seconds 64.92856271401979
+train_accuracy 88.600
+retrain.pt epoch 22 seconds 67.86958332406357
+train_accuracy 88.596
+retrain.pt epoch 23 seconds 70.80631703406107
+train_accuracy 89.053
+retrain.pt epoch 24 seconds 73.74127310200129
+train_accuracy 89.836
+retrain.pt epoch 25 seconds 76.67452367802616
+train_accuracy 90.262
+retrain.pt epoch 26 seconds 79.5926041090861
+train_accuracy 90.187
+retrain.pt epoch 27 seconds 82.51881692709867
+train_accuracy 90.880
+retrain.pt epoch 28 seconds 85.45579546003137
+train_accuracy 91.253
+retrain.pt epoch 29 seconds 88.39627710799687
+train_accuracy 91.351
+retrain.pt epoch 30 seconds 91.33105708705261
+train_accuracy 91.400
+retrain.pt epoch 31 seconds 94.32165142905433
+train_accuracy 91.502
+retrain.pt epoch 32 seconds 97.26356815709732
+train_accuracy 92.191
+retrain.pt epoch 33 seconds 100.20872038102243
+train_accuracy 92.262
+retrain.pt epoch 34 seconds 103.15271481801756
+train_accuracy 92.467
+retrain.pt epoch 35 seconds 106.09396342607215
+train_accuracy 92.853
+retrain.pt epoch 36 seconds 109.03654099209234
+train_accuracy 92.649
+retrain.pt epoch 37 seconds 111.97856263909489
+train_accuracy 92.933
+retrain.pt epoch 38 seconds 114.92421095003374
+train_accuracy 93.333
+retrain.pt epoch 39 seconds 117.84624987002462
+train_accuracy 93.284
+retrain.pt epoch 40 seconds 120.6261775350431
+train_accuracy 93.227
+retrain.pt epoch 41 seconds 123.4478325220989
+train_accuracy 93.511
+retrain.pt epoch 42 seconds 126.21798317006323
+train_accuracy 93.884
+retrain.pt epoch 43 seconds 128.98831453407183
+train_accuracy 93.644
+retrain.pt epoch 44 seconds 131.75963400606997
+train_accuracy 94.129
+retrain.pt epoch 45 seconds 134.53302632004488
+train_accuracy 94.160
+retrain.pt epoch 46 seconds 137.31327689799946
+train_accuracy 94.004
+retrain.pt epoch 47 seconds 140.08507613104302
+train_accuracy 94.120
+retrain.pt epoch 48 seconds 142.8584177281009
+train_accuracy 95.058
+retrain.pt epoch 49 seconds 145.63653251703363
+train_accuracy 94.569
+retrain.pt epoch 50 seconds 148.41834393609315
+train_accuracy 94.760
+retrain.pt epoch 51 seconds 151.275903071044
+train_accuracy 95.111
+retrain.pt epoch 52 seconds 154.04899993399158
+train_accuracy 94.787
+retrain.pt epoch 53 seconds 156.82924650609493
+train_accuracy 94.791
+retrain.pt epoch 54 seconds 159.76295776409097
+train_accuracy 95.124
+retrain.pt epoch 55 seconds 162.70902484399267
+train_accuracy 95.520
+retrain.pt epoch 56 seconds 165.65694064402487
+train_accuracy 95.076
+retrain.pt epoch 57 seconds 168.60065926006064
+train_accuracy 95.284
+retrain.pt epoch 58 seconds 171.54261628899258
+train_accuracy 95.413
+retrain.pt epoch 59 seconds 174.48603764199652
+train_accuracy 96.004
+retrain.pt epoch 60 seconds 177.42325411806814
+train_accuracy 95.302
+retrain.pt epoch 61 seconds 180.41650549601763
+train_accuracy 95.858
+retrain.pt epoch 62 seconds 183.3685334500624
+train_accuracy 96.271
+retrain.pt epoch 63 seconds 186.3134888530476
+train_accuracy 96.053
+retrain.pt epoch 64 seconds 189.2522719000699
+train_accuracy 95.871
+retrain.pt epoch 65 seconds 192.19548568606842
+train_accuracy 96.284
+retrain.pt epoch 66 seconds 195.13931248802692
+train_accuracy 96.196
+retrain.pt epoch 67 seconds 198.0816266820766
+train_accuracy 96.418
+retrain.pt epoch 68 seconds 201.0231425469974
+train_accuracy 96.551
+retrain.pt epoch 69 seconds 203.96368749206886
+train_accuracy 96.293
+retrain.pt epoch 70 seconds 206.92060777998995
+train_accuracy 96.618
+retrain.pt epoch 71 seconds 209.90982072707266
+train_accuracy 96.938
+retrain.pt epoch 72 seconds 212.8453864241019
+train_accuracy 96.498
+retrain.pt epoch 73 seconds 215.78030636708718
+train_accuracy 96.867
+retrain.pt epoch 74 seconds 218.71725939109456
+train_accuracy 97.169
+retrain.pt epoch 75 seconds 221.66141370299738
+train_accuracy 96.756
+retrain.pt epoch 76 seconds 224.5989090950461
+train_accuracy 96.778
+retrain.pt epoch 77 seconds 227.53820545400959
+train_accuracy 97.360
+retrain.pt epoch 78 seconds 230.4737543161027
+train_accuracy 97.764
+retrain.pt epoch 79 seconds 233.41039266099688
+train_accuracy 97.538
+retrain.pt epoch 80 seconds 236.34728100604843
+train_accuracy 96.907
+retrain.pt epoch 81 seconds 239.3456853160169
+train_accuracy 97.084
+retrain.pt epoch 82 seconds 242.2908054800937
+train_accuracy 97.533
+retrain.pt epoch 83 seconds 245.2264005120378
+train_accuracy 97.889
+retrain.pt epoch 84 seconds 248.16395873005968
+train_accuracy 97.720
+retrain.pt epoch 85 seconds 251.10849375207908
+train_accuracy 97.747
+retrain.pt epoch 86 seconds 254.04780324199237
+train_accuracy 98.027
+retrain.pt epoch 87 seconds 256.9859307280276
+train_accuracy 97.800
+retrain.pt epoch 88 seconds 259.92545148008503
+train_accuracy 97.853
+retrain.pt epoch 89 seconds 262.863455568091
+train_accuracy 97.671
+retrain.pt epoch 90 seconds 265.8017176100984
+train_accuracy 98.307
+retrain.pt epoch 91 seconds 268.7942812180845
+train_accuracy 98.209
+retrain.pt epoch 92 seconds 271.7333953290945
+train_accuracy 97.938
+retrain.pt epoch 93 seconds 274.66599585302174
+train_accuracy 98.529
+retrain.pt epoch 94 seconds 277.60111378808506
+train_accuracy 98.969
+retrain.pt epoch 95 seconds 280.43812849908136
+train_accuracy 98.627
+retrain.pt epoch 96 seconds 283.21277230302803
+train_accuracy 98.160
+retrain.pt epoch 97 seconds 285.98249444703106
+train_accuracy 98.213
+retrain.pt epoch 98 seconds 288.75248804606963
+train_accuracy 98.578
+retrain.pt epoch 99 seconds 291.5242037420394
+train_accuracy 98.680
+retrain.pt epoch 100 seconds 294.2984821880236
+train_accuracy 98.822
+retrain.pt epoch 101 seconds 297.126390716061
+train_accuracy 98.756
+retrain.pt epoch 102 seconds 299.89726766198874
+train_accuracy 99.004
+retrain.pt epoch 103 seconds 302.6729601060506
+train_accuracy 98.684
+retrain.pt epoch 104 seconds 305.4747047360288
+train_accuracy 98.516
+retrain.pt epoch 105 seconds 308.4081394930836
+train_accuracy 98.987
+retrain.pt epoch 106 seconds 311.342127724085
+train_accuracy 99.058
+retrain.pt epoch 107 seconds 314.27226786408573
+train_accuracy 99.187
+retrain.pt epoch 108 seconds 317.140117730014
+train_accuracy 99.311
+retrain.pt epoch 109 seconds 319.9633464870276
+train_accuracy 99.262
+retrain.pt epoch 110 seconds 322.72949104302097
+train_accuracy 99.387
+retrain.pt epoch 111 seconds 325.5483215909917
+train_accuracy 99.560
+retrain.pt epoch 112 seconds 328.31527672405355
+train_accuracy 99.480
+retrain.pt epoch 113 seconds 331.0894642120693
+train_accuracy 99.289
+retrain.pt epoch 114 seconds 333.85894187306985
+train_accuracy 99.320
+retrain.pt epoch 115 seconds 336.62671054701786
+train_accuracy 99.578
+retrain.pt epoch 116 seconds 339.39884355000686
+train_accuracy 99.702
+retrain.pt epoch 117 seconds 342.16629520000424
+train_accuracy 99.800
+retrain.pt epoch 118 seconds 344.9334055100335
+train_accuracy 99.764
+retrain.pt epoch 119 seconds 347.69989941001404
+train_accuracy 99.782
+retrain.pt epoch 120 seconds 350.46861104201525
+train_accuracy 99.756
+retrain.pt epoch 121 seconds 353.2953465610044
+train_accuracy 99.773
+retrain.pt epoch 122 seconds 356.1355632870691
+train_accuracy 99.849
+retrain.pt epoch 123 seconds 359.0737818420166
+train_accuracy 99.724
+retrain.pt epoch 124 seconds 362.0070465391036
+train_accuracy 99.876
+retrain.pt epoch 125 seconds 364.9437957430491
+train_accuracy 99.884
+retrain.pt epoch 126 seconds 367.8837524401024
+train_accuracy 99.942
+retrain.pt epoch 127 seconds 370.81753494706936
+train_accuracy 99.964
+retrain.pt epoch 128 seconds 373.75782983005047
+train_accuracy 99.973
+retrain.pt epoch 129 seconds 376.697865328053
+train_accuracy 100.000
+retrain.pt epoch 130 seconds 379.64001474005636
+train_accuracy 99.987
+retrain.pt epoch 131 seconds 382.6315242900746
+train_accuracy 99.973
+retrain.pt epoch 132 seconds 385.5656393649988
+train_accuracy 99.982
+retrain.pt epoch 133 seconds 388.50484199100174
+train_accuracy 99.991
+retrain.pt epoch 134 seconds 391.43948657403234
+train_accuracy 99.996
+retrain.pt epoch 135 seconds 394.37535585509613
+train_accuracy 100.000
+retrain.pt epoch 136 seconds 397.1582572470652
+train_accuracy 100.000
+retrain.pt epoch 137 seconds 399.9302600410301
+train_accuracy 100.000
+retrain.pt epoch 138 seconds 402.7044029000681
+train_accuracy 100.000
+retrain.pt epoch 139 seconds 405.4766878040973
+train_accuracy 99.996
+retrain.pt epoch 140 seconds 408.25291150808334
+train_accuracy 99.996
+retrain.pt epoch 141 seconds 411.07732398307417
+train_accuracy 99.996
+retrain.pt epoch 142 seconds 413.8487559159985
+train_accuracy 100.000
+retrain.pt epoch 143 seconds 416.61919164902065
+train_accuracy 100.000
+retrain.pt epoch 144 seconds 419.3903898150893
+train_accuracy 100.000
+retrain.pt epoch 145 seconds 422.1615765040042
+train_accuracy 100.000
+retrain.pt epoch 146 seconds 424.933924795012
+train_accuracy 100.000
+retrain.pt epoch 147 seconds 427.70969529799186
+train_accuracy 100.000
+retrain.pt epoch 148 seconds 430.4858936930541
+train_accuracy 99.996
+retrain.pt epoch 149 seconds 433.25906320801005
+train_accuracy 100.000
+retrain.pt epoch 150 seconds 436.0331622300437
+train_accuracy 99.996
+retrain.pt epoch 151 seconds 438.8695224530529
+train_accuracy 99.996
+retrain.pt epoch 152 seconds 441.6488162400201
+train_accuracy 100.000
+retrain.pt epoch 153 seconds 444.5005028160522
+train_accuracy 100.000
+retrain.pt epoch 154 seconds 447.4075845160987
+train_accuracy 100.000
+retrain.pt epoch 155 seconds 450.33465629501734
+train_accuracy 100.000
+retrain.pt epoch 156 seconds 453.2641642910894
+train_accuracy 100.000
+retrain.pt epoch 157 seconds 456.19311704009306
+train_accuracy 100.000
+retrain.pt epoch 158 seconds 459.12641273404006
+train_accuracy 100.000
+retrain.pt epoch 159 seconds 462.0581260850886
+train_accuracy 100.000
+retrain.pt epoch 160 seconds 464.9885049590375
+train_accuracy 100.000
+retrain.pt epoch 161 seconds 467.9819631020073
+train_accuracy 100.000
+retrain.pt epoch 162 seconds 470.9229012160795
+train_accuracy 100.000
+retrain.pt epoch 163 seconds 473.8570140270749
+train_accuracy 100.000
+retrain.pt epoch 164 seconds 476.79066393210087
+train_accuracy 100.000
+retrain.pt epoch 165 seconds 479.7193831150653
+train_accuracy 100.000
+retrain.pt epoch 166 seconds 482.65294020809233
+train_accuracy 100.000
+retrain.pt epoch 167 seconds 485.5890342220664
+train_accuracy 100.000
+retrain.pt epoch 168 seconds 488.51789819507394
+train_accuracy 99.996
+retrain.pt epoch 169 seconds 491.44603899505455
+train_accuracy 100.000
+retrain.pt epoch 170 seconds 494.3809621320106
+train_accuracy 100.000
+retrain.pt epoch 171 seconds 497.37812171305995
+train_accuracy 100.000
+retrain.pt epoch 172 seconds 500.3106875939993
+train_accuracy 100.000
+retrain.pt epoch 173 seconds 503.24270906404126
+train_accuracy 100.000
+retrain.pt epoch 174 seconds 506.1730027390877
+train_accuracy 100.000
+retrain.pt epoch 175 seconds 509.10932139505167
+train_accuracy 100.000
+retrain.pt epoch 176 seconds 511.99351962306537
+train_accuracy 100.000
+retrain.pt epoch 177 seconds 514.9269770440878
+train_accuracy 100.000
+retrain.pt epoch 178 seconds 517.8646068510134
+train_accuracy 100.000
+retrain.pt epoch 179 seconds 520.7989945320878
+train_accuracy 100.000
+retrain.pt epoch 180 seconds 523.7351617970271
+train_accuracy 100.000
+retrain.pt epoch 181 seconds 526.7219111050945
+RESULT {'UA': 7.653331756591797, 'RA': 100.0, 'TA': 92.79999732971191, 'MIA': 18.511111111111113, 'RTE_min': 8.780017336500654, 'seed': 1, 'ratio': 0.5, 'method': 'retrain', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.1, 'epochs': 182, 'alpha': 0, 'density': 1}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.001
+train_accuracy 99.996
+one epoch duration:2.927375555038452
+Epoch #1, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.917245864868164
+Epoch #2, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.9287543296813965
+Epoch #3, Learning rate: 0.001
+train_accuracy 99.991
+one epoch duration:2.927485704421997
+Epoch #4, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.9331986904144287
+Epoch #5, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.928924560546875
+Epoch #6, Learning rate: 0.001
+train_accuracy 99.991
+one epoch duration:2.9253053665161133
+Epoch #7, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.927562952041626
+Epoch #8, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.939944267272949
+Epoch #9, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.9351389408111572
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.47999501228333, 'MIA': 0.03555555555555534, 'RTE_min': 0.4881886266171932, 'seed': 1, 'ratio': 0.5, 'method': 'FT', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.001, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.01
+train_accuracy 99.996
+one epoch duration:2.9148969650268555
+Epoch #1, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.930560350418091
+Epoch #2, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.930385112762451
+Epoch #3, Learning rate: 0.01
+train_accuracy 99.991
+one epoch duration:2.9292423725128174
+Epoch #4, Learning rate: 0.01
+train_accuracy 99.996
+one epoch duration:2.9344112873077393
+Epoch #5, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.9246788024902344
+Epoch #6, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.9324514865875244
+Epoch #7, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.9259908199310303
+Epoch #8, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.939901351928711
+Epoch #9, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.9245522022247314
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.26000022888184, 'MIA': 0.08444444444444255, 'RTE_min': 0.48812377868259016, 'seed': 1, 'ratio': 0.5, 'method': 'FT', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.01, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.1
+train_accuracy 78.178
+one epoch duration:2.924852132797241
+Epoch #1, Learning rate: 0.1
+train_accuracy 77.440
+one epoch duration:2.9285383224487305
+Epoch #2, Learning rate: 0.1
+train_accuracy 82.404
+one epoch duration:2.931809186935425
+Epoch #3, Learning rate: 0.1
+train_accuracy 85.382
+one epoch duration:2.928274631500244
+Epoch #4, Learning rate: 0.1
+train_accuracy 86.760
+one epoch duration:2.932145357131958
+Epoch #5, Learning rate: 0.1
+train_accuracy 88.067
+one epoch duration:2.933330535888672
+Epoch #6, Learning rate: 0.1
+train_accuracy 88.511
+one epoch duration:2.9312148094177246
+Epoch #7, Learning rate: 0.1
+train_accuracy 89.609
+one epoch duration:2.9261884689331055
+Epoch #8, Learning rate: 0.1
+train_accuracy 90.524
+one epoch duration:2.931572675704956
+Epoch #9, Learning rate: 0.1
+train_accuracy 90.707
+one epoch duration:2.852651834487915
+RESULT {'UA': 15.066665410995483, 'RA': 89.77333307266235, 'TA': 84.73999500274658, 'MIA': 17.928888888888896, 'RTE_min': 0.48701547403470613, 'seed': 1, 'ratio': 0.5, 'method': 'FT', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.1, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.001
+one epoch duration:4.821194887161255
+Epoch #1, Learning rate: 0.001
+one epoch duration:4.8308093547821045
+Epoch #2, Learning rate: 0.001
+one epoch duration:4.835475206375122
+Epoch #3, Learning rate: 0.001
+one epoch duration:4.828371047973633
+Epoch #4, Learning rate: 0.001
+one epoch duration:4.845810413360596
+Epoch #5, Learning rate: 0.001
+one epoch duration:4.841372966766357
+Epoch #6, Learning rate: 0.001
+one epoch duration:4.851195335388184
+Epoch #7, Learning rate: 0.001
+one epoch duration:4.84526252746582
+Epoch #8, Learning rate: 0.001
+one epoch duration:4.853652000427246
+Epoch #9, Learning rate: 0.001
+one epoch duration:4.849523544311523
+RESULT {'UA': 0.03555417060852051, 'RA': 99.99555945396423, 'TA': 94.37999725341797, 'MIA': 5.2133333333333365, 'RTE_min': 0.8067213333832721, 'seed': 1, 'ratio': 0.5, 'method': 'RL', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.001, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.01
+one epoch duration:4.8248677253723145
+Epoch #1, Learning rate: 0.01
+one epoch duration:4.839956521987915
+Epoch #2, Learning rate: 0.01
+one epoch duration:4.849869012832642
+Epoch #3, Learning rate: 0.01
+one epoch duration:4.847276210784912
+Epoch #4, Learning rate: 0.01
+one epoch duration:4.853212594985962
+Epoch #5, Learning rate: 0.01
+one epoch duration:4.851471185684204
+Epoch #6, Learning rate: 0.01
+one epoch duration:4.9031853675842285
+Epoch #7, Learning rate: 0.01
+one epoch duration:4.998703479766846
+Epoch #8, Learning rate: 0.01
+one epoch duration:5.015262126922607
+Epoch #9, Learning rate: 0.01
+one epoch duration:5.008915424346924
+RESULT {'UA': 6.822222471237183, 'RA': 95.16000151634216, 'TA': 90.1199996471405, 'MIA': 16.293333333333337, 'RTE_min': 0.8165555514666872, 'seed': 1, 'ratio': 0.5, 'method': 'RL', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.01, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.1
+one epoch duration:4.972319841384888
+Epoch #1, Learning rate: 0.1
+one epoch duration:4.960728168487549
+Epoch #2, Learning rate: 0.1
+one epoch duration:4.974695682525635
+Epoch #3, Learning rate: 0.1
+one epoch duration:4.972424030303955
+Epoch #4, Learning rate: 0.1
+one epoch duration:4.969708442687988
+Epoch #5, Learning rate: 0.1
+one epoch duration:4.896416187286377
+Epoch #6, Learning rate: 0.1
+one epoch duration:4.810718297958374
+Epoch #7, Learning rate: 0.1
+one epoch duration:4.950482368469238
+Epoch #8, Learning rate: 0.1
+one epoch duration:4.967149496078491
+Epoch #9, Learning rate: 0.1
+one epoch duration:4.968132972717285
+RESULT {'UA': 68.39999854564667, 'RA': 31.751111149787903, 'TA': 31.97999894618988, 'MIA': 77.70666666666666, 'RTE_min': 0.8240578152840802, 'seed': 1, 'ratio': 0.5, 'method': 'RL', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.1, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 1e-05
+train_accuracy 100.000
+one epoch duration:2.9057223796844482
+Epoch #1, Learning rate: 1e-05
+train_accuracy 99.996
+one epoch duration:2.927328586578369
+Epoch #2, Learning rate: 1e-05
+train_accuracy 100.000
+one epoch duration:2.9329543113708496
+Epoch #3, Learning rate: 1e-05
+train_accuracy 100.000
+one epoch duration:2.931577205657959
+Epoch #4, Learning rate: 1e-05
+train_accuracy 100.000
+one epoch duration:2.942220449447632
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.27999758720398, 'MIA': 0.03555555555555534, 'RTE_min': 0.24400205540005118, 'seed': 1, 'ratio': 0.5, 'method': 'GA', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 1e-05, 'epochs': 5, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.0001
+train_accuracy 100.000
+one epoch duration:2.925032377243042
+Epoch #1, Learning rate: 0.0001
+train_accuracy 99.996
+one epoch duration:2.9230666160583496
+Epoch #2, Learning rate: 0.0001
+train_accuracy 100.000
+one epoch duration:2.8777263164520264
+Epoch #3, Learning rate: 0.0001
+train_accuracy 100.000
+one epoch duration:2.7707202434539795
+Epoch #4, Learning rate: 0.0001
+train_accuracy 100.000
+one epoch duration:2.767080545425415
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.26000022888184, 'MIA': 0.03555555555555534, 'RTE_min': 0.23773242234989692, 'seed': 1, 'ratio': 0.5, 'method': 'GA', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.0001, 'epochs': 5, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.9135403633117676
+Epoch #1, Learning rate: 0.001
+train_accuracy 99.996
+one epoch duration:2.923874616622925
+Epoch #2, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.92509126663208
+Epoch #3, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.9273414611816406
+Epoch #4, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.928708076477051
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.27999758720398, 'MIA': 0.048888888888887205, 'RTE_min': 0.2436478853497344, 'seed': 1, 'ratio': 0.5, 'method': 'GA', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.001, 'epochs': 5, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+  0%|          | 0/88 [00:00<?, ?it/s]  6%|▌         | 5/88 [00:00<00:01, 49.63it/s] 11%|█▏        | 10/88 [00:00<00:01, 46.74it/s] 17%|█▋        | 15/88 [00:00<00:01, 45.18it/s] 23%|██▎       | 20/88 [00:00<00:01, 44.32it/s] 28%|██▊       | 25/88 [00:00<00:01, 43.74it/s] 34%|███▍      | 30/88 [00:00<00:01, 43.47it/s] 40%|███▉      | 35/88 [00:00<00:01, 43.21it/s] 45%|████▌     | 40/88 [00:00<00:01, 43.05it/s] 51%|█████     | 45/88 [00:01<00:01, 42.93it/s] 57%|█████▋    | 50/88 [00:01<00:00, 42.85it/s] 62%|██████▎   | 55/88 [00:01<00:00, 42.80it/s] 68%|██████▊   | 60/88 [00:01<00:00, 42.76it/s] 74%|███████▍  | 65/88 [00:01<00:00, 42.72it/s] 80%|███████▉  | 70/88 [00:01<00:00, 42.68it/s] 85%|████████▌ | 75/88 [00:01<00:00, 42.61it/s] 91%|█████████ | 80/88 [00:01<00:00, 42.62it/s] 97%|█████████▋| 85/88 [00:01<00:00, 42.63it/s]100%|██████████| 88/88 [00:02<00:00, 43.21it/s]
+  0%|          | 0/88 [00:00<?, ?it/s]  6%|▌         | 5/88 [00:00<00:01, 43.76it/s] 11%|█▏        | 10/88 [00:00<00:01, 43.01it/s] 17%|█▋        | 15/88 [00:00<00:01, 42.84it/s] 23%|██▎       | 20/88 [00:00<00:01, 42.76it/s] 28%|██▊       | 25/88 [00:00<00:01, 42.71it/s] 34%|███▍      | 30/88 [00:00<00:01, 42.68it/s] 40%|███▉      | 35/88 [00:00<00:01, 42.65it/s] 45%|████▌     | 40/88 [00:00<00:01, 42.59it/s] 51%|█████     | 45/88 [00:01<00:01, 42.59it/s] 57%|█████▋    | 50/88 [00:01<00:00, 42.34it/s] 62%|██████▎   | 55/88 [00:01<00:00, 42.54it/s] 68%|██████▊   | 60/88 [00:01<00:00, 42.55it/s] 74%|███████▍  | 65/88 [00:01<00:00, 42.57it/s] 80%|███████▉  | 70/88 [00:01<00:00, 42.54it/s] 85%|████████▌ | 75/88 [00:01<00:00, 42.56it/s] 91%|█████████ | 80/88 [00:01<00:00, 42.57it/s] 97%|█████████▋| 85/88 [00:01<00:00, 42.53it/s]100%|██████████| 88/88 [00:02<00:00, 42.61it/s]
+  0%|          | 0/22500 [00:00<?, ?it/s]  0%|          | 26/22500 [00:00<01:26, 258.79it/s]  0%|          | 70/22500 [00:00<01:01, 363.03it/s]  1%|          | 115/22500 [00:00<00:56, 398.93it/s]  1%|          | 160/22500 [00:00<00:53, 416.35it/s]  1%|          | 204/22500 [00:00<00:52, 424.75it/s]  1%|          | 249/22500 [00:00<00:51, 431.42it/s]  1%|▏         | 294/22500 [00:00<00:51, 434.63it/s]  2%|▏         | 339/22500 [00:00<00:50, 437.68it/s]  2%|▏         | 384/22500 [00:00<00:50, 438.94it/s]  2%|▏         | 429/22500 [00:01<00:50, 439.91it/s]  2%|▏         | 474/22500 [00:01<00:49, 440.84it/s]  2%|▏         | 519/22500 [00:01<00:50, 437.29it/s]  3%|▎         | 564/22500 [00:01<00:49, 439.16it/s]  3%|▎         | 609/22500 [00:01<00:49, 440.89it/s]  3%|▎         | 654/22500 [00:01<00:49, 442.16it/s]  3%|▎         | 699/22500 [00:01<00:49, 442.95it/s]  3%|▎         | 744/22500 [00:01<00:49, 440.93it/s]  4%|▎         | 789/22500 [00:01<00:49, 440.72it/s]  4%|▎         | 834/22500 [00:01<00:49, 437.83it/s]  4%|▍         | 879/22500 [00:02<00:49, 438.66it/s]  4%|▍         | 924/22500 [00:02<00:49, 439.88it/s]  4%|▍         | 969/22500 [00:02<00:48, 441.84it/s]  4%|▍         | 1001/22500 [00:02<00:49, 432.48it/s]
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.35999894142151, 'MIA': 0.039999999999995595, 'RTE_min': 0.10698021586673954, 'seed': 1, 'ratio': 0.5, 'method': 'IU', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.01, 'epochs': 1, 'alpha': 1, 'density': 0.5}}
+setup random seed = 1
+  0%|          | 0/88 [00:00<?, ?it/s]  6%|▌         | 5/88 [00:00<00:01, 49.74it/s] 11%|█▏        | 10/88 [00:00<00:01, 46.80it/s] 17%|█▋        | 15/88 [00:00<00:01, 45.21it/s] 23%|██▎       | 20/88 [00:00<00:01, 44.35it/s] 28%|██▊       | 25/88 [00:00<00:01, 43.65it/s] 34%|███▍      | 30/88 [00:00<00:01, 43.49it/s] 40%|███▉      | 35/88 [00:00<00:01, 43.21it/s] 45%|████▌     | 40/88 [00:00<00:01, 43.06it/s] 51%|█████     | 45/88 [00:01<00:01, 43.00it/s] 57%|█████▋    | 50/88 [00:01<00:00, 42.92it/s] 62%|██████▎   | 55/88 [00:01<00:00, 42.86it/s] 68%|██████▊   | 60/88 [00:01<00:00, 42.82it/s] 74%|███████▍  | 65/88 [00:01<00:00, 42.83it/s] 80%|███████▉  | 70/88 [00:01<00:00, 42.79it/s] 85%|████████▌ | 75/88 [00:01<00:00, 42.76it/s] 91%|█████████ | 80/88 [00:01<00:00, 42.74it/s] 97%|█████████▋| 85/88 [00:01<00:00, 42.72it/s]100%|██████████| 88/88 [00:02<00:00, 43.27it/s]
+  0%|          | 0/88 [00:00<?, ?it/s]  6%|▌         | 5/88 [00:00<00:01, 43.68it/s] 11%|█▏        | 10/88 [00:00<00:01, 43.08it/s] 17%|█▋        | 15/88 [00:00<00:01, 42.97it/s] 23%|██▎       | 20/88 [00:00<00:01, 42.86it/s] 28%|██▊       | 25/88 [00:00<00:01, 42.79it/s] 34%|███▍      | 30/88 [00:00<00:01, 42.76it/s] 40%|███▉      | 35/88 [00:00<00:01, 42.72it/s] 45%|████▌     | 40/88 [00:00<00:01, 42.70it/s] 51%|█████     | 45/88 [00:01<00:01, 42.68it/s] 57%|█████▋    | 50/88 [00:01<00:00, 42.69it/s] 62%|██████▎   | 55/88 [00:01<00:00, 42.67it/s] 68%|██████▊   | 60/88 [00:01<00:00, 42.66it/s] 74%|███████▍  | 65/88 [00:01<00:00, 42.69it/s] 80%|███████▉  | 70/88 [00:01<00:00, 42.69it/s] 85%|████████▌ | 75/88 [00:01<00:00, 42.71it/s] 91%|█████████ | 80/88 [00:01<00:00, 42.67it/s] 97%|█████████▋| 85/88 [00:01<00:00, 42.67it/s]100%|██████████| 88/88 [00:02<00:00, 42.73it/s]
+  0%|          | 0/22500 [00:00<?, ?it/s]  0%|          | 41/22500 [00:00<00:55, 407.62it/s]  0%|          | 86/22500 [00:00<00:52, 428.29it/s]  1%|          | 131/22500 [00:00<00:51, 435.14it/s]  1%|          | 176/22500 [00:00<00:50, 439.56it/s]  1%|          | 221/22500 [00:00<00:50, 440.48it/s]  1%|          | 266/22500 [00:00<00:50, 442.04it/s]  1%|▏         | 311/22500 [00:00<00:50, 442.41it/s]  2%|▏         | 356/22500 [00:00<00:50, 441.75it/s]  2%|▏         | 401/22500 [00:00<00:50, 441.56it/s]  2%|▏         | 446/22500 [00:01<00:49, 442.54it/s]  2%|▏         | 491/22500 [00:01<00:49, 442.40it/s]  2%|▏         | 536/22500 [00:01<00:49, 442.90it/s]  3%|▎         | 581/22500 [00:01<00:49, 443.26it/s]  3%|▎         | 626/22500 [00:01<00:49, 443.65it/s]  3%|▎         | 671/22500 [00:01<00:49, 443.05it/s]  3%|▎         | 716/22500 [00:01<00:49, 443.48it/s]  3%|▎         | 761/22500 [00:01<00:49, 443.64it/s]  4%|▎         | 806/22500 [00:01<00:48, 443.05it/s]  4%|▍         | 851/22500 [00:01<00:48, 442.22it/s]  4%|▍         | 896/22500 [00:02<00:48, 442.69it/s]  4%|▍         | 941/22500 [00:02<00:48, 442.22it/s]  4%|▍         | 986/22500 [00:02<00:48, 442.29it/s]  4%|▍         | 1001/22500 [00:02<00:48, 441.08it/s]
+RESULT {'UA': 0.0044405460357666016, 'RA': 99.98666644096375, 'TA': 94.75999474525452, 'MIA': 0.515555555555558, 'RTE_min': 0.10607558055004726, 'seed': 1, 'ratio': 0.5, 'method': 'IU', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.01, 'epochs': 1, 'alpha': 10, 'density': 0.5}}
+setup random seed = 1
+  0%|          | 0/88 [00:00<?, ?it/s]  6%|▌         | 5/88 [00:00<00:01, 49.80it/s] 11%|█▏        | 10/88 [00:00<00:01, 46.68it/s] 17%|█▋        | 15/88 [00:00<00:01, 45.28it/s] 23%|██▎       | 20/88 [00:00<00:01, 44.39it/s] 28%|██▊       | 25/88 [00:00<00:01, 43.87it/s] 34%|███▍      | 30/88 [00:00<00:01, 43.48it/s] 40%|███▉      | 35/88 [00:00<00:01, 43.30it/s] 45%|████▌     | 40/88 [00:00<00:01, 43.11it/s] 51%|█████     | 45/88 [00:01<00:01, 42.99it/s] 57%|█████▋    | 50/88 [00:01<00:00, 42.96it/s] 62%|██████▎   | 55/88 [00:01<00:00, 42.84it/s] 68%|██████▊   | 60/88 [00:01<00:00, 42.80it/s] 74%|███████▍  | 65/88 [00:01<00:00, 42.76it/s] 80%|███████▉  | 70/88 [00:01<00:00, 42.75it/s] 85%|████████▌ | 75/88 [00:01<00:00, 42.74it/s] 91%|█████████ | 80/88 [00:01<00:00, 42.74it/s] 97%|█████████▋| 85/88 [00:01<00:00, 42.73it/s]100%|██████████| 88/88 [00:02<00:00, 43.28it/s]
+  0%|          | 0/88 [00:00<?, ?it/s]  6%|▌         | 5/88 [00:00<00:01, 43.80it/s] 11%|█▏        | 10/88 [00:00<00:01, 43.13it/s] 17%|█▋        | 15/88 [00:00<00:01, 42.91it/s] 23%|██▎       | 20/88 [00:00<00:01, 42.81it/s] 28%|██▊       | 25/88 [00:00<00:01, 42.75it/s] 34%|███▍      | 30/88 [00:00<00:01, 42.72it/s] 40%|███▉      | 35/88 [00:00<00:01, 42.70it/s] 45%|████▌     | 40/88 [00:00<00:01, 42.69it/s] 51%|█████     | 45/88 [00:01<00:01, 42.67it/s] 57%|█████▋    | 50/88 [00:01<00:00, 42.69it/s] 62%|██████▎   | 55/88 [00:01<00:00, 42.67it/s] 68%|██████▊   | 60/88 [00:01<00:00, 42.69it/s] 74%|███████▍  | 65/88 [00:01<00:00, 42.67it/s] 80%|███████▉  | 70/88 [00:01<00:00, 42.65it/s] 85%|████████▌ | 75/88 [00:01<00:00, 42.64it/s] 91%|█████████ | 80/88 [00:01<00:00, 42.64it/s] 97%|█████████▋| 85/88 [00:01<00:00, 42.48it/s]100%|██████████| 88/88 [00:02<00:00, 42.69it/s]
+  0%|          | 0/22500 [00:00<?, ?it/s]  0%|          | 42/22500 [00:00<00:54, 412.75it/s]  0%|          | 93/22500 [00:00<00:48, 464.51it/s]  1%|          | 144/22500 [00:00<00:46, 481.22it/s]  1%|          | 195/22500 [00:00<00:45, 489.33it/s]  1%|          | 246/22500 [00:00<00:45, 493.86it/s]  1%|▏         | 297/22500 [00:00<00:44, 496.19it/s]  2%|▏         | 348/22500 [00:00<00:44, 497.82it/s]  2%|▏         | 399/22500 [00:00<00:44, 499.37it/s]  2%|▏         | 450/22500 [00:00<00:44, 499.86it/s]  2%|▏         | 500/22500 [00:01<00:44, 498.48it/s]  2%|▏         | 551/22500 [00:01<00:44, 498.56it/s]  3%|▎         | 602/22500 [00:01<00:43, 499.30it/s]  3%|▎         | 652/22500 [00:01<00:45, 483.67it/s]  3%|▎         | 701/22500 [00:01<00:46, 470.59it/s]  3%|▎         | 749/22500 [00:01<00:47, 462.25it/s]  4%|▎         | 796/22500 [00:01<00:47, 456.62it/s]  4%|▎         | 842/22500 [00:01<00:47, 453.38it/s]  4%|▍         | 888/22500 [00:01<00:47, 451.37it/s]  4%|▍         | 934/22500 [00:01<00:47, 449.70it/s]  4%|▍         | 979/22500 [00:02<00:48, 445.72it/s]  4%|▍         | 1001/22500 [00:02<00:45, 471.76it/s]
+RESULT {'UA': 0.64888596534729, 'RA': 99.38222169876099, 'TA': 92.51999855041504, 'MIA': 2.795555555555551, 'RTE_min': 0.10363650589909715, 'seed': 1, 'ratio': 0.5, 'method': 'IU', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.01, 'epochs': 1, 'alpha': 20, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:2.762341260910034
+Epoch #1, Learning rate: 1e-06
+train_accuracy 99.996
+one epoch duration:2.7629668712615967
+Epoch #2, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:2.762979507446289
+Epoch #3, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:2.7633166313171387
+Epoch #4, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:2.818265438079834
+Epoch #5, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:2.8383216857910156
+Epoch #6, Learning rate: 1e-06
+train_accuracy 99.996
+one epoch duration:2.8455610275268555
+Epoch #7, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:2.768728256225586
+Epoch #8, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:2.769869565963745
+Epoch #9, Learning rate: 1e-06
+train_accuracy 99.996
+one epoch duration:2.770012855529785
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.39999961853027, 'MIA': 0.031111111111115086, 'RTE_min': 0.46439142685073115, 'seed': 1, 'ratio': 0.5, 'method': 'BE', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 1e-06, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 1e-05
+train_accuracy 100.000
+one epoch duration:2.7602434158325195
+Epoch #1, Learning rate: 1e-05
+train_accuracy 99.996
+one epoch duration:2.7583494186401367
+Epoch #2, Learning rate: 1e-05
+train_accuracy 100.000
+one epoch duration:2.759962558746338
+Epoch #3, Learning rate: 1e-05
+train_accuracy 100.000
+one epoch duration:2.7639098167419434
+Epoch #4, Learning rate: 1e-05
+train_accuracy 100.000
+one epoch duration:2.7680165767669678
+Epoch #5, Learning rate: 1e-05
+train_accuracy 99.489
+one epoch duration:2.8764398097991943
+Epoch #6, Learning rate: 1e-05
+train_accuracy 95.631
+one epoch duration:2.923935651779175
+Epoch #7, Learning rate: 1e-05
+train_accuracy 85.093
+one epoch duration:2.928602457046509
+Epoch #8, Learning rate: 1e-05
+train_accuracy 74.960
+one epoch duration:2.888888359069824
+Epoch #9, Learning rate: 1e-05
+train_accuracy 66.787
+one epoch duration:2.8796536922454834
+RESULT {'UA': 46.960002183914185, 'RA': 53.60000133514404, 'TA': 46.219998598098755, 'MIA': 40.88, 'RTE_min': 0.47181234778254294, 'seed': 1, 'ratio': 0.5, 'method': 'BE', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 1e-05, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.0001
+train_accuracy 98.676
+one epoch duration:2.9163970947265625
+Epoch #1, Learning rate: 0.0001
+train_accuracy 41.804
+one epoch duration:2.8115949630737305
+Epoch #2, Learning rate: 0.0001
+train_accuracy 6.849
+one epoch duration:2.755741596221924
+Epoch #3, Learning rate: 0.0001
+train_accuracy 0.862
+one epoch duration:2.7622902393341064
+Epoch #4, Learning rate: 0.0001
+train_accuracy 0.142
+one epoch duration:2.759573459625244
+Epoch #5, Learning rate: 0.0001
+train_accuracy 0.036
+one epoch duration:2.7742297649383545
+Epoch #6, Learning rate: 0.0001
+train_accuracy 0.004
+one epoch duration:2.922248125076294
+Epoch #7, Learning rate: 0.0001
+train_accuracy 0.004
+one epoch duration:2.9329147338867188
+Epoch #8, Learning rate: 0.0001
+train_accuracy 0.000
+one epoch duration:2.7675728797912598
+Epoch #9, Learning rate: 0.0001
+train_accuracy 0.000
+one epoch duration:2.7640578746795654
+RESULT {'UA': 81.00444376468658, 'RA': 19.64888870716095, 'TA': 14.9399995803833, 'MIA': 43.13777777777778, 'RTE_min': 0.4694559280488951, 'seed': 1, 'ratio': 0.5, 'method': 'BE', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.0001, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:5.460160493850708
+Epoch #1, Learning rate: 1e-06
+train_accuracy 99.996
+one epoch duration:5.47834324836731
+Epoch #2, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:5.4880101680755615
+Epoch #3, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:5.4922215938568115
+Epoch #4, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:5.495947360992432
+Epoch #5, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:5.501013517379761
+Epoch #6, Learning rate: 1e-06
+train_accuracy 99.996
+one epoch duration:5.50543212890625
+Epoch #7, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:5.5063393115997314
+Epoch #8, Learning rate: 1e-06
+train_accuracy 100.000
+one epoch duration:5.5635693073272705
+Epoch #9, Learning rate: 1e-06
+train_accuracy 99.996
+one epoch duration:5.634530544281006
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.41999697685242, 'MIA': 0.02666666666666373, 'RTE_min': 0.9188195193341623, 'seed': 1, 'ratio': 0.5, 'method': 'BS', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 1e-06, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 1e-05
+train_accuracy 100.000
+one epoch duration:5.597120523452759
+Epoch #1, Learning rate: 1e-05
+train_accuracy 99.996
+one epoch duration:5.615194797515869
+Epoch #2, Learning rate: 1e-05
+train_accuracy 99.996
+one epoch duration:5.62281608581543
+Epoch #3, Learning rate: 1e-05
+train_accuracy 100.000
+one epoch duration:5.604539394378662
+Epoch #4, Learning rate: 1e-05
+train_accuracy 99.956
+one epoch duration:5.528497695922852
+Epoch #5, Learning rate: 1e-05
+train_accuracy 97.427
+one epoch duration:5.544759511947632
+Epoch #6, Learning rate: 1e-05
+train_accuracy 87.640
+one epoch duration:5.532806634902954
+Epoch #7, Learning rate: 1e-05
+train_accuracy 76.778
+one epoch duration:5.5222601890563965
+Epoch #8, Learning rate: 1e-05
+train_accuracy 66.844
+one epoch duration:5.507126092910767
+Epoch #9, Learning rate: 1e-05
+train_accuracy 55.311
+one epoch duration:5.5108606815338135
+RESULT {'UA': 61.24444305896759, 'RA': 38.795554637908936, 'TA': 33.480000495910645, 'MIA': 33.51555555555555, 'RTE_min': 0.9264908709000641, 'seed': 1, 'ratio': 0.5, 'method': 'BS', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 1e-05, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.0001
+train_accuracy 96.840
+one epoch duration:5.490925073623657
+Epoch #1, Learning rate: 0.0001
+train_accuracy 37.160
+one epoch duration:5.554651737213135
+Epoch #2, Learning rate: 0.0001
+train_accuracy 19.413
+one epoch duration:5.520120859146118
+Epoch #3, Learning rate: 0.0001
+train_accuracy 17.929
+one epoch duration:5.55987024307251
+Epoch #4, Learning rate: 0.0001
+train_accuracy 17.169
+one epoch duration:5.621623277664185
+Epoch #5, Learning rate: 0.0001
+train_accuracy 16.289
+one epoch duration:5.627826929092407
+Epoch #6, Learning rate: 0.0001
+train_accuracy 16.591
+one epoch duration:5.624374151229858
+Epoch #7, Learning rate: 0.0001
+train_accuracy 16.324
+one epoch duration:5.5721869468688965
+Epoch #8, Learning rate: 0.0001
+train_accuracy 16.902
+one epoch duration:5.626945734024048
+Epoch #9, Learning rate: 0.0001
+train_accuracy 16.244
+one epoch duration:5.619633913040161
+RESULT {'UA': 85.19555479288101, 'RA': 15.000000596046448, 'TA': 14.579999446868896, 'MIA': 70.92888888888889, 'RTE_min': 0.9303616280007797, 'seed': 1, 'ratio': 0.5, 'method': 'BS', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.0001, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.001
+train_accuracy 99.996
+one epoch duration:2.949240207672119
+Epoch #1, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.9675707817077637
+Epoch #2, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.8516018390655518
+Epoch #3, Learning rate: 0.001
+train_accuracy 99.991
+one epoch duration:2.8054091930389404
+Epoch #4, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.797116756439209
+Epoch #5, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.93937349319458
+Epoch #6, Learning rate: 0.001
+train_accuracy 99.991
+one epoch duration:2.964041233062744
+Epoch #7, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.9736335277557373
+Epoch #8, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.883648633956909
+Epoch #9, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.805778741836548
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.47999501228333, 'MIA': 0.03555555555555534, 'RTE_min': 0.4822959543011772, 'seed': 1, 'ratio': 0.5, 'method': 'l1_sparse', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.001, 'epochs': 10, 'alpha': 1e-06, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.001
+train_accuracy 99.996
+one epoch duration:2.8679707050323486
+Epoch #1, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.810366153717041
+Epoch #2, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.7888495922088623
+Epoch #3, Learning rate: 0.001
+train_accuracy 99.991
+one epoch duration:2.8961589336395264
+Epoch #4, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.798882484436035
+Epoch #5, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.794428586959839
+Epoch #6, Learning rate: 0.001
+train_accuracy 99.991
+one epoch duration:2.7885818481445312
+Epoch #7, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.789402484893799
+Epoch #8, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.7990546226501465
+Epoch #9, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.7954206466674805
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.45999765396118, 'MIA': 0.03555555555555534, 'RTE_min': 0.46882424558280034, 'seed': 1, 'ratio': 0.5, 'method': 'l1_sparse', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.001, 'epochs': 10, 'alpha': 1e-05, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.001
+train_accuracy 99.996
+one epoch duration:2.883186101913452
+Epoch #1, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.9669923782348633
+Epoch #2, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.9607346057891846
+Epoch #3, Learning rate: 0.001
+train_accuracy 99.991
+one epoch duration:2.9593138694763184
+Epoch #4, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.9567065238952637
+Epoch #5, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.965632200241089
+Epoch #6, Learning rate: 0.001
+train_accuracy 99.991
+one epoch duration:2.9601593017578125
+Epoch #7, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.9658358097076416
+Epoch #8, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.963120937347412
+Epoch #9, Learning rate: 0.001
+train_accuracy 100.000
+one epoch duration:2.9657435417175293
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.44000029563904, 'MIA': 0.06666666666667043, 'RTE_min': 0.4924628200339309, 'seed': 1, 'ratio': 0.5, 'method': 'l1_sparse', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.001, 'epochs': 10, 'alpha': 0.0001, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.01
+train_accuracy 99.996
+one epoch duration:2.9059219360351562
+Epoch #1, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.9585025310516357
+Epoch #2, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.9557652473449707
+Epoch #3, Learning rate: 0.01
+train_accuracy 99.991
+one epoch duration:2.9713857173919678
+Epoch #4, Learning rate: 0.01
+train_accuracy 99.996
+one epoch duration:2.9580252170562744
+Epoch #5, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.9663352966308594
+Epoch #6, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.9600815773010254
+Epoch #7, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.959315776824951
+Epoch #8, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.9566526412963867
+Epoch #9, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.9624829292297363
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.26000022888184, 'MIA': 0.08444444444444255, 'RTE_min': 0.4925806006998755, 'seed': 1, 'ratio': 0.5, 'method': 'l1_sparse', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.01, 'epochs': 10, 'alpha': 1e-06, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.01
+train_accuracy 99.996
+one epoch duration:2.9570298194885254
+Epoch #1, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.959867000579834
+Epoch #2, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.9563233852386475
+Epoch #3, Learning rate: 0.01
+train_accuracy 99.991
+one epoch duration:2.96081280708313
+Epoch #4, Learning rate: 0.01
+train_accuracy 99.996
+one epoch duration:2.9610671997070312
+Epoch #5, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.955410957336426
+Epoch #6, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.9566452503204346
+Epoch #7, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.9627888202667236
+Epoch #8, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.8353922367095947
+Epoch #9, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.794571876525879
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.23999691009521, 'MIA': 0.11999999999999789, 'RTE_min': 0.488337622784699, 'seed': 1, 'ratio': 0.5, 'method': 'l1_sparse', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.01, 'epochs': 10, 'alpha': 1e-05, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.01
+train_accuracy 99.996
+one epoch duration:2.7912590503692627
+Epoch #1, Learning rate: 0.01
+train_accuracy 100.000
+one epoch duration:2.7874040603637695
+Epoch #2, Learning rate: 0.01
+train_accuracy 99.991
+one epoch duration:2.7979893684387207
+Epoch #3, Learning rate: 0.01
+train_accuracy 99.991
+one epoch duration:2.7931699752807617
+Epoch #4, Learning rate: 0.01
+train_accuracy 99.982
+one epoch duration:2.799548387527466
+Epoch #5, Learning rate: 0.01
+train_accuracy 99.956
+one epoch duration:2.7936434745788574
+Epoch #6, Learning rate: 0.01
+train_accuracy 99.458
+one epoch duration:2.7934536933898926
+Epoch #7, Learning rate: 0.01
+train_accuracy 97.004
+one epoch duration:2.796374559402466
+Epoch #8, Learning rate: 0.01
+train_accuracy 95.693
+one epoch duration:2.797536611557007
+Epoch #9, Learning rate: 0.01
+train_accuracy 96.351
+one epoch duration:2.7973079681396484
+RESULT {'UA': 5.2799999713897705, 'RA': 96.74222469329834, 'TA': 89.59999680519104, 'MIA': 12.07111111111111, 'RTE_min': 0.46580071171629245, 'seed': 1, 'ratio': 0.5, 'method': 'l1_sparse', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.01, 'epochs': 10, 'alpha': 0.0001, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.1
+train_accuracy 75.858
+one epoch duration:2.7965729236602783
+Epoch #1, Learning rate: 0.1
+train_accuracy 75.596
+one epoch duration:2.7934954166412354
+Epoch #2, Learning rate: 0.1
+train_accuracy 80.791
+one epoch duration:2.7966456413269043
+Epoch #3, Learning rate: 0.1
+train_accuracy 84.129
+one epoch duration:2.7964940071105957
+Epoch #4, Learning rate: 0.1
+train_accuracy 86.013
+one epoch duration:2.802103042602539
+Epoch #5, Learning rate: 0.1
+train_accuracy 87.338
+one epoch duration:2.800750255584717
+Epoch #6, Learning rate: 0.1
+train_accuracy 88.302
+one epoch duration:2.7954368591308594
+Epoch #7, Learning rate: 0.1
+train_accuracy 89.018
+one epoch duration:2.7973127365112305
+Epoch #8, Learning rate: 0.1
+train_accuracy 90.147
+one epoch duration:2.799269676208496
+Epoch #9, Learning rate: 0.1
+train_accuracy 90.413
+one epoch duration:2.7979955673217773
+RESULT {'UA': 15.382218360900879, 'RA': 89.05777931213379, 'TA': 83.39999914169312, 'MIA': 22.742222222222217, 'RTE_min': 0.4662731792991205, 'seed': 1, 'ratio': 0.5, 'method': 'l1_sparse', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.1, 'epochs': 10, 'alpha': 1e-06, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.1
+train_accuracy 77.862
+one epoch duration:2.792586088180542
+Epoch #1, Learning rate: 0.1
+train_accuracy 76.751
+one epoch duration:2.8424739837646484
+Epoch #2, Learning rate: 0.1
+train_accuracy 81.067
+one epoch duration:2.797039747238159
+Epoch #3, Learning rate: 0.1
+train_accuracy 84.258
+one epoch duration:2.7935001850128174
+Epoch #4, Learning rate: 0.1
+train_accuracy 85.560
+one epoch duration:2.794501781463623
+Epoch #5, Learning rate: 0.1
+train_accuracy 86.196
+one epoch duration:2.7939422130584717
+Epoch #6, Learning rate: 0.1
+train_accuracy 88.102
+one epoch duration:2.7916340827941895
+Epoch #7, Learning rate: 0.1
+train_accuracy 88.387
+one epoch duration:2.7991113662719727
+Epoch #8, Learning rate: 0.1
+train_accuracy 89.569
+one epoch duration:2.79366135597229
+Epoch #9, Learning rate: 0.1
+train_accuracy 89.693
+one epoch duration:2.7962453365325928
+RESULT {'UA': 17.30666756629944, 'RA': 87.12444305419922, 'TA': 81.90000057220459, 'MIA': 28.297777777777778, 'RTE_min': 0.46658378463277284, 'seed': 1, 'ratio': 0.5, 'method': 'l1_sparse', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.1, 'epochs': 10, 'alpha': 1e-05, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.1
+train_accuracy 70.876
+one epoch duration:2.7961649894714355
+Epoch #1, Learning rate: 0.1
+train_accuracy 66.791
+one epoch duration:2.929527759552002
+Epoch #2, Learning rate: 0.1
+train_accuracy 71.604
+one epoch duration:2.9054551124572754
+Epoch #3, Learning rate: 0.1
+train_accuracy 74.391
+one epoch duration:2.792975425720215
+Epoch #4, Learning rate: 0.1
+train_accuracy 76.298
+one epoch duration:2.7903199195861816
+Epoch #5, Learning rate: 0.1
+train_accuracy 77.498
+one epoch duration:2.7920889854431152
+Epoch #6, Learning rate: 0.1
+train_accuracy 78.613
+one epoch duration:2.917943000793457
+Epoch #7, Learning rate: 0.1
+train_accuracy 80.084
+one epoch duration:2.9594385623931885
+Epoch #8, Learning rate: 0.1
+train_accuracy 81.160
+one epoch duration:2.9598734378814697
+Epoch #9, Learning rate: 0.1
+train_accuracy 81.969
+one epoch duration:2.9679665565490723
+RESULT {'UA': 28.128886222839355, 'RA': 74.01333451271057, 'TA': 71.09999656677246, 'MIA': 32.42222222222222, 'RTE_min': 0.48020224856639593, 'seed': 1, 'ratio': 0.5, 'method': 'l1_sparse', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.1, 'epochs': 10, 'alpha': 0.0001, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.0005
+one epoch duration:6.307739734649658
+Epoch #1, Learning rate: 0.0005
+one epoch duration:6.292312860488892
+Epoch #2, Learning rate: 0.0005
+one epoch duration:6.110873460769653
+Epoch #3, Learning rate: 0.0005
+one epoch duration:6.293893098831177
+Epoch #4, Learning rate: 0.0005
+one epoch duration:5.986584663391113
+Epoch #5, Learning rate: 0.0005
+one epoch duration:5.9378821849823
+Epoch #6, Learning rate: 0.0005
+one epoch duration:5.935446739196777
+Epoch #7, Learning rate: 0.0005
+one epoch duration:5.964807748794556
+Epoch #8, Learning rate: 0.0005
+one epoch duration:5.9336347579956055
+Epoch #9, Learning rate: 0.0005
+one epoch duration:5.933435678482056
+RESULT {'UA': 0.031107664108276367, 'RA': 99.97777938842773, 'TA': 94.07999515533447, 'MIA': 3.6666666666666625, 'RTE_min': 1.046191197616281, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.0005, 'epochs': 10, 'alpha': 0.2, 'density': 0.1}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.0005
+one epoch duration:6.0555102825164795
+Epoch #1, Learning rate: 0.0005
+one epoch duration:6.123377799987793
+Epoch #2, Learning rate: 0.0005
+one epoch duration:6.293458700180054
+Epoch #3, Learning rate: 0.0005
+one epoch duration:6.3012614250183105
+Epoch #4, Learning rate: 0.0005
+one epoch duration:6.314161062240601
+Epoch #5, Learning rate: 0.0005
+one epoch duration:6.080167531967163
+Epoch #6, Learning rate: 0.0005
+one epoch duration:6.287517070770264
+Epoch #7, Learning rate: 0.0005
+one epoch duration:6.3043835163116455
+Epoch #8, Learning rate: 0.0005
+one epoch duration:6.105944395065308
+Epoch #9, Learning rate: 0.0005
+one epoch duration:6.286027193069458
+RESULT {'UA': 0.013333559036254883, 'RA': 100.0, 'TA': 94.2799985408783, 'MIA': 4.062222222222223, 'RTE_min': 1.0703434374998324, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.0005, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.0005
+one epoch duration:6.024451494216919
+Epoch #1, Learning rate: 0.0005
+one epoch duration:6.0089991092681885
+Epoch #2, Learning rate: 0.0005
+one epoch duration:5.913457632064819
+Epoch #3, Learning rate: 0.0005
+one epoch duration:5.972036361694336
+Epoch #4, Learning rate: 0.0005
+one epoch duration:6.282625198364258
+Epoch #5, Learning rate: 0.0005
+one epoch duration:6.284786939620972
+Epoch #6, Learning rate: 0.0005
+one epoch duration:6.272058725357056
+Epoch #7, Learning rate: 0.0005
+one epoch duration:6.2431042194366455
+Epoch #8, Learning rate: 0.0005
+one epoch duration:6.282703161239624
+Epoch #9, Learning rate: 0.0005
+one epoch duration:6.288397550582886
+RESULT {'UA': 0.017774105072021484, 'RA': 100.0, 'TA': 94.2799985408783, 'MIA': 4.079999999999995, 'RTE_min': 1.0606366653499815, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.0005, 'epochs': 10, 'alpha': 0.2, 'density': 0.9}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.005
+one epoch duration:6.251422882080078
+Epoch #1, Learning rate: 0.005
+one epoch duration:6.293141841888428
+Epoch #2, Learning rate: 0.005
+one epoch duration:6.3101418018341064
+Epoch #3, Learning rate: 0.005
+one epoch duration:6.29877495765686
+Epoch #4, Learning rate: 0.005
+one epoch duration:6.302918910980225
+Epoch #5, Learning rate: 0.005
+one epoch duration:6.310084104537964
+Epoch #6, Learning rate: 0.005
+one epoch duration:6.3107826709747314
+Epoch #7, Learning rate: 0.005
+one epoch duration:6.302281618118286
+Epoch #8, Learning rate: 0.005
+one epoch duration:6.301067590713501
+Epoch #9, Learning rate: 0.005
+one epoch duration:6.155912399291992
+RESULT {'UA': 0.10666847229003906, 'RA': 99.95999932289124, 'TA': 94.2799985408783, 'MIA': 5.911111111111111, 'RTE_min': 1.0472875033000795, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.005, 'epochs': 10, 'alpha': 0.2, 'density': 0.1}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.005
+one epoch duration:6.290412664413452
+Epoch #1, Learning rate: 0.005
+one epoch duration:6.299166917800903
+Epoch #2, Learning rate: 0.005
+one epoch duration:6.301500558853149
+Epoch #3, Learning rate: 0.005
+one epoch duration:6.308589935302734
+Epoch #4, Learning rate: 0.005
+one epoch duration:6.301557779312134
+Epoch #5, Learning rate: 0.005
+one epoch duration:6.2142558097839355
+Epoch #6, Learning rate: 0.005
+one epoch duration:6.2648913860321045
+Epoch #7, Learning rate: 0.005
+one epoch duration:6.309793710708618
+Epoch #8, Learning rate: 0.005
+one epoch duration:6.074851036071777
+Epoch #9, Learning rate: 0.005
+one epoch duration:6.311063528060913
+RESULT {'UA': 0.14222264289855957, 'RA': 99.96889233589172, 'TA': 94.2799985408783, 'MIA': 7.679999999999998, 'RTE_min': 1.0446126544013774, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.005, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.005
+one epoch duration:6.2528626918792725
+Epoch #1, Learning rate: 0.005
+one epoch duration:6.073952913284302
+Epoch #2, Learning rate: 0.005
+one epoch duration:6.282981872558594
+Epoch #3, Learning rate: 0.005
+one epoch duration:6.283754825592041
+Epoch #4, Learning rate: 0.005
+one epoch duration:6.290974855422974
+Epoch #5, Learning rate: 0.005
+one epoch duration:6.295907497406006
+Epoch #6, Learning rate: 0.005
+one epoch duration:6.291961669921875
+Epoch #7, Learning rate: 0.005
+one epoch duration:6.283324956893921
+Epoch #8, Learning rate: 0.005
+one epoch duration:6.290626764297485
+Epoch #9, Learning rate: 0.005
+one epoch duration:6.274630308151245
+RESULT {'UA': 0.3422200679779053, 'RA': 99.91111159324646, 'TA': 94.3399965763092, 'MIA': 8.777777777777773, 'RTE_min': 1.0436939604502793, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.005, 'epochs': 10, 'alpha': 0.2, 'density': 0.9}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.013
+one epoch duration:6.244982957839966
+Epoch #1, Learning rate: 0.013
+one epoch duration:6.147694110870361
+Epoch #2, Learning rate: 0.013
+one epoch duration:5.92666220664978
+Epoch #3, Learning rate: 0.013
+one epoch duration:5.917118787765503
+Epoch #4, Learning rate: 0.013
+one epoch duration:5.932641506195068
+Epoch #5, Learning rate: 0.013
+one epoch duration:5.922290086746216
+Epoch #6, Learning rate: 0.013
+one epoch duration:6.070392847061157
+Epoch #7, Learning rate: 0.013
+one epoch duration:6.30248761177063
+Epoch #8, Learning rate: 0.013
+one epoch duration:6.3142993450164795
+Epoch #9, Learning rate: 0.013
+one epoch duration:6.185723304748535
+RESULT {'UA': 0.297778844833374, 'RA': 99.80444312095642, 'TA': 93.87999773025513, 'MIA': 5.906666666666672, 'RTE_min': 1.0160823067669602, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.013, 'epochs': 10, 'alpha': 0.2, 'density': 0.1}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.013
+one epoch duration:6.058206558227539
+Epoch #1, Learning rate: 0.013
+one epoch duration:5.930905103683472
+Epoch #2, Learning rate: 0.013
+one epoch duration:5.9366209506988525
+Epoch #3, Learning rate: 0.013
+one epoch duration:5.940414190292358
+Epoch #4, Learning rate: 0.013
+one epoch duration:5.927196741104126
+Epoch #5, Learning rate: 0.013
+one epoch duration:6.099140882492065
+Epoch #6, Learning rate: 0.013
+one epoch duration:6.213252305984497
+Epoch #7, Learning rate: 0.013
+one epoch duration:6.310604095458984
+Epoch #8, Learning rate: 0.013
+one epoch duration:6.047185897827148
+Epoch #9, Learning rate: 0.013
+one epoch duration:6.138273239135742
+RESULT {'UA': 13.36444616317749, 'RA': 88.08000087738037, 'TA': 83.87999534606934, 'MIA': 20.36, 'RTE_min': 1.0100407703508003, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.013, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.013
+one epoch duration:6.258572578430176
+Epoch #1, Learning rate: 0.013
+one epoch duration:6.2862608432769775
+Epoch #2, Learning rate: 0.013
+one epoch duration:6.276159286499023
+Epoch #3, Learning rate: 0.013
+one epoch duration:5.907536745071411
+Epoch #4, Learning rate: 0.013
+one epoch duration:5.885812520980835
+Epoch #5, Learning rate: 0.013
+one epoch duration:5.889784336090088
+Epoch #6, Learning rate: 0.013
+one epoch duration:5.897991180419922
+Epoch #7, Learning rate: 0.013
+one epoch duration:5.884953022003174
+Epoch #8, Learning rate: 0.013
+one epoch duration:5.882428884506226
+Epoch #9, Learning rate: 0.013
+one epoch duration:5.882748126983643
+RESULT {'UA': 19.511109590530396, 'RA': 81.95555806159973, 'TA': 79.01999950408936, 'MIA': 25.768888888888885, 'RTE_min': 1.0008816679667991, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.013, 'epochs': 10, 'alpha': 0.2, 'density': 0.9}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.05
+one epoch duration:5.912725210189819
+Epoch #1, Learning rate: 0.05
+one epoch duration:5.917429208755493
+Epoch #2, Learning rate: 0.05
+one epoch duration:5.916933059692383
+Epoch #3, Learning rate: 0.05
+one epoch duration:5.913876533508301
+Epoch #4, Learning rate: 0.05
+one epoch duration:5.9087748527526855
+Epoch #5, Learning rate: 0.05
+one epoch duration:5.917342185974121
+Epoch #6, Learning rate: 0.05
+one epoch duration:6.194484233856201
+Epoch #7, Learning rate: 0.05
+one epoch duration:6.298086404800415
+Epoch #8, Learning rate: 0.05
+one epoch duration:6.290491342544556
+Epoch #9, Learning rate: 0.05
+one epoch duration:6.289410829544067
+RESULT {'UA': 44.15110945701599, 'RA': 56.08888864517212, 'TA': 54.93999719619751, 'MIA': 48.82222222222222, 'RTE_min': 1.0093375051995583, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.05, 'epochs': 10, 'alpha': 0.2, 'density': 0.1}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.05
+one epoch duration:6.278579235076904
+Epoch #1, Learning rate: 0.05
+one epoch duration:6.277885913848877
+Epoch #2, Learning rate: 0.05
+one epoch duration:6.277863502502441
+Epoch #3, Learning rate: 0.05
+one epoch duration:6.285232067108154
+Epoch #4, Learning rate: 0.05
+one epoch duration:6.295663118362427
+Epoch #5, Learning rate: 0.05
+one epoch duration:6.284940481185913
+Epoch #6, Learning rate: 0.05
+one epoch duration:6.287119388580322
+Epoch #7, Learning rate: 0.05
+one epoch duration:6.276685953140259
+Epoch #8, Learning rate: 0.05
+one epoch duration:6.282079219818115
+Epoch #9, Learning rate: 0.05
+one epoch duration:6.29221773147583
+RESULT {'UA': 61.32444441318512, 'RA': 39.160001277923584, 'TA': 38.79999816417694, 'MIA': 78.48888888888888, 'RTE_min': 1.0473155289674954, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.05, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.05
+one epoch duration:6.240624904632568
+Epoch #1, Learning rate: 0.05
+one epoch duration:6.2479164600372314
+Epoch #2, Learning rate: 0.05
+one epoch duration:5.928556680679321
+Epoch #3, Learning rate: 0.05
+one epoch duration:6.149179697036743
+Epoch #4, Learning rate: 0.05
+one epoch duration:6.2600321769714355
+Epoch #5, Learning rate: 0.05
+one epoch duration:6.266709804534912
+Epoch #6, Learning rate: 0.05
+one epoch duration:6.253199338912964
+Epoch #7, Learning rate: 0.05
+one epoch duration:6.274383306503296
+Epoch #8, Learning rate: 0.05
+one epoch duration:6.262921571731567
+Epoch #9, Learning rate: 0.05
+one epoch duration:5.995985269546509
+RESULT {'UA': 73.20888936519623, 'RA': 26.448890566825867, 'TA': 27.12000012397766, 'MIA': 39.56444444444445, 'RTE_min': 1.0313357217334367, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.05, 'epochs': 10, 'alpha': 0.2, 'density': 0.9}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.0005
+one epoch duration:5.7352447509765625
+Epoch #1, Learning rate: 0.0005
+one epoch duration:5.739023923873901
+Epoch #2, Learning rate: 0.0005
+one epoch duration:5.744756460189819
+Epoch #3, Learning rate: 0.0005
+one epoch duration:5.734718561172485
+Epoch #4, Learning rate: 0.0005
+one epoch duration:5.734407424926758
+Epoch #5, Learning rate: 0.0005
+one epoch duration:5.738649129867554
+Epoch #6, Learning rate: 0.0005
+one epoch duration:5.747791290283203
+Epoch #7, Learning rate: 0.0005
+one epoch duration:5.753551959991455
+Epoch #8, Learning rate: 0.0005
+one epoch duration:5.750447988510132
+Epoch #9, Learning rate: 0.0005
+one epoch duration:5.753863573074341
+RESULT {'UA': 0.0044405460357666016, 'RA': 100.0, 'TA': 94.91999745368958, 'MIA': 7.257777777777774, 'RTE_min': 0.9572182887486027, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn_soft', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.0005, 'epochs': 10, 'alpha': 0.2, 'density': 0.1}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.0005
+one epoch duration:5.838094472885132
+Epoch #1, Learning rate: 0.0005
+one epoch duration:5.8475871086120605
+Epoch #2, Learning rate: 0.0005
+one epoch duration:5.949516296386719
+Epoch #3, Learning rate: 0.0005
+one epoch duration:5.808359384536743
+Epoch #4, Learning rate: 0.0005
+one epoch duration:5.903304576873779
+Epoch #5, Learning rate: 0.0005
+one epoch duration:5.972520112991333
+Epoch #6, Learning rate: 0.0005
+one epoch duration:5.778224229812622
+Epoch #7, Learning rate: 0.0005
+one epoch duration:5.81345009803772
+Epoch #8, Learning rate: 0.0005
+one epoch duration:5.949248313903809
+Epoch #9, Learning rate: 0.0005
+one epoch duration:5.9730610847473145
+RESULT {'UA': 0.0044405460357666016, 'RA': 100.0, 'TA': 95.03999948501587, 'MIA': 5.733333333333334, 'RTE_min': 0.9805664497660473, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn_soft', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.0005, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.0005
+one epoch duration:6.108958721160889
+Epoch #1, Learning rate: 0.0005
+one epoch duration:6.053736448287964
+Epoch #2, Learning rate: 0.0005
+one epoch duration:5.88420033454895
+Epoch #3, Learning rate: 0.0005
+one epoch duration:6.00778603553772
+Epoch #4, Learning rate: 0.0005
+one epoch duration:5.949821710586548
+Epoch #5, Learning rate: 0.0005
+one epoch duration:5.796644687652588
+Epoch #6, Learning rate: 0.0005
+one epoch duration:5.7797932624816895
+Epoch #7, Learning rate: 0.0005
+one epoch duration:5.766659736633301
+Epoch #8, Learning rate: 0.0005
+one epoch duration:5.766952991485596
+Epoch #9, Learning rate: 0.0005
+one epoch duration:5.751086235046387
+RESULT {'UA': 0.0044405460357666016, 'RA': 100.0, 'TA': 95.15999555587769, 'MIA': 5.497777777777779, 'RTE_min': 0.9811042905998572, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn_soft', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.0005, 'epochs': 10, 'alpha': 0.2, 'density': 0.9}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.005
+one epoch duration:5.756585121154785
+Epoch #1, Learning rate: 0.005
+one epoch duration:5.760668992996216
+Epoch #2, Learning rate: 0.005
+one epoch duration:5.754318714141846
+Epoch #3, Learning rate: 0.005
+one epoch duration:5.748795509338379
+Epoch #4, Learning rate: 0.005
+one epoch duration:5.758433818817139
+Epoch #5, Learning rate: 0.005
+one epoch duration:5.752765655517578
+Epoch #6, Learning rate: 0.005
+one epoch duration:5.745656728744507
+Epoch #7, Learning rate: 0.005
+one epoch duration:5.754628896713257
+Epoch #8, Learning rate: 0.005
+one epoch duration:5.750658988952637
+Epoch #9, Learning rate: 0.005
+one epoch duration:5.747206687927246
+RESULT {'UA': 2.2533297538757324, 'RA': 99.96444582939148, 'TA': 92.61999726295471, 'MIA': 33.90222222222222, 'RTE_min': 0.9588387332002942, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn_soft', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.005, 'epochs': 10, 'alpha': 0.2, 'density': 0.1}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.005
+one epoch duration:5.986980199813843
+Epoch #1, Learning rate: 0.005
+one epoch duration:5.956670761108398
+Epoch #2, Learning rate: 0.005
+one epoch duration:5.7899839878082275
+Epoch #3, Learning rate: 0.005
+one epoch duration:5.922473669052124
+Epoch #4, Learning rate: 0.005
+one epoch duration:5.782986879348755
+Epoch #5, Learning rate: 0.005
+one epoch duration:5.799416780471802
+Epoch #6, Learning rate: 0.005
+one epoch duration:5.767872333526611
+Epoch #7, Learning rate: 0.005
+one epoch duration:5.76740288734436
+Epoch #8, Learning rate: 0.005
+one epoch duration:5.7550952434539795
+Epoch #9, Learning rate: 0.005
+one epoch duration:5.756802320480347
+RESULT {'UA': 0.9377777576446533, 'RA': 99.98666644096375, 'TA': 93.17999482154846, 'MIA': 23.253333333333337, 'RTE_min': 0.9714380277340146, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn_soft', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.005, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.005
+one epoch duration:6.093493700027466
+Epoch #1, Learning rate: 0.005
+one epoch duration:5.963373899459839
+Epoch #2, Learning rate: 0.005
+one epoch duration:6.022979974746704
+Epoch #3, Learning rate: 0.005
+one epoch duration:5.883384466171265
+Epoch #4, Learning rate: 0.005
+one epoch duration:5.852596759796143
+Epoch #5, Learning rate: 0.005
+one epoch duration:5.830730438232422
+Epoch #6, Learning rate: 0.005
+one epoch duration:5.94895339012146
+Epoch #7, Learning rate: 0.005
+one epoch duration:5.776391267776489
+Epoch #8, Learning rate: 0.005
+one epoch duration:5.936768293380737
+Epoch #9, Learning rate: 0.005
+one epoch duration:6.00325345993042
+RESULT {'UA': 0.3777742385864258, 'RA': 99.98666644096375, 'TA': 93.63999962806702, 'MIA': 15.697777777777777, 'RTE_min': 0.988542307500029, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn_soft', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.005, 'epochs': 10, 'alpha': 0.2, 'density': 0.9}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.013
+one epoch duration:6.005185127258301
+Epoch #1, Learning rate: 0.013
+one epoch duration:5.884840488433838
+Epoch #2, Learning rate: 0.013
+one epoch duration:5.7418341636657715
+Epoch #3, Learning rate: 0.013
+one epoch duration:5.731128215789795
+Epoch #4, Learning rate: 0.013
+one epoch duration:5.870682716369629
+Epoch #5, Learning rate: 0.013
+one epoch duration:5.7470104694366455
+Epoch #6, Learning rate: 0.013
+one epoch duration:5.754586935043335
+Epoch #7, Learning rate: 0.013
+one epoch duration:5.75109601020813
+Epoch #8, Learning rate: 0.013
+one epoch duration:5.7472851276397705
+Epoch #9, Learning rate: 0.013
+one epoch duration:5.75020694732666
+RESULT {'UA': 8.284443616867065, 'RA': 98.88444542884827, 'TA': 88.99999856948853, 'MIA': 34.760000000000005, 'RTE_min': 0.9664074114834269, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn_soft', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.013, 'epochs': 10, 'alpha': 0.2, 'density': 0.1}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.013
+one epoch duration:5.820634365081787
+Epoch #1, Learning rate: 0.013
+one epoch duration:5.952878713607788
+Epoch #2, Learning rate: 0.013
+one epoch duration:5.807342052459717
+Epoch #3, Learning rate: 0.013
+one epoch duration:5.914668798446655
+Epoch #4, Learning rate: 0.013
+one epoch duration:5.869664192199707
+Epoch #5, Learning rate: 0.013
+one epoch duration:5.755461931228638
+Epoch #6, Learning rate: 0.013
+one epoch duration:5.977728605270386
+Epoch #7, Learning rate: 0.013
+one epoch duration:5.756589889526367
+Epoch #8, Learning rate: 0.013
+one epoch duration:5.8023600578308105
+Epoch #9, Learning rate: 0.013
+one epoch duration:5.840486526489258
+RESULT {'UA': 5.075556039810181, 'RA': 99.26666617393494, 'TA': 90.2999997138977, 'MIA': 28.542222222222225, 'RTE_min': 0.9749736803991255, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn_soft', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.013, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.013
+one epoch duration:6.141083002090454
+Epoch #1, Learning rate: 0.013
+one epoch duration:6.02903151512146
+Epoch #2, Learning rate: 0.013
+one epoch duration:5.896082162857056
+Epoch #3, Learning rate: 0.013
+one epoch duration:6.065339088439941
+Epoch #4, Learning rate: 0.013
+one epoch duration:6.093657493591309
+Epoch #5, Learning rate: 0.013
+one epoch duration:5.959959030151367
+Epoch #6, Learning rate: 0.013
+one epoch duration:5.810734272003174
+Epoch #7, Learning rate: 0.013
+one epoch duration:5.80377197265625
+Epoch #8, Learning rate: 0.013
+one epoch duration:5.995399236679077
+Epoch #9, Learning rate: 0.013
+one epoch duration:5.956193447113037
+RESULT {'UA': 3.951108455657959, 'RA': 99.03111457824707, 'TA': 90.89999794960022, 'MIA': 18.85333333333333, 'RTE_min': 0.9958642257008857, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn_soft', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.013, 'epochs': 10, 'alpha': 0.2, 'density': 0.9}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.05
+one epoch duration:5.813410997390747
+Epoch #1, Learning rate: 0.05
+one epoch duration:5.9913153648376465
+Epoch #2, Learning rate: 0.05
+one epoch duration:5.758860349655151
+Epoch #3, Learning rate: 0.05
+one epoch duration:5.756869554519653
+Epoch #4, Learning rate: 0.05
+one epoch duration:5.768014192581177
+Epoch #5, Learning rate: 0.05
+one epoch duration:5.764225244522095
+Epoch #6, Learning rate: 0.05
+one epoch duration:5.934107065200806
+Epoch #7, Learning rate: 0.05
+one epoch duration:5.825489044189453
+Epoch #8, Learning rate: 0.05
+one epoch duration:5.965256929397583
+Epoch #9, Learning rate: 0.05
+one epoch duration:5.74824595451355
+RESULT {'UA': 16.173332929611206, 'RA': 90.51555395126343, 'TA': 83.57999920845032, 'MIA': 29.43555555555556, 'RTE_min': 0.9721068709836497, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn_soft', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.05, 'epochs': 10, 'alpha': 0.2, 'density': 0.1}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.05
+one epoch duration:5.964974403381348
+Epoch #1, Learning rate: 0.05
+one epoch duration:5.811158895492554
+Epoch #2, Learning rate: 0.05
+one epoch duration:5.936140537261963
+Epoch #3, Learning rate: 0.05
+one epoch duration:5.925633907318115
+Epoch #4, Learning rate: 0.05
+one epoch duration:5.978276968002319
+Epoch #5, Learning rate: 0.05
+one epoch duration:5.869451284408569
+Epoch #6, Learning rate: 0.05
+one epoch duration:5.769250154495239
+Epoch #7, Learning rate: 0.05
+one epoch duration:5.767027854919434
+Epoch #8, Learning rate: 0.05
+one epoch duration:5.758683919906616
+Epoch #9, Learning rate: 0.05
+one epoch duration:5.9254820346832275
+RESULT {'UA': 15.297776460647583, 'RA': 90.72444438934326, 'TA': 83.48000049591064, 'MIA': 25.382222222222218, 'RTE_min': 0.9784448848008954, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn_soft', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.05, 'epochs': 10, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+Epoch #0, Learning rate: 0.05
+one epoch duration:6.102310657501221
+Epoch #1, Learning rate: 0.05
+one epoch duration:6.190260648727417
+Epoch #2, Learning rate: 0.05
+one epoch duration:6.041027545928955
+Epoch #3, Learning rate: 0.05
+one epoch duration:5.9131975173950195
+Epoch #4, Learning rate: 0.05
+one epoch duration:5.972033262252808
+Epoch #5, Learning rate: 0.05
+one epoch duration:5.864335536956787
+Epoch #6, Learning rate: 0.05
+one epoch duration:6.070580959320068
+Epoch #7, Learning rate: 0.05
+one epoch duration:5.771004915237427
+Epoch #8, Learning rate: 0.05
+one epoch duration:5.762449502944946
+Epoch #9, Learning rate: 0.05
+one epoch duration:5.743847608566284
+RESULT {'UA': 15.737777948379517, 'RA': 89.29333686828613, 'TA': 82.29999542236328, 'MIA': 26.72444444444444, 'RTE_min': 0.9905289553493882, 'seed': 1, 'ratio': 0.5, 'method': 'SalUn_soft', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.05, 'epochs': 10, 'alpha': 0.2, 'density': 0.9}}
+setup random seed = 1
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.33999562263489, 'MIA': 0.048888888888887205, 'RTE_min': 0.3376534127164632, 'seed': 1, 'ratio': 0.5, 'method': 'MMU', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.0001, 'epochs': 5, 'alpha': 1, 'density': 0.5}}
+setup random seed = 1
+RESULT {'UA': 0.1644432544708252, 'RA': 99.93333220481873, 'TA': 94.23999786376953, 'MIA': 1.6666666666666718, 'RTE_min': 0.33524145008220024, 'seed': 1, 'ratio': 0.5, 'method': 'MMU', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.0005, 'epochs': 5, 'alpha': 1, 'density': 0.5}}
+setup random seed = 1
+RESULT {'UA': 70.90222239494324, 'RA': 28.911110758781433, 'TA': 28.619998693466187, 'MIA': 35.02222222222222, 'RTE_min': 0.33422230546711945, 'seed': 1, 'ratio': 0.5, 'method': 'MMU', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.001, 'epochs': 5, 'alpha': 1, 'density': 0.5}}

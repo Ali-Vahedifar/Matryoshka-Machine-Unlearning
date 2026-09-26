@@ -1,0 +1,176 @@
+[
+  {
+    "stage": "source",
+    "sets": {
+      "forget": {
+        "512": {
+          "accuracy": 100.0,
+          "teacher_kl": -3.698137076134521e-08
+        }
+      },
+      "retain_probe": {
+        "512": {
+          "accuracy": 100.0,
+          "teacher_kl": -3.9406586438417435e-08
+        }
+      },
+      "test_probe": {
+        "512": {
+          "accuracy": 93.84765625,
+          "teacher_kl": -3.3993273973464966e-08
+        }
+      }
+    },
+    "parameter_distance_l2": 0.0
+  },
+  {
+    "stage": "epoch0_joint",
+    "sets": {
+      "forget": {
+        "512": {
+          "accuracy": 100.0,
+          "teacher_kl": 0.024030641979641384
+        }
+      },
+      "retain_probe": {
+        "512": {
+          "accuracy": 100.0,
+          "teacher_kl": 0.01661615469492972
+        }
+      },
+      "test_probe": {
+        "512": {
+          "accuracy": 93.75,
+          "teacher_kl": 0.017516742227599025
+        }
+      }
+    },
+    "parameter_distance_l2": 0.1829960197210312,
+    "losses": {
+      "total": 0.7001872317596052,
+      "retain": 0.04030101999359311,
+      "forget": 5.938975834996445
+    },
+    "steps": 159
+  },
+  {
+    "stage": "epoch1_joint",
+    "sets": {
+      "forget": {
+        "512": {
+          "accuracy": 100.0,
+          "teacher_kl": 0.03860598012142711
+        }
+      },
+      "retain_probe": {
+        "512": {
+          "accuracy": 100.0,
+          "teacher_kl": 0.019733194261789322
+        }
+      },
+      "test_probe": {
+        "512": {
+          "accuracy": 93.701171875,
+          "teacher_kl": 0.022863922407850623
+        }
+      }
+    },
+    "parameter_distance_l2": 0.27805665135383606,
+    "losses": {
+      "total": 0.6903122528544012,
+      "retain": 0.045305170341388985,
+      "forget": 5.8050637005260155
+    },
+    "steps": 159
+  },
+  {
+    "stage": "epoch2_joint",
+    "sets": {
+      "forget": {
+        "512": {
+          "accuracy": 100.0,
+          "teacher_kl": 0.05779871350195673
+        }
+      },
+      "retain_probe": {
+        "512": {
+          "accuracy": 100.0,
+          "teacher_kl": 0.025210652966052294
+        }
+      },
+      "test_probe": {
+        "512": {
+          "accuracy": 93.45703125,
+          "teacher_kl": 0.03145823790691793
+        }
+      }
+    },
+    "parameter_distance_l2": 0.37040001153945923,
+    "losses": {
+      "total": 0.6846214056764759,
+      "retain": 0.04741766819226667,
+      "forget": 5.734833576394327
+    },
+    "steps": 159
+  },
+  {
+    "stage": "epoch3_joint",
+    "sets": {
+      "forget": {
+        "512": {
+          "accuracy": 100.0,
+          "teacher_kl": 0.07683618593878216
+        }
+      },
+      "retain_probe": {
+        "512": {
+          "accuracy": 100.0,
+          "teacher_kl": 0.028727977769449353
+        }
+      },
+      "test_probe": {
+        "512": {
+          "accuracy": 93.65234375,
+          "teacher_kl": 0.038246039766818285
+        }
+      }
+    },
+    "parameter_distance_l2": 0.463969886302948,
+    "losses": {
+      "total": 0.6789060662377555,
+      "retain": 0.04892317738688592,
+      "forget": 5.669845958925643
+    },
+    "steps": 159
+  },
+  {
+    "stage": "epoch4_joint",
+    "sets": {
+      "forget": {
+        "512": {
+          "accuracy": 100.0,
+          "teacher_kl": 0.09874918236997393
+        }
+      },
+      "retain_probe": {
+        "512": {
+          "accuracy": 100.0,
+          "teacher_kl": 0.028536611702293158
+        }
+      },
+      "test_probe": {
+        "512": {
+          "accuracy": 93.26171875,
+          "teacher_kl": 0.04258410166949034
+        }
+      }
+    },
+    "parameter_distance_l2": 0.5563074350357056,
+    "losses": {
+      "total": 0.6729368237579394,
+      "retain": 0.0486984446925937,
+      "forget": 5.618145354888724
+    },
+    "steps": 159
+  }
+]

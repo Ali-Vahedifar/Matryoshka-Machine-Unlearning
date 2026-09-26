@@ -1,0 +1,36 @@
+{
+  "training_seed": 42,
+  "rows": [
+    [
+      "source",
+      "Source SD"
+    ],
+    [
+      "mmu_2t_hi",
+      "MMU"
+    ],
+    [
+      "random_mask",
+      "Random mask"
+    ],
+    [
+      "salun_port",
+      "SalUn"
+    ]
+  ],
+  "mmu_variant": "mmu_2t_hi",
+  "margin": 0.002,
+  "note": "Selected higher-margin full-width variant; all variant metrics remain in report.md and results.json.",
+  "pages": [
+    [
+      0,
+      9
+    ],
+    [
+      10,
+      39
+    ]
+  ],
+  "detector_borders": true,
+  "presentation_censoring": "unchanged"
+}

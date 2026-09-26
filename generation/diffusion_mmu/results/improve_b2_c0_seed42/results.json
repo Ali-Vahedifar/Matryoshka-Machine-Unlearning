@@ -1,0 +1,9 @@
+{
+ "mmu_fullwidth": {
+  "UA": 88.59999775886536,
+  "forget_class_rate": 11.400000005960464,
+  "retain_cond_acc": 97.079998254776,
+  "FID_retain": 17.99716352902186,
+  "unlearn_time_s": 40.7
+ }
+}

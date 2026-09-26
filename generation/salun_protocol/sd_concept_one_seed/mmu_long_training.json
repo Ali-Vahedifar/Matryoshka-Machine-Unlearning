@@ -1,0 +1,6 @@
+{
+  "seconds": 512.9620284739649,
+  "steps": 500,
+  "finite": true,
+  "teacher_gradients": false
+}

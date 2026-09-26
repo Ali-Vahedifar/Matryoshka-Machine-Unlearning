@@ -1,0 +1,9 @@
+{
+ "retrain": {
+  "UA": 83.99999737739563,
+  "forget_class_rate": 15.999999642372131,
+  "retain_cond_acc": 97.8600025177002,
+  "FID_retain": 15.914822975310244,
+  "unlearn_time_s": 0.1
+ }
+}

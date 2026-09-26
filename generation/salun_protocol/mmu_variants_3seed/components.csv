@@ -1,0 +1,16 @@
+ID,name,nested_prefixes,head,teacher_networks,teacher_target,forgotten_attraction,repulsion,margin,retained_privileged_distillation,aggregation
+V01,MMU unbounded / full,no,shared,1,width-aligned source,no,unbounded,,yes,mrl
+V02,MMU unbounded / nested MRL / sum,yes,separate,1,width-aligned source,no,unbounded,,yes,mrl
+V03,MMU unbounded / nested MRL / weighted mean,yes,separate,1,width-aligned source,no,unbounded,,yes,normalised
+V04,MMU unbounded / nested MRL-E / sum,yes,shared,1,width-aligned source,no,unbounded,,yes,mrl
+V05,MMU unbounded / nested MRL-E / weighted mean,yes,shared,1,width-aligned source,no,unbounded,,yes,normalised
+V06,MMU margin / full,no,shared,1,width-aligned source,no,hinge,0.05,yes,mrl
+V07,MMU margin / nested MRL / sum,yes,separate,1,width-aligned source,no,hinge,0.05,yes,mrl
+V08,MMU margin / nested MRL / weighted mean,yes,separate,1,width-aligned source,no,hinge,0.05,yes,normalised
+V09,MMU margin / nested MRL-E / sum,yes,shared,1,width-aligned source,no,hinge,0.05,yes,mrl
+V10,MMU margin / nested MRL-E / weighted mean,yes,shared,1,width-aligned source,no,hinge,0.05,yes,normalised
+V11,MMU margin / nested MRL / full privileged teacher,yes,separate,1,full source,no,hinge,0.05,yes,normalised
+V12,MMU retain-FT two-network / full / attraction only,no,shared,2,full retain-FT + full source,yes,none,,yes,uniform mean
+V13,MMU retain-FT two-network / full / attraction + margin,no,shared,2,full retain-FT + full source,yes,hinge,0.002,yes,uniform mean
+V14,MMU retain-FT two-network / nested MRL / attraction only,yes,separate,2,full retain-FT + full source,yes,none,,yes,uniform mean
+V15,MMU retain-FT two-network / nested MRL / attraction + margin,yes,separate,2,full retain-FT + full source,yes,hinge,0.002,yes,uniform mean

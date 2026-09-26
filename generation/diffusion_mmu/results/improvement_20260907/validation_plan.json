@@ -1,0 +1,13 @@
+{
+  "candidate_tag": "validate_b4",
+  "candidate_beta": 4,
+  "candidate_warmup": 0,
+  "baseline_seed42": "diffusion_mmu/results/full_redirect_20260907_cfg2_mmu_fullwidth_c0_seed42",
+  "candidate_seed42": "diffusion_mmu/results/improve_b4_c0_seed42",
+  "additional_seeds": [
+    43,
+    44
+  ],
+  "guidance": 2,
+  "rationale": "Beta=4 improves seed-42 UA and FID versus beta=1, with retained accuracy lower by 0.42 percentage points. Saved images remain recognizable; no noise-only collapse. Warm-up helps nesting but does not beat the equally trained full-width control."
+}

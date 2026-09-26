@@ -1,0 +1,381 @@
+START CLASS 0 airplane
+CLASS COMPLETE 0 {'Source': {'forget_correct': 16, 'forget_n': 16, 'retain_correct': 144, 'retain_n': 144}, 'MMU': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 141, 'retain_n': 144}, 'Random mask': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 144, 'retain_n': 144}, 'SalUn': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 140, 'retain_n': 144}}
+START CLASS 1 automobile
+TRAIN 1 MMU
+MMU {'step': 0, 'loss': 0.0833558738231659, 'attraction': 0.002032228745520115, 'hinge': 0.0020000000949949026, 'preserve': 0.0}
+MMU {'step': 100, 'loss': 0.10420303046703339, 'attraction': 0.00033339986111968756, 'hinge': 0.0, 'preserve': 0.00012078601866960526}
+MMU {'step': 200, 'loss': 0.07425223290920258, 'attraction': 0.0002549558994360268, 'hinge': 0.0, 'preserve': 9.235563629772514e-05}
+MMU {'step': 300, 'loss': 0.08860553801059723, 'attraction': 0.00018190713308285922, 'hinge': 0.0, 'preserve': 0.00011181321315234527}
+MMU {'step': 400, 'loss': 0.06582716852426529, 'attraction': 0.00012655957834795117, 'hinge': 9.778584353625774e-05, 'preserve': 7.154975173762068e-05}
+MMU {'step': 500, 'loss': 0.06805810332298279, 'attraction': 0.00016432108532171696, 'hinge': 0.0, 'preserve': 8.64913672558032e-05}
+MMU {'step': 600, 'loss': 0.06540321558713913, 'attraction': 0.00016515213064849377, 'hinge': 0.0, 'preserve': 8.754251030040905e-05}
+MMU {'step': 700, 'loss': 0.07459550350904465, 'attraction': 0.00019853962294291705, 'hinge': 0.0, 'preserve': 9.589382534613833e-05}
+MMU {'step': 800, 'loss': 0.08103737980127335, 'attraction': 0.0002377111668465659, 'hinge': 0.0, 'preserve': 0.00011236539285164326}
+MMU {'step': 900, 'loss': 0.08965607732534409, 'attraction': 0.00017086768639273942, 'hinge': 0.0, 'preserve': 0.00012855621753260493}
+MMU {'step': 999, 'loss': 0.0626416802406311, 'attraction': 0.00018991045362781733, 'hinge': 3.0432594940066338e-05, 'preserve': 0.00011539885599631816}
+TRAIN DONE 1 MMU 103.40430569648743
+TRAIN 1 Random mask
+{'step': 0, 'retain_sum_mse': 71.76499938964844, 'forget_mse': 0.0018612174317240715}
+{'step': 100, 'retain_sum_mse': 73.66693115234375, 'forget_mse': 0.0003316067159175873}
+{'step': 200, 'retain_sum_mse': 67.80709075927734, 'forget_mse': 0.00023634516401216388}
+{'step': 300, 'retain_sum_mse': 95.21981811523438, 'forget_mse': 0.00018933965475298464}
+{'step': 400, 'retain_sum_mse': 96.43190002441406, 'forget_mse': 0.00012636982137337327}
+{'step': 500, 'retain_sum_mse': 78.93995666503906, 'forget_mse': 9.437835251446813e-05}
+{'step': 600, 'retain_sum_mse': 78.85346984863281, 'forget_mse': 9.261307423003018e-05}
+{'step': 700, 'retain_sum_mse': 73.73887634277344, 'forget_mse': 6.449015927501023e-05}
+{'step': 800, 'retain_sum_mse': 90.82917785644531, 'forget_mse': 6.143762584542856e-05}
+{'step': 900, 'retain_sum_mse': 43.64506912231445, 'forget_mse': 6.0080648836446926e-05}
+TRAIN DONE 1 Random mask 79.34019374847412
+TRAIN 1 SalUn
+{'step': 0, 'retain_sum_mse': 71.76499938964844, 'forget_mse': 0.0018612174317240715}
+{'step': 100, 'retain_sum_mse': 73.81253051757812, 'forget_mse': 0.0003167520626448095}
+{'step': 200, 'retain_sum_mse': 68.0252685546875, 'forget_mse': 0.00022381024609785527}
+{'step': 300, 'retain_sum_mse': 95.53675842285156, 'forget_mse': 0.00018634407024364918}
+{'step': 400, 'retain_sum_mse': 96.623046875, 'forget_mse': 0.00013689200568478554}
+{'step': 500, 'retain_sum_mse': 79.1499252319336, 'forget_mse': 0.00010289000056218356}
+{'step': 600, 'retain_sum_mse': 79.05935668945312, 'forget_mse': 0.00010314876999473199}
+{'step': 700, 'retain_sum_mse': 74.00284576416016, 'forget_mse': 6.940442835912108e-05}
+{'step': 800, 'retain_sum_mse': 90.9630126953125, 'forget_mse': 7.244486187119037e-05}
+{'step': 900, 'retain_sum_mse': 43.66950988769531, 'forget_mse': 7.004571671131998e-05}
+TRAIN DONE 1 SalUn 79.66764903068542
+SAMPLE 1 MMU
+SAMPLE 1 Random mask
+SAMPLE 1 SalUn
+CLASS COMPLETE 1 {'Source': {'forget_correct': 16, 'forget_n': 16, 'retain_correct': 144, 'retain_n': 144}, 'MMU': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 138, 'retain_n': 144}, 'Random mask': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 143, 'retain_n': 144}, 'SalUn': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 139, 'retain_n': 144}}
+START CLASS 2 bird
+TRAIN 2 MMU
+MMU {'step': 0, 'loss': 0.07952602952718735, 'attraction': 0.0006106057553552091, 'hinge': 0.0020000000949949026, 'preserve': 0.0}
+MMU {'step': 100, 'loss': 0.12899328768253326, 'attraction': 0.0007565522100776434, 'hinge': 0.0005153071833774447, 'preserve': 0.0001675283710937947}
+MMU {'step': 200, 'loss': 0.0699363574385643, 'attraction': 0.000767653516959399, 'hinge': 0.00022824294865131378, 'preserve': 0.00011414846812840551}
+MMU {'step': 300, 'loss': 0.09396384656429291, 'attraction': 0.0007459444459527731, 'hinge': 0.00018390268087387085, 'preserve': 0.0001415291626472026}
+MMU {'step': 400, 'loss': 0.06542316824197769, 'attraction': 0.0005626555066555738, 'hinge': 0.0003556497395038605, 'preserve': 0.00011370479478500783}
+MMU {'step': 500, 'loss': 0.059922270476818085, 'attraction': 0.0006408065091818571, 'hinge': 0.0002842536196112633, 'preserve': 0.0001092592574423179}
+MMU {'step': 600, 'loss': 0.05968620628118515, 'attraction': 0.0006278326036408544, 'hinge': 0.0001488751731812954, 'preserve': 9.880755533231422e-05}
+MMU {'step': 700, 'loss': 0.07699555158615112, 'attraction': 0.0007472975412383676, 'hinge': 0.0, 'preserve': 0.00011235358397243544}
+MMU {'step': 800, 'loss': 0.09270620346069336, 'attraction': 0.0005120507557876408, 'hinge': 0.0002987012267112732, 'preserve': 0.00015736682689748704}
+MMU {'step': 900, 'loss': 0.09653541445732117, 'attraction': 0.0006666837725788355, 'hinge': 0.0, 'preserve': 0.00015464455645997077}
+MMU {'step': 999, 'loss': 0.0622076541185379, 'attraction': 0.00047584850108250976, 'hinge': 0.0005920145194977522, 'preserve': 0.00011311715206829831}
+TRAIN DONE 2 MMU 107.65544962882996
+TRAIN 2 Random mask
+{'step': 0, 'retain_sum_mse': 70.56776428222656, 'forget_mse': 0.0005405350239016116}
+{'step': 100, 'retain_sum_mse': 78.58372497558594, 'forget_mse': 0.0001908758858917281}
+{'step': 200, 'retain_sum_mse': 68.08552551269531, 'forget_mse': 0.00014041874965187162}
+{'step': 300, 'retain_sum_mse': 91.25733184814453, 'forget_mse': 0.00011920208635274321}
+{'step': 400, 'retain_sum_mse': 107.33492279052734, 'forget_mse': 0.0001208614994538948}
+{'step': 500, 'retain_sum_mse': 71.0977783203125, 'forget_mse': 8.836283086566254e-05}
+{'step': 600, 'retain_sum_mse': 74.46675872802734, 'forget_mse': 8.775296009844169e-05}
+{'step': 700, 'retain_sum_mse': 70.02487182617188, 'forget_mse': 5.7711695262696594e-05}
+{'step': 800, 'retain_sum_mse': 93.74714660644531, 'forget_mse': 7.274237577803433e-05}
+{'step': 900, 'retain_sum_mse': 46.61683654785156, 'forget_mse': 6.903833855176345e-05}
+TRAIN DONE 2 Random mask 79.61299586296082
+TRAIN 2 SalUn
+{'step': 0, 'retain_sum_mse': 70.56776428222656, 'forget_mse': 0.0005405350239016116}
+{'step': 100, 'retain_sum_mse': 78.79549407958984, 'forget_mse': 0.00016901677008718252}
+{'step': 200, 'retain_sum_mse': 68.27661895751953, 'forget_mse': 0.00013288995251059532}
+{'step': 300, 'retain_sum_mse': 91.49966430664062, 'forget_mse': 0.00011261331383138895}
+{'step': 400, 'retain_sum_mse': 107.46480560302734, 'forget_mse': 0.00012110800889786333}
+{'step': 500, 'retain_sum_mse': 71.19361877441406, 'forget_mse': 9.06393543118611e-05}
+{'step': 600, 'retain_sum_mse': 74.580078125, 'forget_mse': 8.958547550719231e-05}
+{'step': 700, 'retain_sum_mse': 70.18781280517578, 'forget_mse': 6.032315286574885e-05}
+{'step': 800, 'retain_sum_mse': 93.95301818847656, 'forget_mse': 7.260311394929886e-05}
+{'step': 900, 'retain_sum_mse': 46.78187561035156, 'forget_mse': 7.311970693990588e-05}
+TRAIN DONE 2 SalUn 79.49140334129333
+SAMPLE 2 MMU
+SAMPLE 2 Random mask
+SAMPLE 2 SalUn
+CLASS COMPLETE 2 {'Source': {'forget_correct': 16, 'forget_n': 16, 'retain_correct': 144, 'retain_n': 144}, 'MMU': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 138, 'retain_n': 144}, 'Random mask': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 141, 'retain_n': 144}, 'SalUn': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 141, 'retain_n': 144}}
+START CLASS 3 cat
+TRAIN 3 MMU
+MMU {'step': 0, 'loss': 0.0888897255063057, 'attraction': 0.000631252012681216, 'hinge': 0.0020000000949949026, 'preserve': 0.0}
+MMU {'step': 100, 'loss': 0.11364415287971497, 'attraction': 0.0007035675225779414, 'hinge': 0.0005488934693858027, 'preserve': 0.0001406657975167036}
+MMU {'step': 200, 'loss': 0.06638303399085999, 'attraction': 0.0007721480214968324, 'hinge': 0.0, 'preserve': 0.00010284245945513248}
+MMU {'step': 300, 'loss': 0.07747876644134521, 'attraction': 0.0006545077776536345, 'hinge': 0.00014069746248424053, 'preserve': 0.0001164218265330419}
+MMU {'step': 400, 'loss': 0.06489311903715134, 'attraction': 0.0005287106614559889, 'hinge': 0.00036452640779316425, 'preserve': 0.00010498208575882018}
+MMU {'step': 500, 'loss': 0.06029568985104561, 'attraction': 0.0004943237290717661, 'hinge': 0.00048037106171250343, 'preserve': 0.0001207277164212428}
+MMU {'step': 600, 'loss': 0.06434808671474457, 'attraction': 0.0006754106725566089, 'hinge': 0.00010963715612888336, 'preserve': 0.00010470315464772284}
+MMU {'step': 700, 'loss': 0.07583732157945633, 'attraction': 0.0005883362609893084, 'hinge': 0.00015556288417428732, 'preserve': 0.0001315939298365265}
+MMU {'step': 800, 'loss': 0.08102098107337952, 'attraction': 0.0005024917772971094, 'hinge': 0.00012463971506804228, 'preserve': 0.0001223854924319312}
+MMU {'step': 900, 'loss': 0.095108263194561, 'attraction': 0.0006232758751139045, 'hinge': 0.0, 'preserve': 0.00015454698586836457}
+MMU {'step': 999, 'loss': 0.06365948170423508, 'attraction': 0.00044308905489742756, 'hinge': 0.0005991850048303604, 'preserve': 0.00011429629375925288}
+TRAIN DONE 3 MMU 107.66465973854065
+TRAIN 3 Random mask
+{'step': 0, 'retain_sum_mse': 75.95645141601562, 'forget_mse': 0.0005733616999350488}
+{'step': 100, 'retain_sum_mse': 75.66705322265625, 'forget_mse': 0.00021194969303905964}
+{'step': 200, 'retain_sum_mse': 72.89158630371094, 'forget_mse': 0.0001959345245268196}
+{'step': 300, 'retain_sum_mse': 91.13690185546875, 'forget_mse': 0.00012638453335966915}
+{'step': 400, 'retain_sum_mse': 98.09817504882812, 'forget_mse': 0.0001307089696638286}
+{'step': 500, 'retain_sum_mse': 74.08377838134766, 'forget_mse': 9.319237142335624e-05}
+{'step': 600, 'retain_sum_mse': 78.58265686035156, 'forget_mse': 0.00010808790102601051}
+{'step': 700, 'retain_sum_mse': 72.3157958984375, 'forget_mse': 6.194227171363309e-05}
+{'step': 800, 'retain_sum_mse': 109.16532135009766, 'forget_mse': 7.634487701579928e-05}
+{'step': 900, 'retain_sum_mse': 41.91139221191406, 'forget_mse': 6.014503742335364e-05}
+TRAIN DONE 3 Random mask 122.82135272026062
+TRAIN 3 SalUn
+{'step': 0, 'retain_sum_mse': 75.95645141601562, 'forget_mse': 0.0005733616999350488}
+{'step': 100, 'retain_sum_mse': 75.86577606201172, 'forget_mse': 0.0002006943104788661}
+{'step': 200, 'retain_sum_mse': 73.10150146484375, 'forget_mse': 0.00018265673134010285}
+{'step': 300, 'retain_sum_mse': 91.29209899902344, 'forget_mse': 0.00011357149196555838}
+{'step': 400, 'retain_sum_mse': 98.39617919921875, 'forget_mse': 0.00011934571375604719}
+{'step': 500, 'retain_sum_mse': 74.28511810302734, 'forget_mse': 8.417293429374695e-05}
+{'step': 600, 'retain_sum_mse': 78.92893981933594, 'forget_mse': 9.95861628325656e-05}
+{'step': 700, 'retain_sum_mse': 72.5755615234375, 'forget_mse': 5.697609594790265e-05}
+{'step': 800, 'retain_sum_mse': 109.31072998046875, 'forget_mse': 7.061079668346792e-05}
+{'step': 900, 'retain_sum_mse': 41.953857421875, 'forget_mse': 5.637959111481905e-05}
+TRAIN DONE 3 SalUn 160.7362585067749
+SAMPLE 3 MMU
+SAMPLE 3 Random mask
+SAMPLE 3 SalUn
+CLASS COMPLETE 3 {'Source': {'forget_correct': 16, 'forget_n': 16, 'retain_correct': 144, 'retain_n': 144}, 'MMU': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 142, 'retain_n': 144}, 'Random mask': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 144, 'retain_n': 144}, 'SalUn': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 133, 'retain_n': 144}}
+START CLASS 4 deer
+TRAIN 4 MMU
+MMU {'step': 0, 'loss': 0.08884607255458832, 'attraction': 0.0005911386106163263, 'hinge': 0.0020000000949949026, 'preserve': 0.0}
+MMU {'step': 100, 'loss': 0.12368400394916534, 'attraction': 0.000860183616168797, 'hinge': 0.00036504154559224844, 'preserve': 0.00017309674876742065}
+MMU {'step': 200, 'loss': 0.07570718973875046, 'attraction': 0.0008644426125101745, 'hinge': 0.00010752747766673565, 'preserve': 0.0001066774275386706}
+MMU {'step': 300, 'loss': 0.0887889415025711, 'attraction': 0.0008197397692129016, 'hinge': 0.00011017429642379284, 'preserve': 0.00012642561341635883}
+MMU {'step': 400, 'loss': 0.06811361014842987, 'attraction': 0.0006949350936338305, 'hinge': 0.00011761288624256849, 'preserve': 0.00010644120629876852}
+MMU {'step': 500, 'loss': 0.06708846986293793, 'attraction': 0.0006194357993081212, 'hinge': 0.0003176446771249175, 'preserve': 9.401246643392369e-05}
+MMU {'step': 600, 'loss': 0.06019672751426697, 'attraction': 0.0006792302010580897, 'hinge': 0.00012126355431973934, 'preserve': 9.346266597276554e-05}
+MMU {'step': 700, 'loss': 0.07824653387069702, 'attraction': 0.0006337171653285623, 'hinge': 0.0002719027688726783, 'preserve': 0.00010929116979241371}
+MMU {'step': 800, 'loss': 0.08813405781984329, 'attraction': 0.00048466777661815286, 'hinge': 0.0003798165125772357, 'preserve': 0.00014093976642470807}
+MMU {'step': 900, 'loss': 0.09363280236721039, 'attraction': 0.0007313243113458157, 'hinge': 1.917826011776924e-06, 'preserve': 0.00014723712229169905}
+MMU {'step': 999, 'loss': 0.06812765449285507, 'attraction': 0.00037095509469509125, 'hinge': 0.0010021940106526017, 'preserve': 0.00011747557437047362}
+TRAIN DONE 4 MMU 165.839617729187
+TRAIN 4 Random mask
+{'step': 0, 'retain_sum_mse': 70.33602142333984, 'forget_mse': 0.0005517678800970316}
+{'step': 100, 'retain_sum_mse': 83.71566772460938, 'forget_mse': 0.00019388520740903914}
+{'step': 200, 'retain_sum_mse': 67.3467788696289, 'forget_mse': 0.00016046801465563476}
+{'step': 300, 'retain_sum_mse': 87.0099105834961, 'forget_mse': 0.000137949813506566}
+{'step': 400, 'retain_sum_mse': 89.28304290771484, 'forget_mse': 0.00012981721374671906}
+{'step': 500, 'retain_sum_mse': 72.7273178100586, 'forget_mse': 9.099838644033298e-05}
+{'step': 600, 'retain_sum_mse': 83.45298767089844, 'forget_mse': 0.00011024690320482478}
+{'step': 700, 'retain_sum_mse': 69.83059692382812, 'forget_mse': 7.123537943698466e-05}
+{'step': 800, 'retain_sum_mse': 91.79847717285156, 'forget_mse': 7.796338468324393e-05}
+{'step': 900, 'retain_sum_mse': 52.59456253051758, 'forget_mse': 7.817398727638647e-05}
+TRAIN DONE 4 Random mask 160.51117992401123
+TRAIN 4 SalUn
+{'step': 0, 'retain_sum_mse': 70.33602142333984, 'forget_mse': 0.0005517678800970316}
+{'step': 100, 'retain_sum_mse': 83.8525619506836, 'forget_mse': 0.00017075167852453887}
+{'step': 200, 'retain_sum_mse': 67.55809020996094, 'forget_mse': 0.00014739090693183243}
+{'step': 300, 'retain_sum_mse': 87.09441375732422, 'forget_mse': 0.00012116586731281132}
+{'step': 400, 'retain_sum_mse': 89.51289367675781, 'forget_mse': 0.00011791776341851801}
+{'step': 500, 'retain_sum_mse': 72.97754669189453, 'forget_mse': 8.171682566171512e-05}
+{'step': 600, 'retain_sum_mse': 83.63037109375, 'forget_mse': 0.00010148185538128018}
+{'step': 700, 'retain_sum_mse': 69.9967041015625, 'forget_mse': 6.558545283041894e-05}
+{'step': 800, 'retain_sum_mse': 92.01951599121094, 'forget_mse': 7.164406997617334e-05}
+{'step': 900, 'retain_sum_mse': 52.74365234375, 'forget_mse': 7.298782293219119e-05}
+TRAIN DONE 4 SalUn 151.36090922355652
+SAMPLE 4 MMU
+SAMPLE 4 Random mask
+SAMPLE 4 SalUn
+CLASS COMPLETE 4 {'Source': {'forget_correct': 16, 'forget_n': 16, 'retain_correct': 144, 'retain_n': 144}, 'MMU': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 143, 'retain_n': 144}, 'Random mask': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 142, 'retain_n': 144}, 'SalUn': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 140, 'retain_n': 144}}
+START CLASS 5 dog
+TRAIN 5 MMU
+MMU {'step': 0, 'loss': 0.07477043569087982, 'attraction': 0.0007834042771719396, 'hinge': 0.0020000000949949026, 'preserve': 0.0}
+MMU {'step': 100, 'loss': 0.11980747431516647, 'attraction': 0.0006778768729418516, 'hinge': 0.0001703107263892889, 'preserve': 0.00016250261978711933}
+MMU {'step': 200, 'loss': 0.07915864139795303, 'attraction': 0.0006184315425343812, 'hinge': 0.0, 'preserve': 0.0001044086238835007}
+MMU {'step': 300, 'loss': 0.08711931854486465, 'attraction': 0.0004936742479912937, 'hinge': 0.00012085773050785065, 'preserve': 0.00012931181117892265}
+MMU {'step': 400, 'loss': 0.062065646052360535, 'attraction': 0.00044751277891919017, 'hinge': 8.48456984385848e-05, 'preserve': 9.373944340040907e-05}
+MMU {'step': 500, 'loss': 0.0641055703163147, 'attraction': 0.000416786118876189, 'hinge': 0.00028520531486719847, 'preserve': 0.00010133963951375335}
+MMU {'step': 600, 'loss': 0.07035592943429947, 'attraction': 0.0005337797338142991, 'hinge': 0.0, 'preserve': 9.813936048885807e-05}
+MMU {'step': 700, 'loss': 0.0775158479809761, 'attraction': 0.00043298356467857957, 'hinge': 0.00020443834364414215, 'preserve': 0.00011181073205079883}
+MMU {'step': 800, 'loss': 0.07874064147472382, 'attraction': 0.0004709824570454657, 'hinge': 0.0, 'preserve': 0.00012646408868022263}
+MMU {'step': 900, 'loss': 0.10297759622335434, 'attraction': 0.00039748457493260503, 'hinge': 0.00021932879462838173, 'preserve': 0.0001624338183319196}
+MMU {'step': 999, 'loss': 0.06715220212936401, 'attraction': 0.00028109026607126, 'hinge': 0.0009411897044628859, 'preserve': 0.00010981317609548569}
+TRAIN DONE 5 MMU 216.81232357025146
+TRAIN 5 Random mask
+{'step': 0, 'retain_sum_mse': 73.80030059814453, 'forget_mse': 0.0007914052112028003}
+{'step': 100, 'retain_sum_mse': 80.84040069580078, 'forget_mse': 0.000224597955821082}
+{'step': 200, 'retain_sum_mse': 69.03785705566406, 'forget_mse': 0.00016406536451540887}
+{'step': 300, 'retain_sum_mse': 93.90758514404297, 'forget_mse': 0.00014072685735300183}
+{'step': 400, 'retain_sum_mse': 109.94376373291016, 'forget_mse': 0.00011851794988615438}
+{'step': 500, 'retain_sum_mse': 74.02685546875, 'forget_mse': 8.964552398538217e-05}
+{'step': 600, 'retain_sum_mse': 77.93019104003906, 'forget_mse': 9.687022247817367e-05}
+{'step': 700, 'retain_sum_mse': 66.99818420410156, 'forget_mse': 7.232462667161599e-05}
+{'step': 800, 'retain_sum_mse': 96.1047134399414, 'forget_mse': 7.558659126516432e-05}
+{'step': 900, 'retain_sum_mse': 49.99583435058594, 'forget_mse': 7.55534420022741e-05}
+TRAIN DONE 5 Random mask 158.81986737251282
+TRAIN 5 SalUn
+{'step': 0, 'retain_sum_mse': 73.80030059814453, 'forget_mse': 0.0007914052112028003}
+{'step': 100, 'retain_sum_mse': 81.00147247314453, 'forget_mse': 0.00019780923321377486}
+{'step': 200, 'retain_sum_mse': 69.18898010253906, 'forget_mse': 0.00014741408813279122}
+{'step': 300, 'retain_sum_mse': 94.01661682128906, 'forget_mse': 0.0001273591333301738}
+{'step': 400, 'retain_sum_mse': 110.14616394042969, 'forget_mse': 0.00011308403190923855}
+{'step': 500, 'retain_sum_mse': 74.24126434326172, 'forget_mse': 8.713752322364599e-05}
+{'step': 600, 'retain_sum_mse': 78.18434143066406, 'forget_mse': 9.634230809751898e-05}
+{'step': 700, 'retain_sum_mse': 67.08311462402344, 'forget_mse': 7.414255378535017e-05}
+{'step': 800, 'retain_sum_mse': 96.20579528808594, 'forget_mse': 7.47896046959795e-05}
+{'step': 900, 'retain_sum_mse': 50.11326599121094, 'forget_mse': 7.674103108001873e-05}
+TRAIN DONE 5 SalUn 153.81744074821472
+SAMPLE 5 MMU
+SAMPLE 5 Random mask
+SAMPLE 5 SalUn
+CLASS COMPLETE 5 {'Source': {'forget_correct': 16, 'forget_n': 16, 'retain_correct': 144, 'retain_n': 144}, 'MMU': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 138, 'retain_n': 144}, 'Random mask': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 143, 'retain_n': 144}, 'SalUn': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 138, 'retain_n': 144}}
+START CLASS 6 frog
+TRAIN 6 MMU
+MMU {'step': 0, 'loss': 0.078610859811306, 'attraction': 0.001151506556198001, 'hinge': 0.0020000000949949026, 'preserve': 0.0}
+MMU {'step': 100, 'loss': 0.11589596420526505, 'attraction': 0.00047344467020593584, 'hinge': 0.00034007278736680746, 'preserve': 0.00015527255891356617}
+MMU {'step': 200, 'loss': 0.06354647874832153, 'attraction': 0.00038209985359571874, 'hinge': 6.1024329625070095e-05, 'preserve': 9.169315308099613e-05}
+MMU {'step': 300, 'loss': 0.08447037637233734, 'attraction': 0.0003369969199411571, 'hinge': 0.0, 'preserve': 0.00010325359471607953}
+MMU {'step': 400, 'loss': 0.0596163347363472, 'attraction': 0.00026632953085936606, 'hinge': 0.0003271143650636077, 'preserve': 0.00010376839054515585}
+MMU {'step': 500, 'loss': 0.06742627173662186, 'attraction': 0.00033496919786557555, 'hinge': 0.0001174823846668005, 'preserve': 9.332074841950089e-05}
+MMU {'step': 600, 'loss': 0.0623236820101738, 'attraction': 0.0004344208282418549, 'hinge': 0.0, 'preserve': 9.706556738819927e-05}
+MMU {'step': 700, 'loss': 0.07179880887269974, 'attraction': 0.00034853373654186726, 'hinge': 7.931038271635771e-05, 'preserve': 0.0001241412537638098}
+MMU {'step': 800, 'loss': 0.08485374599695206, 'attraction': 0.00030864629661664367, 'hinge': 0.0, 'preserve': 0.00013223293353803456}
+MMU {'step': 900, 'loss': 0.08792910724878311, 'attraction': 0.00032794394064694643, 'hinge': 8.983258157968521e-05, 'preserve': 0.00015488560893572867}
+MMU {'step': 999, 'loss': 0.060551952570676804, 'attraction': 0.00018818138050846756, 'hinge': 0.0006676086923107505, 'preserve': 0.00010156397183891386}
+TRAIN DONE 6 MMU 207.00893139839172
+TRAIN 6 Random mask
+{'step': 0, 'retain_sum_mse': 70.90363311767578, 'forget_mse': 0.0010880216723307967}
+{'step': 100, 'retain_sum_mse': 79.72779846191406, 'forget_mse': 0.0003086676588281989}
+{'step': 200, 'retain_sum_mse': 69.09445190429688, 'forget_mse': 0.0002593850367702544}
+{'step': 300, 'retain_sum_mse': 86.66297149658203, 'forget_mse': 0.00014514981012325734}
+{'step': 400, 'retain_sum_mse': 107.50666809082031, 'forget_mse': 0.000127758044982329}
+{'step': 500, 'retain_sum_mse': 70.3523941040039, 'forget_mse': 9.673688327893615e-05}
+{'step': 600, 'retain_sum_mse': 75.10309600830078, 'forget_mse': 9.21901228139177e-05}
+{'step': 700, 'retain_sum_mse': 66.02383422851562, 'forget_mse': 5.4517044191015884e-05}
+{'step': 800, 'retain_sum_mse': 84.53326416015625, 'forget_mse': 6.667549314443022e-05}
+{'step': 900, 'retain_sum_mse': 49.945587158203125, 'forget_mse': 5.686640724889003e-05}
+TRAIN DONE 6 Random mask 139.1178514957428
+TRAIN 6 SalUn
+{'step': 0, 'retain_sum_mse': 70.90363311767578, 'forget_mse': 0.0010880216723307967}
+{'step': 100, 'retain_sum_mse': 79.90074157714844, 'forget_mse': 0.00028405943885445595}
+{'step': 200, 'retain_sum_mse': 69.2242431640625, 'forget_mse': 0.00022058619651943445}
+{'step': 300, 'retain_sum_mse': 86.88882446289062, 'forget_mse': 0.00012605366646312177}
+{'step': 400, 'retain_sum_mse': 107.72152709960938, 'forget_mse': 0.0001116592829930596}
+{'step': 500, 'retain_sum_mse': 70.46058654785156, 'forget_mse': 9.038022835738957e-05}
+{'step': 600, 'retain_sum_mse': 75.26800537109375, 'forget_mse': 8.899951353669167e-05}
+{'step': 700, 'retain_sum_mse': 66.21865844726562, 'forget_mse': 5.4218377044890076e-05}
+{'step': 800, 'retain_sum_mse': 84.60324096679688, 'forget_mse': 6.45383115625009e-05}
+{'step': 900, 'retain_sum_mse': 50.08464050292969, 'forget_mse': 5.675044667441398e-05}
+TRAIN DONE 6 SalUn 139.50651669502258
+SAMPLE 6 MMU
+SAMPLE 6 Random mask
+SAMPLE 6 SalUn
+CLASS COMPLETE 6 {'Source': {'forget_correct': 16, 'forget_n': 16, 'retain_correct': 144, 'retain_n': 144}, 'MMU': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 142, 'retain_n': 144}, 'Random mask': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 139, 'retain_n': 144}, 'SalUn': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 134, 'retain_n': 144}}
+START CLASS 7 horse
+TRAIN 7 MMU
+MMU {'step': 0, 'loss': 0.0918293297290802, 'attraction': 0.0018490338698029518, 'hinge': 0.0020000000949949026, 'preserve': 0.0}
+MMU {'step': 100, 'loss': 0.11378762125968933, 'attraction': 0.00035881128860637546, 'hinge': 0.0002942748833447695, 'preserve': 0.00015139725292101502}
+MMU {'step': 200, 'loss': 0.07303716242313385, 'attraction': 0.00032970192842185497, 'hinge': 0.0, 'preserve': 0.00010659658437361941}
+MMU {'step': 300, 'loss': 0.08272518217563629, 'attraction': 0.00021736147755291313, 'hinge': 0.0, 'preserve': 0.00010182376718148589}
+MMU {'step': 400, 'loss': 0.0699697807431221, 'attraction': 0.00016041436174418777, 'hinge': 0.0001541131641715765, 'preserve': 8.662737673148513e-05}
+MMU {'step': 500, 'loss': 0.05745081976056099, 'attraction': 0.00018319932860322297, 'hinge': 0.0, 'preserve': 9.054316615220159e-05}
+MMU {'step': 600, 'loss': 0.06314675509929657, 'attraction': 0.00018139395979233086, 'hinge': 0.00012448057532310486, 'preserve': 8.302777132485062e-05}
+MMU {'step': 700, 'loss': 0.07708337157964706, 'attraction': 0.00022944102238398045, 'hinge': 0.0, 'preserve': 0.00011207078205188736}
+MMU {'step': 800, 'loss': 0.08285586535930634, 'attraction': 0.0001990533637581393, 'hinge': 0.0, 'preserve': 0.00011731192353181541}
+MMU {'step': 900, 'loss': 0.0943736806511879, 'attraction': 0.00020691772806458175, 'hinge': 0.0, 'preserve': 0.00014626953634433448}
+MMU {'step': 999, 'loss': 0.06578294932842255, 'attraction': 0.00014967509196139872, 'hinge': 0.0003099897876381874, 'preserve': 9.446588228456676e-05}
+TRAIN DONE 7 MMU 182.76761603355408
+TRAIN 7 Random mask
+{'step': 0, 'retain_sum_mse': 74.39642333984375, 'forget_mse': 0.0015032197115942836}
+{'step': 100, 'retain_sum_mse': 85.03561401367188, 'forget_mse': 0.00036603756598196924}
+{'step': 200, 'retain_sum_mse': 74.88063049316406, 'forget_mse': 0.00026021990925073624}
+{'step': 300, 'retain_sum_mse': 86.55543518066406, 'forget_mse': 0.0001669495104579255}
+{'step': 400, 'retain_sum_mse': 111.69062042236328, 'forget_mse': 0.00014148320769891143}
+{'step': 500, 'retain_sum_mse': 80.73560333251953, 'forget_mse': 0.00011776534665841609}
+{'step': 600, 'retain_sum_mse': 78.32333374023438, 'forget_mse': 0.00011223420733585954}
+{'step': 700, 'retain_sum_mse': 62.29204177856445, 'forget_mse': 7.035837188595906e-05}
+{'step': 800, 'retain_sum_mse': 92.28265380859375, 'forget_mse': 7.863489008741453e-05}
+{'step': 900, 'retain_sum_mse': 50.0018424987793, 'forget_mse': 6.84060069033876e-05}
+TRAIN DONE 7 Random mask 139.25548219680786
+TRAIN 7 SalUn
+{'step': 0, 'retain_sum_mse': 74.39642333984375, 'forget_mse': 0.0015032197115942836}
+{'step': 100, 'retain_sum_mse': 85.20221710205078, 'forget_mse': 0.0003407123440410942}
+{'step': 200, 'retain_sum_mse': 75.10720825195312, 'forget_mse': 0.0002615804551169276}
+{'step': 300, 'retain_sum_mse': 86.64051818847656, 'forget_mse': 0.0001779428857844323}
+{'step': 400, 'retain_sum_mse': 111.83155822753906, 'forget_mse': 0.00016022670024540275}
+{'step': 500, 'retain_sum_mse': 81.00027465820312, 'forget_mse': 0.00013094737369101495}
+{'step': 600, 'retain_sum_mse': 78.50660705566406, 'forget_mse': 0.00013666230370290577}
+{'step': 700, 'retain_sum_mse': 62.319610595703125, 'forget_mse': 7.765520422253758e-05}
+{'step': 800, 'retain_sum_mse': 92.40655517578125, 'forget_mse': 9.031110676005483e-05}
+{'step': 900, 'retain_sum_mse': 50.240509033203125, 'forget_mse': 7.930176798254251e-05}
+TRAIN DONE 7 SalUn 139.62901830673218
+SAMPLE 7 MMU
+SAMPLE 7 Random mask
+SAMPLE 7 SalUn
+CLASS COMPLETE 7 {'Source': {'forget_correct': 16, 'forget_n': 16, 'retain_correct': 144, 'retain_n': 144}, 'MMU': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 143, 'retain_n': 144}, 'Random mask': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 141, 'retain_n': 144}, 'SalUn': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 133, 'retain_n': 144}}
+START CLASS 8 ship
+TRAIN 8 MMU
+MMU {'step': 0, 'loss': 0.08707568049430847, 'attraction': 0.0009902939200401306, 'hinge': 0.0020000000949949026, 'preserve': 0.0}
+MMU {'step': 100, 'loss': 0.12490541487932205, 'attraction': 0.000595382007304579, 'hinge': 0.00013005314394831657, 'preserve': 0.00016511468857061118}
+MMU {'step': 200, 'loss': 0.06938996911048889, 'attraction': 0.0004893244476988912, 'hinge': 0.00020065659191459417, 'preserve': 9.20265301829204e-05}
+MMU {'step': 300, 'loss': 0.0891161561012268, 'attraction': 0.00045564593165181577, 'hinge': 0.0002253986895084381, 'preserve': 0.00012279738439247012}
+MMU {'step': 400, 'loss': 0.06941347569227219, 'attraction': 0.0003034958499483764, 'hinge': 0.0002976855030283332, 'preserve': 0.0001054919557645917}
+MMU {'step': 500, 'loss': 0.06500408053398132, 'attraction': 0.0003899238945450634, 'hinge': 0.00017594080418348312, 'preserve': 9.449335630051792e-05}
+MMU {'step': 600, 'loss': 0.05925562605261803, 'attraction': 0.0004583084664773196, 'hinge': 7.057224866002798e-05, 'preserve': 0.00010346613998990506}
+MMU {'step': 700, 'loss': 0.07442517578601837, 'attraction': 0.00047525050467811525, 'hinge': 1.6924459487199783e-06, 'preserve': 0.00011691797408275306}
+MMU {'step': 800, 'loss': 0.0815393477678299, 'attraction': 0.0004150785389356315, 'hinge': 0.0, 'preserve': 0.00012719701044261456}
+MMU {'step': 900, 'loss': 0.10707733035087585, 'attraction': 0.0004216101369820535, 'hinge': 1.11341942101717e-05, 'preserve': 0.00013641981058754027}
+MMU {'step': 999, 'loss': 0.0635201632976532, 'attraction': 0.00035158905666321516, 'hinge': 0.0003843633458018303, 'preserve': 0.0001228445180458948}
+TRAIN DONE 8 MMU 178.12355136871338
+TRAIN 8 Random mask
+{'step': 0, 'retain_sum_mse': 74.64857482910156, 'forget_mse': 0.0008066044538281858}
+{'step': 100, 'retain_sum_mse': 73.34844970703125, 'forget_mse': 0.00029757292941212654}
+{'step': 200, 'retain_sum_mse': 71.34557342529297, 'forget_mse': 0.00015257688937708735}
+{'step': 300, 'retain_sum_mse': 92.68712615966797, 'forget_mse': 0.00011192489182576537}
+{'step': 400, 'retain_sum_mse': 103.76254272460938, 'forget_mse': 9.81945704552345e-05}
+{'step': 500, 'retain_sum_mse': 80.25474548339844, 'forget_mse': 6.803052383475006e-05}
+{'step': 600, 'retain_sum_mse': 78.4674072265625, 'forget_mse': 8.059204265009612e-05}
+{'step': 700, 'retain_sum_mse': 64.20292663574219, 'forget_mse': 5.844675615662709e-05}
+{'step': 800, 'retain_sum_mse': 95.76741027832031, 'forget_mse': 5.7992619986180216e-05}
+{'step': 900, 'retain_sum_mse': 50.75586700439453, 'forget_mse': 5.324117228155956e-05}
+TRAIN DONE 8 Random mask 79.88448882102966
+TRAIN 8 SalUn
+{'step': 0, 'retain_sum_mse': 74.64857482910156, 'forget_mse': 0.0008066044538281858}
+{'step': 100, 'retain_sum_mse': 73.63785552978516, 'forget_mse': 0.0002461874973960221}
+{'step': 200, 'retain_sum_mse': 71.45074462890625, 'forget_mse': 0.00012503642938099802}
+{'step': 300, 'retain_sum_mse': 92.89918518066406, 'forget_mse': 9.263040556106716e-05}
+{'step': 400, 'retain_sum_mse': 103.8480224609375, 'forget_mse': 8.569128112867475e-05}
+{'step': 500, 'retain_sum_mse': 80.58245849609375, 'forget_mse': 5.8945406635757536e-05}
+{'step': 600, 'retain_sum_mse': 78.656494140625, 'forget_mse': 7.192954944912344e-05}
+{'step': 700, 'retain_sum_mse': 64.28850555419922, 'forget_mse': 5.169215000933036e-05}
+{'step': 800, 'retain_sum_mse': 95.91194152832031, 'forget_mse': 5.277027958072722e-05}
+{'step': 900, 'retain_sum_mse': 50.814056396484375, 'forget_mse': 4.8102938308147714e-05}
+TRAIN DONE 8 SalUn 79.63893628120422
+SAMPLE 8 MMU
+SAMPLE 8 Random mask
+SAMPLE 8 SalUn
+CLASS COMPLETE 8 {'Source': {'forget_correct': 16, 'forget_n': 16, 'retain_correct': 144, 'retain_n': 144}, 'MMU': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 142, 'retain_n': 144}, 'Random mask': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 142, 'retain_n': 144}, 'SalUn': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 125, 'retain_n': 144}}
+START CLASS 9 truck
+TRAIN 9 MMU
+MMU {'step': 0, 'loss': 0.07480234652757645, 'attraction': 0.0012216074392199516, 'hinge': 0.0020000000949949026, 'preserve': 0.0}
+MMU {'step': 100, 'loss': 0.11288351565599442, 'attraction': 0.0005387302371673286, 'hinge': 0.00016860372852534056, 'preserve': 0.0001309358631260693}
+MMU {'step': 200, 'loss': 0.06728767603635788, 'attraction': 0.0005115944659337401, 'hinge': 0.0, 'preserve': 0.00010034168371930718}
+MMU {'step': 300, 'loss': 0.08405634760856628, 'attraction': 0.0003084091586060822, 'hinge': 9.538326412439346e-05, 'preserve': 0.00012869350030086935}
+MMU {'step': 400, 'loss': 0.06913043558597565, 'attraction': 0.00028159323846921325, 'hinge': 7.31530599296093e-05, 'preserve': 0.0001071177757694386}
+MMU {'step': 500, 'loss': 0.06045837327837944, 'attraction': 0.0002970961795654148, 'hinge': 0.00015386170707643032, 'preserve': 9.176807361654937e-05}
+MMU {'step': 600, 'loss': 0.06471967697143555, 'attraction': 0.0003397748223505914, 'hinge': 8.29080818220973e-05, 'preserve': 9.862679144134745e-05}
+MMU {'step': 700, 'loss': 0.07273728400468826, 'attraction': 0.00032744029886089265, 'hinge': 0.0, 'preserve': 0.00010407059744466096}
+MMU {'step': 800, 'loss': 0.08656881749629974, 'attraction': 0.00029332208214327693, 'hinge': 1.2757489457726479e-05, 'preserve': 0.00014937306696083397}
+MMU {'step': 900, 'loss': 0.08992695063352585, 'attraction': 0.0003028330102097243, 'hinge': 0.0, 'preserve': 0.00012720997619908303}
+MMU {'step': 999, 'loss': 0.06610403954982758, 'attraction': 0.00027835852233693004, 'hinge': 0.0003306148573756218, 'preserve': 9.437107655685395e-05}
+TRAIN DONE 9 MMU 107.69918966293335
+TRAIN 9 Random mask
+{'step': 0, 'retain_sum_mse': 68.30767822265625, 'forget_mse': 0.0010698010446503758}
+{'step': 100, 'retain_sum_mse': 78.0374984741211, 'forget_mse': 0.00024738581851124763}
+{'step': 200, 'retain_sum_mse': 67.08057403564453, 'forget_mse': 0.00022338188136927783}
+{'step': 300, 'retain_sum_mse': 83.051513671875, 'forget_mse': 0.00015083071775734425}
+{'step': 400, 'retain_sum_mse': 97.66607666015625, 'forget_mse': 0.0001213939831359312}
+{'step': 500, 'retain_sum_mse': 73.62518310546875, 'forget_mse': 9.592543210601434e-05}
+{'step': 600, 'retain_sum_mse': 67.95272827148438, 'forget_mse': 0.00010181165998801589}
+{'step': 700, 'retain_sum_mse': 63.008148193359375, 'forget_mse': 6.426362961065024e-05}
+{'step': 800, 'retain_sum_mse': 94.28840637207031, 'forget_mse': 7.373492553597316e-05}
+{'step': 900, 'retain_sum_mse': 44.76237487792969, 'forget_mse': 7.363421900663525e-05}
+TRAIN DONE 9 Random mask 79.66585350036621
+TRAIN 9 SalUn
+{'step': 0, 'retain_sum_mse': 68.30767822265625, 'forget_mse': 0.0010698010446503758}
+{'step': 100, 'retain_sum_mse': 78.32039642333984, 'forget_mse': 0.00022173607430886477}
+{'step': 200, 'retain_sum_mse': 67.26238250732422, 'forget_mse': 0.00021385482978075743}
+{'step': 300, 'retain_sum_mse': 83.28714752197266, 'forget_mse': 0.00014118554827291518}
+{'step': 400, 'retain_sum_mse': 97.87452697753906, 'forget_mse': 0.0001118705840781331}
+{'step': 500, 'retain_sum_mse': 73.80282592773438, 'forget_mse': 9.119180322159082e-05}
+{'step': 600, 'retain_sum_mse': 68.09718322753906, 'forget_mse': 9.405425225850195e-05}
+{'step': 700, 'retain_sum_mse': 63.10935592651367, 'forget_mse': 6.0472608311101794e-05}
+{'step': 800, 'retain_sum_mse': 94.4953842163086, 'forget_mse': 7.098741480149329e-05}
+{'step': 900, 'retain_sum_mse': 44.80179977416992, 'forget_mse': 6.897130515426397e-05}
+TRAIN DONE 9 SalUn 79.61908650398254
+SAMPLE 9 MMU
+SAMPLE 9 Random mask
+SAMPLE 9 SalUn
+CLASS COMPLETE 9 {'Source': {'forget_correct': 16, 'forget_n': 16, 'retain_correct': 144, 'retain_n': 144}, 'MMU': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 143, 'retain_n': 144}, 'Random mask': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 143, 'retain_n': 144}, 'SalUn': {'forget_correct': 0, 'forget_n': 16, 'retain_correct': 131, 'retain_n': 144}}
+ALL TEN CLASSES COMPLETE

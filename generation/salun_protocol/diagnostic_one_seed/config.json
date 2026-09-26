@@ -1,0 +1,21 @@
+{
+  "seed": 2,
+  "forget_ratio": 0.1,
+  "source": "salun_protocol/classification/seed2/source.pt",
+  "epochs": 5,
+  "forget_epochs": 2,
+  "lr": 0.001,
+  "temperature": 4,
+  "alpha": 1,
+  "gamma": 1,
+  "batch_size": 256,
+  "forget_samples": 4500,
+  "retain_training_samples": 40500,
+  "retain_probe_samples": 2048,
+  "test_probe_samples": 2048,
+  "controls": [
+    "fullwidth_scrub",
+    "nested_mmu"
+  ],
+  "note": "Full-width control is the existing SCRUB-style MMU objective with only its full-width head; not an independent released SCRUB reproduction. No hyperparameter sweep."
+}

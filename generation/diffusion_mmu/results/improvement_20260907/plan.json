@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "forget_class": 0,
+  "guidance": 2,
+  "epochs": 3,
+  "n_ua": 500,
+  "n_fid": 5000,
+  "steps": 100,
+  "beta_sweep": [
+    0.5,
+    1,
+    2,
+    4
+  ],
+  "warmup_epochs": 2,
+  "beta1_reference": "diffusion_mmu/results/full_redirect_20260907_cfg2_mmu_fullwidth_c0_seed42",
+  "selection": "Inspect the retained-quality/UA tradeoff and forgotten-condition grids; validate selected configurations on seeds 43 and 44 with paired beta=1 controls. No claim of independent source-model seeds."
+}

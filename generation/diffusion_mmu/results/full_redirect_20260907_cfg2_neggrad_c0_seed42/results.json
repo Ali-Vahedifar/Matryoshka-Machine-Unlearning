@@ -1,0 +1,9 @@
+{
+ "neggrad": {
+  "UA": 100.0,
+  "forget_class_rate": 0.0,
+  "retain_cond_acc": 5.620000138878822,
+  "FID_retain": 304.80136588572793,
+  "unlearn_time_s": 0.0
+ }
+}

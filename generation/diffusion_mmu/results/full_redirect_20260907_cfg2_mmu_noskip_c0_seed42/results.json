@@ -1,0 +1,9 @@
+{
+ "mmu_noskip": {
+  "UA": 85.19999980926514,
+  "forget_class_rate": 14.800000190734863,
+  "retain_cond_acc": 97.69999980926514,
+  "FID_retain": 17.392983662154904,
+  "unlearn_time_s": 0.0
+ }
+}

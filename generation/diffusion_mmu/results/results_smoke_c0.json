@@ -1,0 +1,23 @@
+{
+ "source": {
+  "UA": 100.0,
+  "forget_class_rate": 0.0,
+  "retain_cond_acc": 9.799999743700027,
+  "FID_retain": 373.54279768725723,
+  "unlearn_time_s": 1.8
+ },
+ "mmu": {
+  "UA": 100.0,
+  "forget_class_rate": 0.0,
+  "retain_cond_acc": 10.80000028014183,
+  "FID_retain": 332.83735565285934,
+  "unlearn_time_s": 36.8
+ },
+ "mmu_noskip": {
+  "UA": 100.0,
+  "forget_class_rate": 0.0,
+  "retain_cond_acc": 9.200000017881393,
+  "FID_retain": 362.5582019673928,
+  "unlearn_time_s": 36.5
+ }
+}

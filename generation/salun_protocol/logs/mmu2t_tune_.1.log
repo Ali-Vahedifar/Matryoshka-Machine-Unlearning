@@ -1,0 +1,52 @@
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+setup random seed = 1
+The normalize layer is contained in the network
+setup random seed = 1
+setup random seed = 1
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.31999826431274, 'MIA': 0.06666666666667043, 'RTE_min': 1.017252670150871, 'seed': 1, 'ratio': 0.1, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.0005, 'epochs': 5, 'alpha': 0.1, 'density': 0.5}}
+setup random seed = 1
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.35999894142151, 'MIA': 0.06666666666667043, 'RTE_min': 1.0050830995664, 'seed': 1, 'ratio': 0.1, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.0005, 'epochs': 5, 'alpha': 0.5, 'density': 0.5}}
+setup random seed = 1
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.35999894142151, 'MIA': 0.06666666666667043, 'RTE_min': 1.0123102407669649, 'seed': 1, 'ratio': 0.1, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.0005, 'epochs': 5, 'alpha': 2.0, 'density': 0.5}}
+setup random seed = 1
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.35999894142151, 'MIA': 0.06666666666667043, 'RTE_min': 0.9851654446489798, 'seed': 1, 'ratio': 0.1, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.0005, 'epochs': 5, 'alpha': 8.0, 'density': 0.5}}
+setup random seed = 1
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.29999494552612, 'MIA': 0.04444444444444695, 'RTE_min': 0.9600493572826962, 'seed': 1, 'ratio': 0.1, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.001, 'epochs': 5, 'alpha': 0.1, 'density': 0.5}}
+setup random seed = 1
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.23999691009521, 'MIA': 0.06666666666667043, 'RTE_min': 0.9594203441830662, 'seed': 1, 'ratio': 0.1, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.001, 'epochs': 5, 'alpha': 0.5, 'density': 0.5}}
+setup random seed = 1
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.29999494552612, 'MIA': 0.0888888888888939, 'RTE_min': 0.9559417245172275, 'seed': 1, 'ratio': 0.1, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.001, 'epochs': 5, 'alpha': 2.0, 'density': 0.5}}
+setup random seed = 1
+RESULT {'UA': 0.0, 'RA': 100.0, 'TA': 95.29999494552612, 'MIA': 0.0888888888888939, 'RTE_min': 0.9692406210834936, 'seed': 1, 'ratio': 0.1, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.001, 'epochs': 5, 'alpha': 8.0, 'density': 0.5}}
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+setup random seed = 1
+The normalize layer is contained in the network
+setup random seed = 1
+setup random seed = 1
+RESULT {'UA': 7.066667079925537, 'RA': 96.17778062820435, 'TA': 89.9399995803833, 'MIA': 10.555555555555552, 'RTE_min': 0.9666454847843852, 'seed': 1, 'ratio': 0.1, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.005, 'epochs': 5, 'alpha': 0.05, 'density': 0.5}}
+setup random seed = 1
+RESULT {'UA': 8.37777853012085, 'RA': 94.76049542427063, 'TA': 88.37999701499939, 'MIA': 11.422222222222222, 'RTE_min': 0.9520808486500755, 'seed': 1, 'ratio': 0.1, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.005, 'epochs': 5, 'alpha': 0.1, 'density': 0.5}}
+setup random seed = 1
+RESULT {'UA': 8.088886737823486, 'RA': 95.28889060020447, 'TA': 89.03999924659729, 'MIA': 12.177777777777777, 'RTE_min': 0.9712097454001196, 'seed': 1, 'ratio': 0.1, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.005, 'epochs': 5, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+RESULT {'UA': 8.711111545562744, 'RA': 94.98025178909302, 'TA': 89.819997549057, 'MIA': 12.822222222222223, 'RTE_min': 1.009888526267605, 'seed': 1, 'ratio': 0.1, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.01, 'epochs': 5, 'alpha': 0.05, 'density': 0.5}}
+setup random seed = 1
+RESULT {'UA': 8.28889012336731, 'RA': 95.40494084358215, 'TA': 89.69999551773071, 'MIA': 12.0, 'RTE_min': 1.0112579148010505, 'seed': 1, 'ratio': 0.1, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.01, 'epochs': 5, 'alpha': 0.1, 'density': 0.5}}
+setup random seed = 1
+RESULT {'UA': 9.133332967758179, 'RA': 93.80000233650208, 'TA': 88.71999979019165, 'MIA': 13.511111111111108, 'RTE_min': 1.0059674246159072, 'seed': 1, 'ratio': 0.1, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.01, 'epochs': 5, 'alpha': 0.2, 'density': 0.5}}
+setup random seed = 1
+RESULT {'UA': 17.02222228050232, 'RA': 86.71111464500427, 'TA': 83.03999900817871, 'MIA': 20.68888888888889, 'RTE_min': 1.012055380999421, 'seed': 1, 'ratio': 0.1, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.02, 'epochs': 5, 'alpha': 0.05, 'density': 0.5}}
+setup random seed = 1
+RESULT {'UA': 15.377777814865112, 'RA': 88.22469115257263, 'TA': 86.07999682426453, 'MIA': 21.08888888888889, 'RTE_min': 1.0129888665668356, 'seed': 1, 'ratio': 0.1, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.02, 'epochs': 5, 'alpha': 0.1, 'density': 0.5}}
+setup random seed = 1
+RESULT {'UA': 12.799996137619019, 'RA': 91.06667041778564, 'TA': 87.25999593734741, 'MIA': 14.266666666666673, 'RTE_min': 1.0074828145501669, 'seed': 1, 'ratio': 0.1, 'method': 'MMU2T', 'protocol': 'paper-aligned-tuned-v1', 'evaluation_split': 'validation', 'hyperparameters': {'lr': 0.02, 'epochs': 5, 'alpha': 0.2, 'density': 0.5}}

@@ -1,0 +1,39 @@
+{
+  "seed": 42,
+  "classes": [
+    0,
+    1,
+    2
+  ],
+  "steps": 1000,
+  "checkpoints": [
+    100,
+    250,
+    500,
+    1000
+  ],
+  "lr": 0.0001,
+  "batch": 128,
+  "margin": 0.002,
+  "retain_weight": 3.072,
+  "widths": [
+    0.5,
+    0.75,
+    1.0
+  ],
+  "sampling_steps": 1000,
+  "samples_per_condition": 16,
+  "sampling_seed": 10043,
+  "heldout_seeds": [
+    60042,
+    60043
+  ],
+  "sequential_order": [
+    0,
+    1,
+    2
+  ],
+  "sequential_target": 9,
+  "baseline": "existing local SalUn/random objective, exact 50% masks",
+  "nested": "student prefix ablation; full-width frozen targets shared across widths"
+}

@@ -1,0 +1,33 @@
+forget class 0 (airplane): |D_f|=5000  |D_r used|=13500 of 45000
+FID reference: 5000 real retain-class test images
+
+=== mmu_retainonly ===
+  [retain_only] retain probe @start: m=0.25:0.5133  m=0.5:0.2197  m=1.0:0.0316
+  [retain_only] ep0: L_r=0.4778 L_f=0.0000 | m=0.25:--  m=0.5:--  m=1.0:-- | probe(afterR->afterF) m=0.25:0.1636->0.1636  m=0.5:0.0861->0.0861  m=1.0:0.0323->0.0323
+  [retain_only] ep1: L_r=0.4330 L_f=0.0000 | m=0.25:--  m=0.5:--  m=1.0:-- | probe(afterR->afterF) m=0.25:0.1576->0.1576  m=0.5:0.0813->0.0813  m=1.0:0.0320->0.0320
+  [retain_only] ep2: L_r=0.4304 L_f=0.0000 | m=0.25:--  m=0.5:--  m=1.0:-- | probe(afterR->afterF) m=0.25:0.1590->0.1590  m=0.5:0.0808->0.0808  m=1.0:0.0319->0.0319
+  -> UA=2.2%  forget-rate=97.8%  FID=17.25  retain-cond-acc=97.5%  t=45s
+
+=== mmu_fullwidth ===
+  [full_width] retain probe @start: m=1.0:0.0316
+  [full_width] ep0: L_r=0.0299 L_f=0.1547 | m=1.0:d=1.4300/on=0.38 | probe(afterR->afterF) m=1.0:0.0317->3.0934
+  [full_width] ep1: L_r=0.5208 L_f=0.1141 | m=1.0:d=1.3684/on=0.29 | probe(afterR->afterF) m=1.0:0.0337->2.3326
+  [full_width] ep2: L_r=0.4455 L_f=0.0745 | m=1.0:d=1.1783/on=0.23 | probe(afterR->afterF) m=1.0:0.0353->1.8174
+  -> UA=100.0%  forget-rate=0.0%  FID=372.76  retain-cond-acc=11.7%  t=21s
+
+DONE {
+ "mmu_retainonly": {
+  "UA": 2.199999988079071,
+  "forget_class_rate": 97.79999852180481,
+  "retain_cond_acc": 97.50000238418579,
+  "FID_retain": 17.251615136415467,
+  "unlearn_time_s": 45.3
+ },
+ "mmu_fullwidth": {
+  "UA": 100.0,
+  "forget_class_rate": 0.0,
+  "retain_cond_acc": 11.680000275373459,
+  "FID_retain": 372.7648770926414,
+  "unlearn_time_s": 21.2
+ }
+}

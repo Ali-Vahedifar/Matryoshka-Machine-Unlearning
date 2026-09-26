@@ -1,0 +1,18 @@
+{
+  "UA": 5.799996852874756,
+  "RA": 100.0,
+  "TA": 94.14999485015869,
+  "MIA": 14.288888888888884,
+  "RTE_min": 15.632311810500687,
+  "seed": 9,
+  "ratio": 0.1,
+  "method": "retrain",
+  "protocol": "paper-aligned-tuned-v1",
+  "evaluation_split": "test",
+  "hyperparameters": {
+    "lr": 0.1,
+    "epochs": 182,
+    "alpha": 0,
+    "density": 1
+  }
+}

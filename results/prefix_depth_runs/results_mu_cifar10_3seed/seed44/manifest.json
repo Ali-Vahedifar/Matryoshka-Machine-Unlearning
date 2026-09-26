@@ -1,0 +1,20 @@
+{
+  "protocol": {
+    "protocol_version": "cifar10-mu-v2-e30",
+    "dataset": "cifar10",
+    "backbone": "fpecnn",
+    "forget_class": 0,
+    "seed": 44,
+    "epochs": 30,
+    "batch_size": 64,
+    "source_lr": 0.001,
+    "retain_ratio": 0.1,
+    "selection_split": "cifar10_train_validation_only",
+    "test_split": "cifar10_official_test_once_after_selection",
+    "mia": "independent_calibration_selection_final_splits"
+  },
+  "source_train_time": 95.05298581999887,
+  "source_sha256": "0d1562cb4ba51e644f406f12f3485d932026eea7dc9152579a54da6d2e78db1c",
+  "retrain_time": 76.78285866199803,
+  "retrain_sha256": "570968f6bbe56d355d8a475c3e17846d594e738a4f3780ab7766eeca143da34d"
+}

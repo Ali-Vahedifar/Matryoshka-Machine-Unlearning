@@ -1,0 +1,5 @@
+{
+  "max_parameter_difference": 3.298348747193813e-05,
+  "reference": "$MMU_WORK/mmu_cifar_two_teacher/two_teacher.pt",
+  "new": "$MMU_WORK/mmu2t_strengthening/generation/ablation/class0/MMU/step1000.pt"
+}

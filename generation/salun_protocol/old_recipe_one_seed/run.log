@@ -1,0 +1,11 @@
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+setup random seed = 2
+The normalize layer is contained in the network
+setup random seed = 2
+setup random seed = 2
+OLD RECIPE TRANSFER COMPLETE {'UA': 78.04444432258606, 'RA': 21.28642052412033, 'TA': 21.619999408721924, 'MIA': 31.377777777777784, 'seed': 2, 'method': 'MMU_old_recipe', 'RTE_min': 0.07485986043272229}

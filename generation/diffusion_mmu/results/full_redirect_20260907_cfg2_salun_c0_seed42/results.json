@@ -1,0 +1,9 @@
+{
+ "salun": {
+  "UA": 98.4000027179718,
+  "forget_class_rate": 1.600000075995922,
+  "retain_cond_acc": 96.35999798774719,
+  "FID_retain": 18.592610212081752,
+  "unlearn_time_s": 0.0
+ }
+}

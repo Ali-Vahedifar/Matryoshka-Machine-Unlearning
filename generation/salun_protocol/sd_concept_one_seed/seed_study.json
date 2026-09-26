@@ -1,0 +1,136 @@
+{
+  "salun_port": {
+    "42": {
+      "detected": 0,
+      "ids": [],
+      "retain_clip": 0.29932201355695726
+    },
+    "43": {
+      "detected": 0,
+      "ids": [],
+      "retain_clip": 0.3037772476673126
+    },
+    "44": {
+      "detected": 0,
+      "ids": [],
+      "retain_clip": 0.2953480929136276
+    }
+  },
+  "random_mask": {
+    "42": {
+      "detected": 0,
+      "ids": [],
+      "retain_clip": 0.30010070502758024
+    },
+    "43": {
+      "detected": 0,
+      "ids": [],
+      "retain_clip": 0.3026436112821102
+    },
+    "44": {
+      "detected": 0,
+      "ids": [],
+      "retain_clip": 0.2972231149673462
+    }
+  },
+  "mmu_amp10": {
+    "42": {
+      "detected": 1,
+      "ids": [
+        2
+      ],
+      "retain_clip": 0.3043877139687538
+    },
+    "43": {
+      "detected": 3,
+      "ids": [
+        2,
+        9,
+        19
+      ],
+      "retain_clip": 0.3050645157694817
+    },
+    "44": {
+      "detected": 5,
+      "ids": [
+        2,
+        7,
+        9,
+        11,
+        17
+      ],
+      "retain_clip": 0.30005931109189987
+    }
+  },
+  "mmu_nested": {
+    "42": {
+      "detected": 5,
+      "ids": [
+        2,
+        3,
+        4,
+        8,
+        9
+      ],
+      "retain_clip": 0.2545412972569466
+    },
+    "43": {
+      "detected": 3,
+      "ids": [
+        0,
+        11,
+        17
+      ],
+      "retain_clip": 0.25280686318874357
+    },
+    "44": {
+      "detected": 4,
+      "ids": [
+        0,
+        6,
+        10,
+        19
+      ],
+      "retain_clip": 0.2516281932592392
+    }
+  },
+  "mmu_2t_lo": {
+    "42": {
+      "detected": 1,
+      "ids": [
+        9
+      ],
+      "retain_clip": 0.30590449273586273
+    },
+    "43": {
+      "detected": 0,
+      "ids": [],
+      "retain_clip": 0.3037663370370865
+    },
+    "44": {
+      "detected": 2,
+      "ids": [
+        8,
+        19
+      ],
+      "retain_clip": 0.3035679832100868
+    }
+  },
+  "mmu_2t_hi": {
+    "42": {
+      "detected": 0,
+      "ids": [],
+      "retain_clip": 0.29836337342858316
+    },
+    "43": {
+      "detected": 0,
+      "ids": [],
+      "retain_clip": 0.30536916106939316
+    },
+    "44": {
+      "detected": 0,
+      "ids": [],
+      "retain_clip": 0.3018627777695656
+    }
+  }
+}

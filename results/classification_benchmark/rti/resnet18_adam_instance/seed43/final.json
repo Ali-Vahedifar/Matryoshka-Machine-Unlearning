@@ -1,0 +1,353 @@
+{
+ "protocol": {
+  "protocol_version": "rti-mu-protocol-v3",
+  "dataset": "rti",
+  "backbone": "resnet18",
+  "optimizer": "adam",
+  "forget_mode": "instance",
+  "forget_class": null,
+  "num_forget": 4500,
+  "seed": 43,
+  "epochs": 150,
+  "batch_size": 64,
+  "source_lr": 0.001,
+  "source_weight_decay": 0.0,
+  "source_momentum": 0.9,
+  "source_scheduler": "plateau",
+  "source_min_lr": 0.0,
+  "source_lr_milestones": [
+   60,
+   120
+  ],
+  "source_lr_gamma": 0.2,
+  "early_stopping_patience": 15,
+  "min_epochs": 30,
+  "retain_ratio": 0.1,
+  "selection_split": "rti_train_validation_only",
+  "test_split": "rti_official_test_once_after_selection",
+  "mia": "independent_calibration_selection_final_splits",
+  "selection": "utility",
+  "utility_tolerance": 2.0,
+  "relearn_epochs": 5,
+  "relearn_lr": 0.0001
+ },
+ "run_config": {
+  "fpecnn_hidden_size": 256,
+  "mmu_granularity_floor": 20,
+  "mmu_granularities": [
+   32,
+   64,
+   128,
+   256,
+   512
+  ]
+ },
+ "results": {
+  "baseline": {
+   "config": {},
+   "feasible": null,
+   "access": "source only",
+   "metrics": {
+    "forget_acc": 99.91228070175438,
+    "retain_acc": 80.81,
+    "test_acc": 80.81,
+    "mia": 67.10526315789474,
+    "mia_auc": 64.81844413665743,
+    "kl_divergence": 0.02025417574681788,
+    "output_kl_divergence": 0.7607809748429402,
+    "unlearn_time": 0.0,
+    "relearn_forget_acc": [
+     99.82456140350877,
+     100.0,
+     100.0,
+     100.0,
+     100.0
+    ]
+   },
+   "source_sha256": "d60b7bb92968c3f10cb6b5e3b33c2ac707cd9ea17d18326de7b1540a5c8c10ef"
+  },
+  "retrain": {
+   "config": {},
+   "feasible": null,
+   "access": "full D_r, training recipe",
+   "metrics": {
+    "forget_acc": 81.57894736842105,
+    "retain_acc": 79.63,
+    "test_acc": 79.63,
+    "mia": 49.91228070175438,
+    "mia_auc": 50.023584179747616,
+    "kl_divergence": 0.0,
+    "output_kl_divergence": -1.010173379835415e-10,
+    "unlearn_time": 857.9997887209756,
+    "relearn_forget_acc": [
+     82.28070175438596,
+     84.3859649122807,
+     86.14035087719299,
+     86.8421052631579,
+     88.33333333333333
+    ]
+   },
+   "source_sha256": "d60b7bb92968c3f10cb6b5e3b33c2ac707cd9ea17d18326de7b1540a5c8c10ef"
+  },
+  "finetune": {
+   "config": {
+    "lr": 0.0001,
+    "epochs": 5
+   },
+   "feasible": true,
+   "access": "D_r (labels)",
+   "metrics": {
+    "forget_acc": 99.64912280701755,
+    "retain_acc": 80.36999999999999,
+    "test_acc": 80.36999999999999,
+    "mia": 65.0,
+    "mia_auc": 64.01727454601415,
+    "kl_divergence": 0.020538739944238216,
+    "output_kl_divergence": 0.7952598757614755,
+    "unlearn_time": 37.56849801901262,
+    "relearn_forget_acc": [
+     99.82456140350877,
+     99.91228070175438,
+     100.0,
+     100.0,
+     100.0
+    ]
+   },
+   "source_sha256": "d60b7bb92968c3f10cb6b5e3b33c2ac707cd9ea17d18326de7b1540a5c8c10ef"
+  },
+  "ssd": {
+   "config": {
+    "alpha": 5.0,
+    "dampening_constant": 0.1
+   },
+   "feasible": true,
+   "access": "D_f, full D_train Fisher",
+   "metrics": {
+    "forget_acc": 79.56140350877193,
+    "retain_acc": 65.57,
+    "test_acc": 65.57,
+    "mia": 56.403508771929836,
+    "mia_auc": 57.4211295783318,
+    "kl_divergence": 0.06038124974167205,
+    "output_kl_divergence": 3.1128047104853733,
+    "unlearn_time": 9.811098525999114,
+    "relearn_forget_acc": [
+     98.85964912280701,
+     99.29824561403508,
+     99.3859649122807,
+     99.47368421052632,
+     99.47368421052632
+    ]
+   },
+   "source_sha256": "d60b7bb92968c3f10cb6b5e3b33c2ac707cd9ea17d18326de7b1540a5c8c10ef"
+  },
+  "badteacher": {
+   "config": {
+    "temperature": 2.0,
+    "epochs": 1,
+    "lr": 0.0001
+   },
+   "feasible": true,
+   "access": "D_f, 10% D_r, frozen source copy, random teacher",
+   "metrics": {
+    "forget_acc": 99.82456140350877,
+    "retain_acc": 80.34,
+    "test_acc": 80.34,
+    "mia": 66.22807017543859,
+    "mia_auc": 64.63888888888889,
+    "kl_divergence": 0.02025279032319192,
+    "output_kl_divergence": 0.8109198552408036,
+    "unlearn_time": 2.0777807909762487,
+    "relearn_forget_acc": [
+     99.82456140350877,
+     100.0,
+     100.0,
+     100.0,
+     100.0
+    ]
+   },
+   "source_sha256": "d60b7bb92968c3f10cb6b5e3b33c2ac707cd9ea17d18326de7b1540a5c8c10ef"
+  },
+  "unsir": {
+   "config": {
+    "impair_epochs": 1,
+    "repair_epochs": 3,
+    "impair_lr": 0.01,
+    "repair_lr": 0.01
+   },
+   "feasible": true,
+   "access": "D_f, 10% D_r (labels)",
+   "metrics": {
+    "forget_acc": 99.12280701754386,
+    "retain_acc": 77.84,
+    "test_acc": 77.84,
+    "mia": 64.03508771929825,
+    "mia_auc": 62.45460141582024,
+    "kl_divergence": 0.019403115648705997,
+    "output_kl_divergence": 1.1247047743979532,
+    "unlearn_time": 7.739344386034645,
+    "relearn_forget_acc": [
+     99.47368421052632,
+     99.82456140350877,
+     99.82456140350877,
+     99.91228070175438,
+     99.82456140350877
+    ]
+   },
+   "source_sha256": "d60b7bb92968c3f10cb6b5e3b33c2ac707cd9ea17d18326de7b1540a5c8c10ef"
+  },
+  "scrub": {
+   "config": {
+    "msteps": 2,
+    "lr": 0.005,
+    "epochs": 5,
+    "max_grad_norm": 5.0
+   },
+   "feasible": true,
+   "access": "D_f, 10% D_r (labels), frozen source copy",
+   "metrics": {
+    "forget_acc": 99.29824561403508,
+    "retain_acc": 79.32000000000001,
+    "test_acc": 79.32000000000001,
+    "mia": 63.771929824561404,
+    "mia_auc": 62.533664204370574,
+    "kl_divergence": 0.0172716866253392,
+    "output_kl_divergence": 0.8826413587400108,
+    "unlearn_time": 8.456645751022734,
+    "relearn_forget_acc": [
+     99.64912280701755,
+     100.0,
+     99.91228070175438,
+     99.82456140350877,
+     100.0
+    ]
+   },
+   "source_sha256": "d60b7bb92968c3f10cb6b5e3b33c2ac707cd9ea17d18326de7b1540a5c8c10ef"
+  },
+  "mmu": {
+   "config": {
+    "msteps": 2,
+    "lr": 0.005,
+    "epochs": 5,
+    "head_mode": "tied",
+    "weighting": "mrl",
+    "max_grad_norm": 5.0
+   },
+   "feasible": true,
+   "access": "D_f, 10% D_r (labels), frozen source copy",
+   "metrics": {
+    "forget_acc": 98.68421052631578,
+    "retain_acc": 79.14999999999999,
+    "test_acc": 79.14999999999999,
+    "mia": 63.991228070175445,
+    "mia_auc": 63.39465989535241,
+    "kl_divergence": 0.01757355223037306,
+    "output_kl_divergence": 0.899114584846861,
+    "unlearn_time": 9.546482615172863,
+    "relearn_forget_acc": [
+     99.21052631578947,
+     99.64912280701755,
+     99.73684210526315,
+     99.82456140350877,
+     99.91228070175438
+    ]
+   },
+   "source_sha256": "d60b7bb92968c3f10cb6b5e3b33c2ac707cd9ea17d18326de7b1540a5c8c10ef",
+   "diagnostics": {
+    "granularities": [
+     32,
+     64,
+     128,
+     256,
+     512
+    ],
+    "head_mode": "tied",
+    "weighting": "mrl",
+    "bad_margin": null,
+    "forget_scales": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "retain_scales": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "prefix_forget_acc_before": {
+     "32": 73.42222222222222,
+     "64": 89.4,
+     "128": 97.57777777777778,
+     "256": 99.28888888888889,
+     "512": 99.97777777777777
+    },
+    "prefix_forget_acc_after": {
+     "32": 82.68888888888888,
+     "64": 92.0,
+     "128": 96.24444444444444,
+     "256": 97.71111111111111,
+     "512": 99.02222222222223
+    }
+   }
+  },
+  "salun": {
+   "config": {
+    "sparsity": 0.3,
+    "lr": 0.01,
+    "epochs": 10
+   },
+   "feasible": false,
+   "access": "D_f, 10% D_r (labels), forget-gradient mask",
+   "metrics": {
+    "forget_acc": 94.56140350877193,
+    "retain_acc": 73.36,
+    "test_acc": 73.36,
+    "mia": 60.35087719298245,
+    "mia_auc": 59.29078177900892,
+    "kl_divergence": 0.01732870184116743,
+    "output_kl_divergence": 8.691641175822847,
+    "unlearn_time": 25.801177065935917,
+    "relearn_forget_acc": [
+     98.50877192982456,
+     99.29824561403508,
+     99.73684210526315,
+     99.91228070175438,
+     100.0
+    ]
+   },
+   "source_sha256": "d60b7bb92968c3f10cb6b5e3b33c2ac707cd9ea17d18326de7b1540a5c8c10ef"
+  },
+  "uniclun": {
+   "config": {
+    "lr": 0.01,
+    "epochs": 10,
+    "buffer_size": 250
+   },
+   "feasible": false,
+   "access": "D_f, 10% D_r (labels), replay buffer",
+   "metrics": {
+    "forget_acc": 92.98245614035088,
+    "retain_acc": 73.79,
+    "test_acc": 73.79,
+    "mia": 59.73684210526316,
+    "mia_auc": 59.063788858110186,
+    "kl_divergence": 0.020292792347299537,
+    "output_kl_divergence": 8.836934396415758,
+    "unlearn_time": 23.011893647024408,
+    "relearn_forget_acc": [
+     97.98245614035088,
+     99.3859649122807,
+     99.56140350877193,
+     99.73684210526315,
+     99.91228070175438
+    ]
+   },
+   "source_sha256": "d60b7bb92968c3f10cb6b5e3b33c2ac707cd9ea17d18326de7b1540a5c8c10ef"
+  }
+ },
+ "complete": true
+}

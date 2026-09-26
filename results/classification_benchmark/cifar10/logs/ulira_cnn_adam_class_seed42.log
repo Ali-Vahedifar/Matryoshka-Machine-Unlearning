@@ -1,0 +1,137 @@
+loaded shared source and Amnesiac ledger
+loaded shared Retrain reference
+shadow 0/16: training on D_r + 2272 of D_f
+Epoch 10/100: Train Loss=0.3268, Train Acc=0.8866, Val Acc=0.8490
+Epoch 20/100: Train Loss=0.1630, Train Acc=0.9425, Val Acc=0.8832
+Epoch 30/100: Train Loss=0.0474, Train Acc=0.9832, Val Acc=0.9168
+Epoch 40/100: Train Loss=0.0183, Train Acc=0.9934, Val Acc=0.9188
+Epoch 50/100: Train Loss=0.0068, Train Acc=0.9977, Val Acc=0.9272
+Epoch 60/100: Train Loss=0.0036, Train Acc=0.9989, Val Acc=0.9278
+Epoch 70/100: Train Loss=0.0031, Train Acc=0.9990, Val Acc=0.9306
+Epoch 80/100: Train Loss=0.0033, Train Acc=0.9990, Val Acc=0.9296
+Early stopping at epoch 80
+shadow 1/16: training on D_r + 2211 of D_f
+Epoch 10/100: Train Loss=0.3181, Train Acc=0.8907, Val Acc=0.8520
+Epoch 20/100: Train Loss=0.1623, Train Acc=0.9435, Val Acc=0.8948
+Epoch 30/100: Train Loss=0.0523, Train Acc=0.9812, Val Acc=0.9140
+Epoch 40/100: Train Loss=0.0124, Train Acc=0.9960, Val Acc=0.9216
+Epoch 50/100: Train Loss=0.0059, Train Acc=0.9982, Val Acc=0.9254
+Early stopping at epoch 57
+shadow 2/16: training on D_r + 2218 of D_f
+Epoch 10/100: Train Loss=0.3224, Train Acc=0.8888, Val Acc=0.8590
+Epoch 20/100: Train Loss=0.1615, Train Acc=0.9443, Val Acc=0.8876
+Epoch 30/100: Train Loss=0.0386, Train Acc=0.9868, Val Acc=0.9206
+Epoch 40/100: Train Loss=0.0131, Train Acc=0.9957, Val Acc=0.9228
+Early stopping at epoch 47
+shadow 3/16: training on D_r + 2267 of D_f
+Epoch 10/100: Train Loss=0.3265, Train Acc=0.8868, Val Acc=0.8534
+Epoch 20/100: Train Loss=0.1152, Train Acc=0.9600, Val Acc=0.9116
+Epoch 30/100: Train Loss=0.0340, Train Acc=0.9888, Val Acc=0.9216
+Epoch 40/100: Train Loss=0.0121, Train Acc=0.9963, Val Acc=0.9266
+Epoch 50/100: Train Loss=0.0079, Train Acc=0.9977, Val Acc=0.9244
+Early stopping at epoch 57
+shadow 4/16: training on D_r + 2241 of D_f
+Epoch 10/100: Train Loss=0.3257, Train Acc=0.8879, Val Acc=0.8578
+Epoch 20/100: Train Loss=0.1601, Train Acc=0.9438, Val Acc=0.8926
+Epoch 30/100: Train Loss=0.0489, Train Acc=0.9827, Val Acc=0.9206
+Epoch 40/100: Train Loss=0.0112, Train Acc=0.9966, Val Acc=0.9214
+Early stopping at epoch 42
+shadow 5/16: training on D_r + 2197 of D_f
+Epoch 10/100: Train Loss=0.3223, Train Acc=0.8887, Val Acc=0.8304
+Epoch 20/100: Train Loss=0.1577, Train Acc=0.9444, Val Acc=0.8862
+Epoch 30/100: Train Loss=0.0317, Train Acc=0.9893, Val Acc=0.9206
+Epoch 40/100: Train Loss=0.0111, Train Acc=0.9965, Val Acc=0.9280
+Epoch 50/100: Train Loss=0.0068, Train Acc=0.9982, Val Acc=0.9294
+Epoch 60/100: Train Loss=0.0056, Train Acc=0.9986, Val Acc=0.9298
+Epoch 70/100: Train Loss=0.0048, Train Acc=0.9987, Val Acc=0.9278
+Early stopping at epoch 76
+shadow 6/16: training on D_r + 2294 of D_f
+Epoch 10/100: Train Loss=0.3228, Train Acc=0.8881, Val Acc=0.8634
+Epoch 20/100: Train Loss=0.1072, Train Acc=0.9621, Val Acc=0.9066
+Epoch 30/100: Train Loss=0.0356, Train Acc=0.9877, Val Acc=0.9198
+Epoch 40/100: Train Loss=0.0132, Train Acc=0.9960, Val Acc=0.9226
+Early stopping at epoch 45
+shadow 7/16: training on D_r + 2227 of D_f
+Epoch 10/100: Train Loss=0.3180, Train Acc=0.8897, Val Acc=0.8630
+Epoch 20/100: Train Loss=0.1596, Train Acc=0.9437, Val Acc=0.8998
+Epoch 30/100: Train Loss=0.0530, Train Acc=0.9817, Val Acc=0.9172
+Epoch 40/100: Train Loss=0.0122, Train Acc=0.9964, Val Acc=0.9222
+Early stopping at epoch 44
+shadow 8/16: training on D_r + 2243 of D_f
+Epoch 10/100: Train Loss=0.3165, Train Acc=0.8895, Val Acc=0.8710
+Epoch 20/100: Train Loss=0.1608, Train Acc=0.9435, Val Acc=0.8998
+Epoch 30/100: Train Loss=0.0505, Train Acc=0.9822, Val Acc=0.9172
+Epoch 40/100: Train Loss=0.0165, Train Acc=0.9947, Val Acc=0.9254
+Epoch 50/100: Train Loss=0.0060, Train Acc=0.9983, Val Acc=0.9298
+Early stopping at epoch 55
+shadow 9/16: training on D_r + 2284 of D_f
+Epoch 10/100: Train Loss=0.3185, Train Acc=0.8910, Val Acc=0.8440
+Epoch 20/100: Train Loss=0.1591, Train Acc=0.9441, Val Acc=0.8826
+Epoch 30/100: Train Loss=0.0524, Train Acc=0.9821, Val Acc=0.9186
+Epoch 40/100: Train Loss=0.0116, Train Acc=0.9961, Val Acc=0.9238
+Epoch 50/100: Train Loss=0.0056, Train Acc=0.9984, Val Acc=0.9260
+Early stopping at epoch 59
+shadow 10/16: training on D_r + 2272 of D_f
+Epoch 10/100: Train Loss=0.3229, Train Acc=0.8888, Val Acc=0.8448
+Epoch 20/100: Train Loss=0.1649, Train Acc=0.9421, Val Acc=0.8924
+Epoch 30/100: Train Loss=0.0570, Train Acc=0.9799, Val Acc=0.9190
+Epoch 40/100: Train Loss=0.0166, Train Acc=0.9942, Val Acc=0.9228
+Epoch 50/100: Train Loss=0.0058, Train Acc=0.9981, Val Acc=0.9258
+Epoch 60/100: Train Loss=0.0040, Train Acc=0.9988, Val Acc=0.9276
+Early stopping at epoch 67
+shadow 11/16: training on D_r + 2306 of D_f
+Epoch 10/100: Train Loss=0.3210, Train Acc=0.8917, Val Acc=0.8712
+Epoch 20/100: Train Loss=0.1123, Train Acc=0.9617, Val Acc=0.9048
+Epoch 30/100: Train Loss=0.0351, Train Acc=0.9875, Val Acc=0.9184
+Epoch 40/100: Train Loss=0.0125, Train Acc=0.9960, Val Acc=0.9254
+Epoch 50/100: Train Loss=0.0074, Train Acc=0.9978, Val Acc=0.9270
+Epoch 60/100: Train Loss=0.0055, Train Acc=0.9985, Val Acc=0.9292
+Epoch 70/100: Train Loss=0.0049, Train Acc=0.9987, Val Acc=0.9284
+Early stopping at epoch 70
+shadow 12/16: training on D_r + 2214 of D_f
+Epoch 10/100: Train Loss=0.3232, Train Acc=0.8880, Val Acc=0.8620
+Epoch 20/100: Train Loss=0.1621, Train Acc=0.9442, Val Acc=0.8828
+Epoch 30/100: Train Loss=0.0525, Train Acc=0.9815, Val Acc=0.9064
+Epoch 40/100: Train Loss=0.0123, Train Acc=0.9962, Val Acc=0.9208
+Epoch 50/100: Train Loss=0.0066, Train Acc=0.9978, Val Acc=0.9228
+Early stopping at epoch 56
+shadow 13/16: training on D_r + 2239 of D_f
+Epoch 10/100: Train Loss=0.3264, Train Acc=0.8858, Val Acc=0.8666
+Epoch 20/100: Train Loss=0.1598, Train Acc=0.9444, Val Acc=0.8992
+Epoch 30/100: Train Loss=0.0572, Train Acc=0.9804, Val Acc=0.9188
+Epoch 40/100: Train Loss=0.0171, Train Acc=0.9944, Val Acc=0.9240
+Epoch 50/100: Train Loss=0.0058, Train Acc=0.9984, Val Acc=0.9296
+Epoch 60/100: Train Loss=0.0038, Train Acc=0.9989, Val Acc=0.9318
+Early stopping at epoch 66
+shadow 14/16: training on D_r + 2278 of D_f
+Epoch 10/100: Train Loss=0.3161, Train Acc=0.8904, Val Acc=0.8584
+Epoch 20/100: Train Loss=0.1585, Train Acc=0.9448, Val Acc=0.8998
+Epoch 30/100: Train Loss=0.0475, Train Acc=0.9843, Val Acc=0.9172
+Epoch 40/100: Train Loss=0.0184, Train Acc=0.9938, Val Acc=0.9252
+Epoch 50/100: Train Loss=0.0062, Train Acc=0.9981, Val Acc=0.9290
+Early stopping at epoch 52
+shadow 15/16: training on D_r + 2237 of D_f
+Epoch 10/100: Train Loss=0.3196, Train Acc=0.8896, Val Acc=0.8392
+Epoch 20/100: Train Loss=0.1608, Train Acc=0.9440, Val Acc=0.8998
+Epoch 30/100: Train Loss=0.0494, Train Acc=0.9827, Val Acc=0.9164
+Epoch 40/100: Train Loss=0.0115, Train Acc=0.9964, Val Acc=0.9262
+Epoch 50/100: Train Loss=0.0059, Train Acc=0.9982, Val Acc=0.9280
+Early stopping at epoch 55
+baseline: unlearning 16 shadows
+  AUC=100.00 TPR@1%FPR=100.00 bal.acc=95.34
+finetune: unlearning 16 shadows
+  AUC=98.51 TPR@1%FPR=31.84 bal.acc=86.76
+ssd: unlearning 16 shadows
+  AUC=62.74 TPR@1%FPR=7.76 bal.acc=60.19
+badteacher: unlearning 16 shadows
+  AUC=100.00 TPR@1%FPR=100.00 bal.acc=98.89
+unsir: unlearning 16 shadows
+  AUC=63.07 TPR@1%FPR=11.51 bal.acc=60.43
+scrub: unlearning 16 shadows
+  AUC=56.57 TPR@1%FPR=1.49 bal.acc=50.11
+mmu: unlearning 16 shadows
+  AUC=51.02 TPR@1%FPR=1.00 bal.acc=50.04
+salun: unlearning 16 shadows
+  AUC=96.16 TPR@1%FPR=10.69 bal.acc=82.81
+uniclun: unlearning 16 shadows
+  AUC=96.31 TPR@1%FPR=10.33 bal.acc=82.73

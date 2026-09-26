@@ -1,0 +1,341 @@
+{
+ "protocol": {
+  "protocol_version": "cifar100-mu-protocol-v3",
+  "dataset": "cifar100",
+  "backbone": "resnet18",
+  "optimizer": "adam",
+  "forget_mode": "instance",
+  "forget_class": null,
+  "num_forget": 4500,
+  "seed": 43,
+  "epochs": 150,
+  "batch_size": 64,
+  "source_lr": 0.001,
+  "source_weight_decay": 0.0,
+  "source_momentum": 0.9,
+  "source_scheduler": "plateau",
+  "source_min_lr": 0.0,
+  "source_lr_milestones": [
+   60,
+   120
+  ],
+  "source_lr_gamma": 0.2,
+  "early_stopping_patience": 15,
+  "min_epochs": 30,
+  "retain_ratio": 0.1,
+  "selection_split": "cifar100_train_validation_only",
+  "test_split": "cifar100_official_test_once_after_selection",
+  "mia": "independent_calibration_selection_final_splits",
+  "selection": "utility",
+  "utility_tolerance": 2.0,
+  "relearn_epochs": 5,
+  "relearn_lr": 0.0001
+ },
+ "run_config": {
+  "fpecnn_hidden_size": 512,
+  "mmu_granularity_floor": 100,
+  "mmu_granularities": [
+   128,
+   256,
+   512
+  ]
+ },
+ "results": {
+  "baseline": {
+   "config": {},
+   "feasible": null,
+   "access": "source only",
+   "metrics": {
+    "forget_acc": 100.0,
+    "retain_acc": 70.89,
+    "test_acc": 70.89,
+    "mia": 71.54166666666667,
+    "mia_auc": 70.62659722222223,
+    "kl_divergence": 0.0009914199921173068,
+    "output_kl_divergence": 1.0866209855125208,
+    "unlearn_time": 0.0,
+    "relearn_forget_acc": [
+     100.0,
+     100.0,
+     100.0,
+     100.0,
+     100.0
+    ]
+   },
+   "source_sha256": "74d823c6841fa71262133d6a934127ff23fae09406a87bb061d80ff771a1afe9"
+  },
+  "retrain": {
+   "config": {},
+   "feasible": null,
+   "access": "full D_r, training recipe",
+   "metrics": {
+    "forget_acc": 70.33333333333334,
+    "retain_acc": 69.56,
+    "test_acc": 69.56,
+    "mia": 49.20833333333333,
+    "mia_auc": 50.15211805555556,
+    "kl_divergence": 0.0,
+    "output_kl_divergence": -2.0162718451673387e-10,
+    "unlearn_time": 759.713652107981,
+    "relearn_forget_acc": [
+     72.41666666666666,
+     75.16666666666667,
+     77.91666666666667,
+     80.08333333333333,
+     82.0
+    ]
+   },
+   "source_sha256": "74d823c6841fa71262133d6a934127ff23fae09406a87bb061d80ff771a1afe9"
+  },
+  "finetune": {
+   "config": {
+    "lr": 0.0001,
+    "epochs": 1
+   },
+   "feasible": true,
+   "access": "D_r (labels)",
+   "metrics": {
+    "forget_acc": 100.0,
+    "retain_acc": 70.7,
+    "test_acc": 70.7,
+    "mia": 71.33333333333334,
+    "mia_auc": 69.7773263888889,
+    "kl_divergence": 0.0009726815514267356,
+    "output_kl_divergence": 1.1262738078263155,
+    "unlearn_time": 7.288618170074187,
+    "relearn_forget_acc": [
+     100.0,
+     100.0,
+     100.0,
+     100.0,
+     100.0
+    ]
+   },
+   "source_sha256": "74d823c6841fa71262133d6a934127ff23fae09406a87bb061d80ff771a1afe9"
+  },
+  "ssd": {
+   "config": {
+    "alpha": 5.0,
+    "dampening_constant": 1.0
+   },
+   "feasible": true,
+   "access": "D_f, full D_train Fisher",
+   "metrics": {
+    "forget_acc": 99.16666666666667,
+    "retain_acc": 70.14,
+    "test_acc": 70.14,
+    "mia": 70.08333333333334,
+    "mia_auc": 69.97291666666668,
+    "kl_divergence": 0.0015849509887511238,
+    "output_kl_divergence": 1.2087887563523214,
+    "unlearn_time": 10.734936419990845,
+    "relearn_forget_acc": [
+     99.91666666666667,
+     100.0,
+     100.0,
+     100.0,
+     100.0
+    ]
+   },
+   "source_sha256": "74d823c6841fa71262133d6a934127ff23fae09406a87bb061d80ff771a1afe9"
+  },
+  "badteacher": {
+   "config": {
+    "temperature": 1.0,
+    "epochs": 1,
+    "lr": 0.0001
+   },
+   "feasible": true,
+   "access": "D_f, 10% D_r, frozen source copy, random teacher",
+   "metrics": {
+    "forget_acc": 99.75,
+    "retain_acc": 69.07,
+    "test_acc": 69.07,
+    "mia": 69.33333333333334,
+    "mia_auc": 68.2063888888889,
+    "kl_divergence": 0.000991762862606767,
+    "output_kl_divergence": 1.2776636678701754,
+    "unlearn_time": 2.1926421150565147,
+    "relearn_forget_acc": [
+     100.0,
+     100.0,
+     100.0,
+     100.0,
+     100.0
+    ]
+   },
+   "source_sha256": "74d823c6841fa71262133d6a934127ff23fae09406a87bb061d80ff771a1afe9"
+  },
+  "unsir": {
+   "config": {
+    "impair_epochs": 1,
+    "repair_epochs": 3,
+    "impair_lr": 0.001,
+    "repair_lr": 0.001
+   },
+   "feasible": true,
+   "access": "D_f, 10% D_r (labels)",
+   "metrics": {
+    "forget_acc": 98.66666666666667,
+    "retain_acc": 68.64,
+    "test_acc": 68.64,
+    "mia": 69.20833333333334,
+    "mia_auc": 69.34086805555556,
+    "kl_divergence": 0.0010099500912535198,
+    "output_kl_divergence": 1.4049537861423127,
+    "unlearn_time": 16.427884276024997,
+    "relearn_forget_acc": [
+     99.75,
+     100.0,
+     100.0,
+     100.0,
+     100.0
+    ]
+   },
+   "source_sha256": "74d823c6841fa71262133d6a934127ff23fae09406a87bb061d80ff771a1afe9"
+  },
+  "scrub": {
+   "config": {
+    "msteps": 2,
+    "lr": 0.005,
+    "epochs": 5,
+    "max_grad_norm": 5.0
+   },
+   "feasible": true,
+   "access": "D_f, 10% D_r (labels), frozen source copy",
+   "metrics": {
+    "forget_acc": 98.33333333333333,
+    "retain_acc": 68.88,
+    "test_acc": 68.88,
+    "mia": 67.375,
+    "mia_auc": 66.55538194444443,
+    "kl_divergence": 0.001699561121133515,
+    "output_kl_divergence": 1.3565604455152136,
+    "unlearn_time": 8.39698621199932,
+    "relearn_forget_acc": [
+     98.33333333333333,
+     98.5,
+     99.0,
+     99.25,
+     99.5
+    ]
+   },
+   "source_sha256": "74d823c6841fa71262133d6a934127ff23fae09406a87bb061d80ff771a1afe9"
+  },
+  "mmu": {
+   "config": {
+    "msteps": 3,
+    "lr": 0.005,
+    "epochs": 5,
+    "head_mode": "tied",
+    "weighting": "mrl",
+    "max_grad_norm": 5.0
+   },
+   "feasible": true,
+   "access": "D_f, 10% D_r (labels), frozen source copy",
+   "metrics": {
+    "forget_acc": 96.66666666666667,
+    "retain_acc": 68.78,
+    "test_acc": 68.78,
+    "mia": 66.41666666666667,
+    "mia_auc": 64.86371527777777,
+    "kl_divergence": 0.0018063396537393802,
+    "output_kl_divergence": 1.3461280332249441,
+    "unlearn_time": 8.739017894025892,
+    "relearn_forget_acc": [
+     98.0,
+     98.58333333333333,
+     99.41666666666666,
+     99.5,
+     99.5
+    ]
+   },
+   "source_sha256": "74d823c6841fa71262133d6a934127ff23fae09406a87bb061d80ff771a1afe9",
+   "diagnostics": {
+    "granularities": [
+     128,
+     256,
+     512
+    ],
+    "head_mode": "tied",
+    "weighting": "mrl",
+    "bad_margin": null,
+    "forget_scales": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "retain_scales": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "prefix_forget_acc_before": {
+     "128": 76.46666666666667,
+     "256": 95.91111111111111,
+     "512": 99.97777777777777
+    },
+    "prefix_forget_acc_after": {
+     "128": 75.06666666666666,
+     "256": 89.44444444444444,
+     "512": 95.71111111111111
+    }
+   }
+  },
+  "salun": {
+   "config": {
+    "sparsity": 0.9,
+    "lr": 0.01,
+    "epochs": 10
+   },
+   "feasible": false,
+   "access": "D_f, 10% D_r (labels), forget-gradient mask",
+   "metrics": {
+    "forget_acc": 85.41666666666666,
+    "retain_acc": 59.03,
+    "test_acc": 59.03,
+    "mia": 61.958333333333336,
+    "mia_auc": 60.71604166666666,
+    "kl_divergence": 0.0038720378836592036,
+    "output_kl_divergence": 9.687196336734067,
+    "unlearn_time": 22.63220384705346,
+    "relearn_forget_acc": [
+     97.08333333333333,
+     98.91666666666666,
+     99.33333333333333,
+     99.66666666666667,
+     99.75
+    ]
+   },
+   "source_sha256": "74d823c6841fa71262133d6a934127ff23fae09406a87bb061d80ff771a1afe9"
+  },
+  "uniclun": {
+   "config": {
+    "lr": 0.01,
+    "epochs": 10,
+    "buffer_size": 250
+   },
+   "feasible": false,
+   "access": "D_f, 10% D_r (labels), replay buffer",
+   "metrics": {
+    "forget_acc": 86.5,
+    "retain_acc": 61.07,
+    "test_acc": 61.07,
+    "mia": 61.958333333333336,
+    "mia_auc": 61.40430555555555,
+    "kl_divergence": 0.0010826919245443397,
+    "output_kl_divergence": 9.355594228027732,
+    "unlearn_time": 21.026918297982775,
+    "relearn_forget_acc": [
+     97.75,
+     99.5,
+     99.91666666666667,
+     100.0,
+     100.0
+    ]
+   },
+   "source_sha256": "74d823c6841fa71262133d6a934127ff23fae09406a87bb061d80ff771a1afe9"
+  }
+ },
+ "complete": true
+}

@@ -1,0 +1,27 @@
+# Versions used for every reported run (NVIDIA RTX PRO 6000 Blackwell Max-Q, CUDA 12.8).
+
+# classification benchmark, U-LiRA, SalUn-protocol study, figures, workbook
+torch==2.7.1
+torchvision==0.22.1
+numpy==2.2.6
+scipy==1.17.1
+scikit-learn==1.9.0
+matplotlib==3.11.1
+pandas==3.0.5
+openpyxl==3.1.5
+pillow==11.0.0
+tqdm
+pytest
+
+# CIFAR-10 DDPM study (FID)
+pytorch-fid==0.3.0
+
+# Stable Diffusion v1.4 nudity study (was run in a separate virtualenv)
+diffusers==0.35.1
+transformers==4.44.2
+accelerate==1.10.1
+safetensors==0.8.0
+nudenet==3.4.2
+onnxruntime==1.29.0
+
+# optional: lmdb, six (only for the non-CIFAR loaders of the vendored SalUn release)

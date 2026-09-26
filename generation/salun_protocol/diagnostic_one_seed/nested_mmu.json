@@ -1,0 +1,656 @@
+{
+  "name": "nested_mmu",
+  "seed": 2,
+  "widths": [
+    32,
+    64,
+    128,
+    256,
+    512
+  ],
+  "initial_gradient": [
+    {
+      "student_mode": "eval",
+      "teacher_mode": "eval",
+      "loss": -1.424923539161682e-07,
+      "gradient_l2": 1.564431613587658e-06,
+      "max_logit_difference": 0.0
+    },
+    {
+      "student_mode": "train",
+      "teacher_mode": "eval",
+      "loss": -0.3043413460254669,
+      "gradient_l2": 6.90985107421875,
+      "max_logit_difference": 6.700587749481201
+    }
+  ],
+  "passes": [
+    {
+      "epoch": 0,
+      "phase": "forget",
+      "batches": 18,
+      "mean_loss": -0.06267346007128556,
+      "mean_gradient_l2": 1.5794595546192594
+    },
+    {
+      "epoch": 0,
+      "phase": "retain",
+      "batches": 159,
+      "mean_loss": 3.137703837088819,
+      "mean_gradient_l2": 3.055429863479902
+    },
+    {
+      "epoch": 1,
+      "phase": "forget",
+      "batches": 18,
+      "mean_loss": -0.8993725296523836,
+      "mean_gradient_l2": 5.927826278739506
+    },
+    {
+      "epoch": 1,
+      "phase": "retain",
+      "batches": 159,
+      "mean_loss": 2.431906750367123,
+      "mean_gradient_l2": 4.649369299786645
+    },
+    {
+      "epoch": 2,
+      "phase": "retain",
+      "batches": 159,
+      "mean_loss": 1.95710141778742,
+      "mean_gradient_l2": 3.060596148173014
+    },
+    {
+      "epoch": 3,
+      "phase": "retain",
+      "batches": 159,
+      "mean_loss": 1.901789384817927,
+      "mean_gradient_l2": 2.9071154826842016
+    },
+    {
+      "epoch": 4,
+      "phase": "retain",
+      "batches": 159,
+      "mean_loss": 1.8850039296180197,
+      "mean_gradient_l2": 2.8460799320688785
+    }
+  ],
+  "probes": [
+    {
+      "stage": "source",
+      "sets": {
+        "forget": {
+          "32": {
+            "accuracy": 90.04444444444445,
+            "teacher_kl": 1.0172526041666667e-07
+          },
+          "64": {
+            "accuracy": 100.0,
+            "teacher_kl": 1.4400482177606083e-07
+          },
+          "128": {
+            "accuracy": 100.0,
+            "teacher_kl": 9.404288401368729e-08
+          },
+          "256": {
+            "accuracy": 100.0,
+            "teacher_kl": 2.8504265729780956e-08
+          },
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": -3.698137076134521e-08
+          }
+        },
+        "retain_probe": {
+          "32": {
+            "accuracy": 90.13671875,
+            "teacher_kl": 7.62520357966423e-08
+          },
+          "64": {
+            "accuracy": 100.0,
+            "teacher_kl": 1.1594966053962708e-07
+          },
+          "128": {
+            "accuracy": 100.0,
+            "teacher_kl": 8.021015673875809e-08
+          },
+          "256": {
+            "accuracy": 100.0,
+            "teacher_kl": 4.353933036327362e-08
+          },
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": -3.9406586438417435e-08
+          }
+        },
+        "test_probe": {
+          "32": {
+            "accuracy": 83.349609375,
+            "teacher_kl": 1.414446160197258e-07
+          },
+          "64": {
+            "accuracy": 92.7734375,
+            "teacher_kl": 1.1199153959751129e-07
+          },
+          "128": {
+            "accuracy": 93.115234375,
+            "teacher_kl": 9.045470505952835e-08
+          },
+          "256": {
+            "accuracy": 93.603515625,
+            "teacher_kl": 3.434251993894577e-08
+          },
+          "512": {
+            "accuracy": 93.84765625,
+            "teacher_kl": -3.3993273973464966e-08
+          }
+        }
+      },
+      "parameter_distance_l2": 0.0
+    },
+    {
+      "stage": "epoch0_forget",
+      "sets": {
+        "forget": {
+          "32": {
+            "accuracy": 93.42222222222222,
+            "teacher_kl": 0.0005790846078760094
+          },
+          "64": {
+            "accuracy": 99.97777777777777,
+            "teacher_kl": 0.0009513716168908609
+          },
+          "128": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.00360963752741615
+          },
+          "256": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.0326742611626784
+          },
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.09146686693032582
+          }
+        },
+        "retain_probe": {
+          "32": {
+            "accuracy": 93.310546875,
+            "teacher_kl": 0.0005797360790893435
+          },
+          "64": {
+            "accuracy": 99.90234375,
+            "teacher_kl": 0.0009557798039168119
+          },
+          "128": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.003619397641159594
+          },
+          "256": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.03250948432832956
+          },
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.0906980438157916
+          }
+        },
+        "test_probe": {
+          "32": {
+            "accuracy": 86.1328125,
+            "teacher_kl": 0.0005588277708739042
+          },
+          "64": {
+            "accuracy": 92.3828125,
+            "teacher_kl": 0.0009209900163114071
+          },
+          "128": {
+            "accuracy": 93.1640625,
+            "teacher_kl": 0.003515124903060496
+          },
+          "256": {
+            "accuracy": 93.65234375,
+            "teacher_kl": 0.03217441635206342
+          },
+          "512": {
+            "accuracy": 93.84765625,
+            "teacher_kl": 0.09003193955868483
+          }
+        }
+      },
+      "parameter_distance_l2": 0.06009487435221672
+    },
+    {
+      "stage": "epoch0_retain",
+      "sets": {
+        "forget": {
+          "32": {
+            "accuracy": 99.64444444444445,
+            "teacher_kl": 0.08887412014272478
+          },
+          "64": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.1402827987405989
+          },
+          "128": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.14204384699132708
+          },
+          "256": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.0334844507906172
+          },
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.018348557074864706
+          }
+        },
+        "retain_probe": {
+          "32": {
+            "accuracy": 99.70703125,
+            "teacher_kl": 0.08923001866787672
+          },
+          "64": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.1395548265427351
+          },
+          "128": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.1402237806469202
+          },
+          "256": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.03287426009774208
+          },
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.01845544413663447
+          }
+        },
+        "test_probe": {
+          "32": {
+            "accuracy": 92.626953125,
+            "teacher_kl": 0.08110163360834122
+          },
+          "64": {
+            "accuracy": 93.701171875,
+            "teacher_kl": 0.1281528640538454
+          },
+          "128": {
+            "accuracy": 93.798828125,
+            "teacher_kl": 0.13059488497674465
+          },
+          "256": {
+            "accuracy": 93.896484375,
+            "teacher_kl": 0.03351458953693509
+          },
+          "512": {
+            "accuracy": 94.140625,
+            "teacher_kl": 0.028890371089801192
+          }
+        }
+      },
+      "parameter_distance_l2": 1.290269136428833
+    },
+    {
+      "stage": "epoch1_forget",
+      "sets": {
+        "forget": {
+          "32": {
+            "accuracy": 88.68888888888888,
+            "teacher_kl": 0.25512829964690736
+          },
+          "64": {
+            "accuracy": 87.75555555555556,
+            "teacher_kl": 0.40140817483266195
+          },
+          "128": {
+            "accuracy": 83.33333333333333,
+            "teacher_kl": 0.657841125594245
+          },
+          "256": {
+            "accuracy": 81.42222222222222,
+            "teacher_kl": 1.7029921833674113
+          },
+          "512": {
+            "accuracy": 81.42222222222222,
+            "teacher_kl": 4.7580337647332085
+          }
+        },
+        "retain_probe": {
+          "32": {
+            "accuracy": 88.671875,
+            "teacher_kl": 0.25506249628961086
+          },
+          "64": {
+            "accuracy": 87.98828125,
+            "teacher_kl": 0.3994383439421654
+          },
+          "128": {
+            "accuracy": 83.49609375,
+            "teacher_kl": 0.6539745405316353
+          },
+          "256": {
+            "accuracy": 82.12890625,
+            "teacher_kl": 1.687887579202652
+          },
+          "512": {
+            "accuracy": 82.2265625,
+            "teacher_kl": 4.735596001148224
+          }
+        },
+        "test_probe": {
+          "32": {
+            "accuracy": 81.640625,
+            "teacher_kl": 0.22925093583762646
+          },
+          "64": {
+            "accuracy": 80.322265625,
+            "teacher_kl": 0.3531368225812912
+          },
+          "128": {
+            "accuracy": 76.611328125,
+            "teacher_kl": 0.5817823074758053
+          },
+          "256": {
+            "accuracy": 75.244140625,
+            "teacher_kl": 1.5223123580217361
+          },
+          "512": {
+            "accuracy": 75.78125,
+            "teacher_kl": 4.387936621904373
+          }
+        }
+      },
+      "parameter_distance_l2": 1.4377095699310303
+    },
+    {
+      "stage": "epoch1_retain",
+      "sets": {
+        "forget": {
+          "32": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.22911971453825633
+          },
+          "64": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.2602537841796875
+          },
+          "128": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.15709802436828613
+          },
+          "256": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.023086947648061646
+          },
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.02481572825875547
+          }
+        },
+        "retain_probe": {
+          "32": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.2297973781824112
+          },
+          "64": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.25997720658779144
+          },
+          "128": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.15720685198903084
+          },
+          "256": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.02340398239903152
+          },
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.023925159592181444
+          }
+        },
+        "test_probe": {
+          "32": {
+            "accuracy": 93.75,
+            "teacher_kl": 0.20914052426815033
+          },
+          "64": {
+            "accuracy": 93.896484375,
+            "teacher_kl": 0.2386838011443615
+          },
+          "128": {
+            "accuracy": 93.84765625,
+            "teacher_kl": 0.14539239555597305
+          },
+          "256": {
+            "accuracy": 94.23828125,
+            "teacher_kl": 0.02581144799478352
+          },
+          "512": {
+            "accuracy": 94.287109375,
+            "teacher_kl": 0.038872272707521915
+          }
+        }
+      },
+      "parameter_distance_l2": 1.9792749881744385
+    },
+    {
+      "stage": "epoch2_retain",
+      "sets": {
+        "forget": {
+          "32": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.2996649013095432
+          },
+          "64": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.2713466072612339
+          },
+          "128": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.14769849586486816
+          },
+          "256": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.01974543573955695
+          },
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.023994705403844515
+          }
+        },
+        "retain_probe": {
+          "32": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.3004447892308235
+          },
+          "64": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.2716265358030796
+          },
+          "128": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.14836925268173218
+          },
+          "256": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.020402437541633844
+          },
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.02459073904901743
+          }
+        },
+        "test_probe": {
+          "32": {
+            "accuracy": 94.287109375,
+            "teacher_kl": 0.2732107862830162
+          },
+          "64": {
+            "accuracy": 94.23828125,
+            "teacher_kl": 0.24907035753130913
+          },
+          "128": {
+            "accuracy": 94.091796875,
+            "teacher_kl": 0.13720042817294598
+          },
+          "256": {
+            "accuracy": 94.384765625,
+            "teacher_kl": 0.023537106812000275
+          },
+          "512": {
+            "accuracy": 94.140625,
+            "teacher_kl": 0.03997868113219738
+          }
+        }
+      },
+      "parameter_distance_l2": 2.1442806720733643
+    },
+    {
+      "stage": "epoch3_retain",
+      "sets": {
+        "forget": {
+          "32": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.3302832043700748
+          },
+          "64": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.27892169250382315
+          },
+          "128": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.15160080218315125
+          },
+          "256": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.022867827001545164
+          },
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.024159841754370266
+          }
+        },
+        "retain_probe": {
+          "32": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.33215712010860443
+          },
+          "64": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.28039541468024254
+          },
+          "128": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.15301604755222797
+          },
+          "256": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.02392053557559848
+          },
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.025646006455644965
+          }
+        },
+        "test_probe": {
+          "32": {
+            "accuracy": 93.65234375,
+            "teacher_kl": 0.2997681461274624
+          },
+          "64": {
+            "accuracy": 93.5546875,
+            "teacher_kl": 0.25481273606419563
+          },
+          "128": {
+            "accuracy": 93.212890625,
+            "teacher_kl": 0.1391970757395029
+          },
+          "256": {
+            "accuracy": 93.798828125,
+            "teacher_kl": 0.025173971662297845
+          },
+          "512": {
+            "accuracy": 93.84765625,
+            "teacher_kl": 0.038432410918176174
+          }
+        }
+      },
+      "parameter_distance_l2": 2.234046697616577
+    },
+    {
+      "stage": "epoch4_retain",
+      "sets": {
+        "forget": {
+          "32": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.33792453691694474
+          },
+          "64": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.27672506607903374
+          },
+          "128": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.15177932490242851
+          },
+          "256": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.02278008889655272
+          },
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.019008147287699912
+          }
+        },
+        "retain_probe": {
+          "32": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.33775169029831886
+          },
+          "64": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.27632900327444077
+          },
+          "128": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.15148636884987354
+          },
+          "256": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.022883277852088213
+          },
+          "512": {
+            "accuracy": 100.0,
+            "teacher_kl": 0.019840975059196353
+          }
+        },
+        "test_probe": {
+          "32": {
+            "accuracy": 93.75,
+            "teacher_kl": 0.30725565552711487
+          },
+          "64": {
+            "accuracy": 93.798828125,
+            "teacher_kl": 0.2538152448832989
+          },
+          "128": {
+            "accuracy": 93.65234375,
+            "teacher_kl": 0.140291104093194
+          },
+          "256": {
+            "accuracy": 93.84765625,
+            "teacher_kl": 0.024934090906754136
+          },
+          "512": {
+            "accuracy": 93.9453125,
+            "teacher_kl": 0.03179768496192992
+          }
+        }
+      },
+      "parameter_distance_l2": 2.2919249534606934
+    }
+  ]
+}

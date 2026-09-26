@@ -1,0 +1,16 @@
+{
+  "source": "diffusion_mmu/ckpt/source.pt",
+  "seed": 42,
+  "mask_seed": 4242,
+  "forget_class": 0,
+  "train_steps": 1000,
+  "sampling_steps": 1000,
+  "guidance": 2,
+  "mask_fraction": 0.5,
+  "retain_weight": 0.001,
+  "retain_reduction": "sum over pixels, mean over batch",
+  "forget_reduction": "per-coordinate mean",
+  "samples_per_class": 16,
+  "status": "local architecture adaptation; not released DDPM reproduction",
+  "random": "exactly matched global mask cardinality; independent mask seed"
+}

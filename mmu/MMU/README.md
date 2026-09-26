@@ -21,8 +21,6 @@ the number of classes (a narrower prefix is rank-deficient).
 - `bad_margin=None`: unbounded max-step. Passing a float hinges it at that margin.
 - `granularities=(d,)` reduces exactly to SCRUB (covered by the tests).
 
-The formal statement is in `method.tex`.
-
 ## Files
 
 | File | Purpose |

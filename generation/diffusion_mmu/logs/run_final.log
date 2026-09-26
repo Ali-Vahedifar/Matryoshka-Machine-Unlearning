@@ -1,0 +1,53 @@
+forget class 0 (airplane): |D_f|=5000  |D_r used|=13500 of 45000
+FID reference: 5000 real retain-class test images
+
+=== mmu ===
+  [full] retain probe @start: m=0.25:0.5133  m=0.5:0.2197  m=1.0:0.0316
+  [full] ep0: L_r=0.4778 L_f=0.0133 | m=0.25:d=0.3357/on=0.00  m=0.5:d=0.4114/on=0.02  m=1.0:d=0.3167/on=0.31 | probe(afterR->afterF) m=0.25:0.1636->0.1547  m=0.5:0.0861->0.2317  m=1.0:0.0323->0.5283
+  [full] ep1: L_r=0.5249 L_f=0.0081 | m=0.25:d=0.2650/on=0.00  m=0.5:d=0.3083/on=0.00  m=1.0:d=0.2534/on=0.21 | probe(afterR->afterF) m=0.25:0.1588->0.0999  m=0.5:0.0824->0.1033  m=1.0:0.0323->0.3171
+  [full] ep2: L_r=0.4704 L_f=0.0076 | m=0.25:d=0.2576/on=0.00  m=0.5:d=0.2542/on=0.00  m=1.0:d=0.2014/on=0.21 | probe(afterR->afterF) m=0.25:0.1574->0.1016  m=0.5:0.0810->0.0745  m=1.0:0.0323->0.1980
+  [full] repair0: L_r=0.4551 | probe m=0.25:0.1579  m=0.5:0.0808  m=1.0:0.0323
+  [full] repair1: L_r=0.4297 | probe m=0.25:0.1564  m=0.5:0.0805  m=1.0:0.0321
+  -> UA=95.4%  forget-rate=4.6%  FID=23.87  retain-cond-acc=98.1%  t=93s
+
+=== mmu_noskip ===
+  [full] retain probe @start: m=0.25:0.0364  m=0.5:0.0329  m=1.0:0.0316
+  [full] ep0: L_r=0.0948 L_f=0.0300 | m=0.25:d=0.3011/on=0.24  m=0.5:d=0.2996/on=0.24  m=1.0:d=0.2965/on=0.24 | probe(afterR->afterF) m=0.25:0.0337->0.5339  m=0.5:0.0323->0.5412  m=1.0:0.0317->0.5418
+  [full] ep1: L_r=0.2574 L_f=0.0212 | m=0.25:d=0.4162/on=0.18  m=0.5:d=0.4140/on=0.19  m=1.0:d=0.4145/on=0.19 | probe(afterR->afterF) m=0.25:0.0339->0.6518  m=0.5:0.0327->0.6574  m=1.0:0.0322->0.6647
+  [full] ep2: L_r=0.2605 L_f=0.0211 | m=0.25:d=0.2232/on=0.19  m=0.5:d=0.2176/on=0.20  m=1.0:d=0.2201/on=0.20 | probe(afterR->afterF) m=0.25:0.0340->0.3298  m=0.5:0.0330->0.3300  m=1.0:0.0326->0.3342
+  [full] repair0: L_r=0.1826 | probe m=0.25:0.0341  m=0.5:0.0330  m=1.0:0.0325
+  [full] repair1: L_r=0.0957 | probe m=0.25:0.0337  m=0.5:0.0327  m=1.0:0.0322
+  -> UA=39.4%  forget-rate=60.6%  FID=22.23  retain-cond-acc=97.7%  t=94s
+
+=== mmu_fullwidth ===
+  [full_width] retain probe @start: m=1.0:0.0316
+  [full_width] ep0: L_r=0.0305 L_f=0.0105 | m=1.0:d=0.3020/on=0.25 | probe(afterR->afterF) m=1.0:0.0317->0.5668
+  [full_width] ep1: L_r=0.0796 L_f=0.0099 | m=1.0:d=0.1787/on=0.26 | probe(afterR->afterF) m=1.0:0.0326->0.3020
+  [full_width] ep2: L_r=0.0595 L_f=0.0107 | m=1.0:d=0.2896/on=0.28 | probe(afterR->afterF) m=1.0:0.0324->0.5423
+  [full_width] repair0: L_r=0.0804 | probe m=1.0:0.0324
+  [full_width] repair1: L_r=0.0310 | probe m=1.0:0.0321
+  -> UA=97.2%  forget-rate=2.8%  FID=21.99  retain-cond-acc=96.6%  t=31s
+
+DONE {
+ "mmu": {
+  "UA": 95.39999961853027,
+  "forget_class_rate": 4.600000008940697,
+  "retain_cond_acc": 98.05999994277954,
+  "FID_retain": 23.871437669485715,
+  "unlearn_time_s": 93.3
+ },
+ "mmu_noskip": {
+  "UA": 39.399999380111694,
+  "forget_class_rate": 60.600000619888306,
+  "retain_cond_acc": 97.7400004863739,
+  "FID_retain": 22.225320141293253,
+  "unlearn_time_s": 94.1
+ },
+ "mmu_fullwidth": {
+  "UA": 97.2000002861023,
+  "forget_class_rate": 2.800000086426735,
+  "retain_cond_acc": 96.61999940872192,
+  "FID_retain": 21.98712822666363,
+  "unlearn_time_s": 31.4
+ }
+}

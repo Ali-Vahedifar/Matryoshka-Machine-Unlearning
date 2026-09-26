@@ -1,0 +1,25 @@
+[2026-09-12T14:59:39Z] === U-LiRA rti ===
+[2026-09-12T18:50:16Z] ulira rti resnet18 class exit=0
+[2026-09-12T18:50:17Z] ulira rti resnet18 subclass exit=0
+[2026-09-12T19:14:50Z] ulira rti cnn class exit=0
+[2026-09-12T22:46:23Z] ulira rti cnn subclass exit=0
+[2026-09-12T23:02:42Z] ulira rti cnn instance exit=0
+[2026-09-12T23:15:31Z] ulira rti resnet18 instance exit=0
+[2026-09-12T23:15:31Z] === U-LiRA rti COMPLETE ===
+[2026-09-12T23:15:31Z] === U-LiRA cifar10 ===
+[2026-09-13T03:07:30Z] ulira cifar10 cnn class exit=0
+[2026-09-13T04:03:01Z] ulira cifar10 resnet18 subclass exit=0
+[2026-09-13T04:15:41Z] ulira cifar10 resnet18 class exit=0
+[2026-09-13T06:06:31Z] ulira cifar10 cnn subclass exit=0
+[2026-09-13T07:18:29Z] ulira cifar10 cnn instance exit=0
+[2026-09-13T07:40:40Z] ulira cifar10 resnet18 instance exit=0
+[2026-09-13T07:40:40Z] === U-LiRA cifar10 COMPLETE ===
+[2026-09-13T07:40:40Z] === U-LiRA cifar100 ===
+[2026-09-13T12:37:22Z] ulira cifar100 cnn class exit=0
+[2026-09-13T14:15:53Z] ulira cifar100 resnet18 subclass exit=0
+[2026-09-13T15:02:42Z] ulira cifar100 resnet18 class exit=0
+[2026-09-13T17:46:15Z] ulira cifar100 cnn subclass exit=0
+[2026-09-13T18:59:16Z] ulira cifar100 resnet18 instance exit=0
+[2026-09-13T19:02:32Z] ulira cifar100 cnn instance exit=0
+[2026-09-13T19:02:32Z] === U-LiRA cifar100 COMPLETE ===
+ULIRA CAMPAIGN COMPLETE

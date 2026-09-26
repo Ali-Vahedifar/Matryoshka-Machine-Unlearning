@@ -1,0 +1,59 @@
+{
+  "official_commit": "a6e89fd17ff737c24c6aa16c9574469a234ffd91",
+  "classification": {
+    "dataset": "CIFAR-10",
+    "architecture": "released ResNet-18",
+    "train_validation_test": [
+      45000,
+      5000,
+      10000
+    ],
+    "forget_counts": [
+      4500,
+      22500
+    ],
+    "pilot_seed": 1,
+    "test_trial_seeds": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "source_and_retrain_epochs": 182,
+    "source_and_retrain_schedule": "cosine, SGD lr=.1 momentum=.9 weight_decay=.0005 batch256",
+    "selection": "mean absolute gap to retrain on UA,RA,validation accuracy, and confidence-SVC-MIA using validation nonmembers; frozen before test trials",
+    "implementation_notes": [
+      "Released imports fixed: removed nonexistent unused train_with_rewind export.",
+      "Train and marked dataset splits use the same seed (release inconsistently used seed=1 for source split).",
+      "Cosine retraining follows paper Appendix C.1; release default uses milestones.",
+      "Validation/test measurements disable augmentation.",
+      "BE temporary eleventh class is removed before ten-class evaluation.",
+      "SalUn-soft uses released RL_proximal with explicit mask_ratio; its epoch-wise anchor/threshold schedule differs from idealized proximal equations and must be disclosed.",
+      "Search grid is documented in classification.py; exact published selected hyperparameters were not released.",
+      "Only source, retrain, MMU and SalUn weights retained to fit available storage; all candidate metrics/configurations retained."
+    ],
+    "metrics": [
+      "UA=100-forget_accuracy",
+      "RA=retain_accuracy",
+      "TA=test_accuracy",
+      "MIA=100*released confidence SVC forget efficacy",
+      "average absolute gap to paired retrain",
+      "RTE minutes"
+    ]
+  },
+  "generation": {
+    "comparison": "shared existing local DDPM; source/retrain, local SalUn, random mask, MMU full-width and nested rows",
+    "figure_layout": "I1-I4 airplane; C1-C9 retained conditions",
+    "sampling_steps": 1000,
+    "guidance": 2,
+    "mask_density": 0.5,
+    "mask_training_steps": 1000,
+    "not_exact_reproduction": "source architecture and training differ from official DDPM; figure MMU budgets differ from SalUn/random; no new quantitative FID benchmark implied"
+  }
+}

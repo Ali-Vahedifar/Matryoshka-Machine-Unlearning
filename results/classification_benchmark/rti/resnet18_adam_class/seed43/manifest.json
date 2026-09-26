@@ -1,0 +1,54 @@
+{
+ "protocol": {
+  "protocol_version": "rti-mu-protocol-v3",
+  "dataset": "rti",
+  "backbone": "resnet18",
+  "optimizer": "adam",
+  "forget_mode": "class",
+  "forget_class": 0,
+  "num_forget": null,
+  "seed": 43,
+  "epochs": 150,
+  "batch_size": 64,
+  "source_lr": 0.001,
+  "source_weight_decay": 0.0,
+  "source_momentum": 0.9,
+  "source_scheduler": "plateau",
+  "source_min_lr": 0.0,
+  "source_lr_milestones": [
+   60,
+   120
+  ],
+  "source_lr_gamma": 0.2,
+  "early_stopping_patience": 15,
+  "min_epochs": 30,
+  "retain_ratio": 0.1,
+  "selection_split": "rti_train_validation_only",
+  "test_split": "rti_official_test_once_after_selection",
+  "mia": "independent_calibration_selection_final_splits",
+  "selection": "utility",
+  "utility_tolerance": 2.0,
+  "relearn_epochs": 5,
+  "relearn_lr": 0.0001
+ },
+ "source_train_time": 1077.1588038650807,
+ "source_training": {
+  "best_epoch": 77,
+  "epochs_ran": 92,
+  "best_val_acc": 0.8032,
+  "scheduler": "plateau",
+  "early_stopping_patience": 15,
+  "min_epochs": 30
+ },
+ "source_sha256": "d60b7bb92968c3f10cb6b5e3b33c2ac707cd9ea17d18326de7b1540a5c8c10ef",
+ "retrain_time": 647.5579270799644,
+ "retrain_training": {
+  "best_epoch": 51,
+  "epochs_ran": 66,
+  "best_val_acc": 0.8210526315789474,
+  "scheduler": "plateau",
+  "early_stopping_patience": 15,
+  "min_epochs": 30
+ },
+ "retrain_sha256": "0941c9841b914ab29810b33eab6991beed5b98f3399855eefc78c765229cfc6f"
+}

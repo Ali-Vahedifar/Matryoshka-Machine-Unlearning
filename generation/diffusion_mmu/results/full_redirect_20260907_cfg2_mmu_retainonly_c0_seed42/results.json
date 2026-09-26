@@ -1,0 +1,9 @@
+{
+ "mmu_retainonly": {
+  "UA": 4.399999976158142,
+  "forget_class_rate": 95.59999704360962,
+  "retain_cond_acc": 94.80000138282776,
+  "FID_retain": 24.953734944788096,
+  "unlearn_time_s": 0.0
+ }
+}

@@ -1,0 +1,28 @@
+{'step': 0, 'retain_sum_mse': 79.02323913574219, 'forget_mse': 0.0008519540424458683}
+{'step': 100, 'retain_sum_mse': 82.6529312133789, 'forget_mse': 0.00031082701752893627}
+{'step': 200, 'retain_sum_mse': 71.30500793457031, 'forget_mse': 0.00016686029266566038}
+{'step': 300, 'retain_sum_mse': 89.33372497558594, 'forget_mse': 0.0001236194366356358}
+{'step': 400, 'retain_sum_mse': 108.27483367919922, 'forget_mse': 0.00010695286619011313}
+{'step': 500, 'retain_sum_mse': 79.42378234863281, 'forget_mse': 8.67265262058936e-05}
+{'step': 600, 'retain_sum_mse': 69.18370056152344, 'forget_mse': 9.644153760746121e-05}
+{'step': 700, 'retain_sum_mse': 64.31207275390625, 'forget_mse': 6.888815551064909e-05}
+{'step': 800, 'retain_sum_mse': 97.60423278808594, 'forget_mse': 6.747464067302644e-05}
+{'step': 900, 'retain_sum_mse': 46.98868179321289, 'forget_mse': 6.396692333510146e-05}
+{'step': 0, 'retain_sum_mse': 79.02323913574219, 'forget_mse': 0.0008519540424458683}
+{'step': 100, 'retain_sum_mse': 82.24954223632812, 'forget_mse': 0.0003863458405248821}
+{'step': 200, 'retain_sum_mse': 71.16731262207031, 'forget_mse': 0.00018349158926866949}
+{'step': 300, 'retain_sum_mse': 89.1177978515625, 'forget_mse': 0.00012271813466213644}
+{'step': 400, 'retain_sum_mse': 108.06025695800781, 'forget_mse': 0.00010827947698999196}
+{'step': 500, 'retain_sum_mse': 79.12886047363281, 'forget_mse': 8.373057062271982e-05}
+{'step': 600, 'retain_sum_mse': 68.93185424804688, 'forget_mse': 9.370098996441811e-05}
+{'step': 700, 'retain_sum_mse': 64.18350219726562, 'forget_mse': 6.330112955765799e-05}
+{'step': 800, 'retain_sum_mse': 97.31102752685547, 'forget_mse': 6.724576087435707e-05}
+{'step': 900, 'retain_sum_mse': 46.91864013671875, 'forget_mse': 6.352353375405073e-05}
+GENERATING Source
+GENERATING Retrain reference
+GENERATING SalUn (local)
+GENERATING Random mask (local)
+GENERATING MMU full width, beta=1
+GENERATING MMU full width, beta=4
+GENERATING MMU nested, warm-up=2
+FIGURE COMPLETE

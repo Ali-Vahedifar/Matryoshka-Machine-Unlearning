@@ -1,0 +1,19 @@
+forget class 0 (airplane): |D_f|=5000  |D_r used|=13500 of 45000
+FID reference: 5000 real retain-class test images
+
+=== salun ===
+  salun mask keeps 50.0% of weights
+  salun ep0: 0.0527
+  salun ep1: 0.0525
+  salun ep2: 0.0517
+  -> UA=0.6%  forget-rate=99.4%  FID=23.53  retain-cond-acc=77.0%  t=21s
+
+DONE {
+ "salun": {
+  "UA": 0.6000000052154064,
+  "forget_class_rate": 99.40000176429749,
+  "retain_cond_acc": 76.98000073432922,
+  "FID_retain": 23.53032713342901,
+  "unlearn_time_s": 21.3
+ }
+}

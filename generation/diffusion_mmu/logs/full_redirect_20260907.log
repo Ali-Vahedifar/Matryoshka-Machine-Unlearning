@@ -1,0 +1,117 @@
+forget class 0 (airplane): |D_f|=5000  |D_r used|=13500 of 45000
+FID reference: 5000 real retain-class test images
+
+=== source ===
+  -> UA=12.8%  forget-rate=87.2%  FID=22.05  retain-cond-acc=81.5%  t=0s
+
+=== retrain ===
+  -> UA=93.6%  forget-rate=6.4%  FID=21.67  retain-cond-acc=82.4%  t=0s
+
+=== finetune ===
+  finetune ep0: 0.0298
+  finetune ep1: 0.0299
+  finetune ep2: 0.0298
+  -> UA=10.8%  forget-rate=89.2%  FID=27.39  retain-cond-acc=78.7%  t=10s
+
+=== neggrad ===
+  neggrad ep0: -7.3577
+  neggrad ep1: -52.2603
+  neggrad ep2: -143.2061
+  -> UA=100.0%  forget-rate=0.0%  FID=304.34  retain-cond-acc=15.3%  t=21s
+
+=== salun ===
+  salun mask keeps 50.0% of weights
+  salun ep0: 0.0302
+  salun ep1: 0.0298
+  salun ep2: 0.0303
+  -> UA=97.6%  forget-rate=2.4%  FID=31.11  retain-cond-acc=76.8%  t=26s
+
+=== mmu_fullwidth ===
+  [full_width/redirect] ep0: {'retain_loss': 0.02990722596369408, 'redirect_loss': 0.00048206631208045617, 'null_loss': 0.00011502961233836012, 'epoch': 0, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.0004820663120459627}, 'retain_probe': {1.0: 0.03170551359653473}}
+  [full_width/redirect] ep1: {'retain_loss': 0.02925182081207081, 'redirect_loss': 0.00038851954869891485, 'null_loss': 9.547295683080813e-05, 'epoch': 1, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.0003885195485695645}, 'retain_probe': {1.0: 0.03171069920063019}}
+  [full_width/redirect] ep2: {'retain_loss': 0.02988169934904134, 'redirect_loss': 0.00037818420977607644, 'null_loss': 9.525508612083892e-05, 'epoch': 2, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.00037818420968121954}, 'retain_probe': {1.0: 0.031669702380895615}}
+  -> UA=90.8%  forget-rate=9.2%  FID=24.40  retain-cond-acc=79.1%  t=41s
+
+=== mmu ===
+  [full/redirect] ep0: {'retain_loss': 0.11027070605092579, 'redirect_loss': 0.040240720949791094, 'null_loss': 0.008379244911242966, 'epoch': 0, 'phase': 'joint', 'updates': 106, 'redirect_mse': {0.25: 0.07912636215598495, 0.5: 0.032041255686018205, 1.0: 0.009554539753331079}, 'retain_probe': {0.25: 0.04663355275988579, 0.5: 0.041036080569028854, 1.0: 0.03454127162694931}}
+  [full/redirect] ep1: {'retain_loss': 0.04094902788047437, 'redirect_loss': 0.006094455187795339, 'null_loss': 0.0017085193004804076, 'epoch': 1, 'phase': 'joint', 'updates': 106, 'redirect_mse': {0.25: 0.010110502611707758, 0.5: 0.005923220861841131, 1.0: 0.0022496414565377765}, 'retain_probe': {0.25: 0.03993602097034454, 0.5: 0.035887785255908966, 1.0: 0.032908108085393906}}
+  [full/redirect] ep2: {'retain_loss': 0.03707241826587253, 'redirect_loss': 0.003851735804023014, 'null_loss': 0.0009738474657276162, 'epoch': 2, 'phase': 'joint', 'updates': 106, 'redirect_mse': {0.25: 0.006625714328553941, 0.5: 0.0035263111315391683, 1.0: 0.0014031815280516943}, 'retain_probe': {0.25: 0.03777969628572464, 0.5: 0.0347052663564682, 1.0: 0.03258398175239563}}
+  -> UA=81.4%  forget-rate=18.6%  FID=34.97  retain-cond-acc=69.0%  t=84s
+
+=== mmu_noskip ===
+  [full/redirect] ep0: {'retain_loss': 0.030944234580353454, 'redirect_loss': 0.0009440285865631368, 'null_loss': 0.00018789594187142535, 'epoch': 0, 'phase': 'joint', 'updates': 106, 'redirect_mse': {0.25: 0.001332498135390105, 0.5: 0.0008997533823604937, 1.0: 0.0005998341492204754}, 'retain_probe': {0.25: 0.03244636207818985, 0.5: 0.032061539590358734, 1.0: 0.03179836645722389}}
+  [full/redirect] ep1: {'retain_loss': 0.029881452889906037, 'redirect_loss': 0.0006567991725169122, 'null_loss': 0.00014124205572685849, 'epoch': 1, 'phase': 'joint', 'updates': 106, 'redirect_mse': {0.25: 0.0008939814004633162, 0.5: 0.0006333287024387606, 1.0: 0.00044308735002522115}, 'retain_probe': {0.25: 0.03231767565011978, 0.5: 0.03200898319482803, 1.0: 0.03179522603750229}}
+  [full/redirect] ep2: {'retain_loss': 0.03044691624906328, 'redirect_loss': 0.000613699716757293, 'null_loss': 0.00013841620861569903, 'epoch': 2, 'phase': 'joint', 'updates': 106, 'redirect_mse': {0.25: 0.0008204799476597044, 0.5: 0.0005947224919994672, 1.0: 0.0004258966498352863}, 'retain_probe': {0.25: 0.032214924693107605, 0.5: 0.031944118440151215, 1.0: 0.031754232943058014}}
+  -> UA=91.8%  forget-rate=8.2%  FID=23.14  retain-cond-acc=80.6%  t=83s
+
+=== mmu_retainonly ===
+  [retain_only/redirect] ep0: {'retain_loss': 0.11068097331899183, 'redirect_loss': 0.0, 'null_loss': 0.008306798196777149, 'epoch': 0, 'phase': 'joint', 'updates': 106, 'redirect_mse': {0.25: 0.0, 0.5: 0.0, 1.0: 0.0}, 'retain_probe': {0.25: 0.046515971422195435, 0.5: 0.04109456017613411, 1.0: 0.03445349633693695}}
+  [retain_only/redirect] ep1: {'retain_loss': 0.04085395844667046, 'redirect_loss': 0.0, 'null_loss': 0.0016420577304713704, 'epoch': 1, 'phase': 'joint', 'updates': 106, 'redirect_mse': {0.25: 0.0, 0.5: 0.0, 1.0: 0.0}, 'retain_probe': {0.25: 0.039917636662721634, 0.5: 0.035844556987285614, 1.0: 0.03286636993288994}}
+  [retain_only/redirect] ep2: {'retain_loss': 0.03699414293854325, 'redirect_loss': 0.0, 'null_loss': 0.0009229860731779977, 'epoch': 2, 'phase': 'joint', 'updates': 106, 'redirect_mse': {0.25: 0.0, 0.5: 0.0, 1.0: 0.0}, 'retain_probe': {0.25: 0.03776276856660843, 0.5: 0.03466472029685974, 1.0: 0.03254687041044235}}
+  -> UA=30.4%  forget-rate=69.6%  FID=34.54  retain-cond-acc=72.1%  t=52s
+
+DONE {
+ "source": {
+  "UA": 12.800000607967377,
+  "forget_class_rate": 87.1999979019165,
+  "retain_cond_acc": 81.45999908447266,
+  "FID_retain": 22.04819496484083,
+  "unlearn_time_s": 0.1
+ },
+ "retrain": {
+  "UA": 93.59999895095825,
+  "forget_class_rate": 6.400000303983688,
+  "retain_cond_acc": 82.35999941825867,
+  "FID_retain": 21.67445743933257,
+  "unlearn_time_s": 0.1
+ },
+ "finetune": {
+  "UA": 10.80000028014183,
+  "forget_class_rate": 89.20000195503235,
+  "retain_cond_acc": 78.70000004768372,
+  "FID_retain": 27.389396524743233,
+  "unlearn_time_s": 10.5
+ },
+ "neggrad": {
+  "UA": 100.0,
+  "forget_class_rate": 0.0,
+  "retain_cond_acc": 15.279999375343323,
+  "FID_retain": 304.3422846880022,
+  "unlearn_time_s": 20.7
+ },
+ "salun": {
+  "UA": 97.60000109672546,
+  "forget_class_rate": 2.4000000208616257,
+  "retain_cond_acc": 76.84000134468079,
+  "FID_retain": 31.108938097198006,
+  "unlearn_time_s": 26.4
+ },
+ "mmu_fullwidth": {
+  "UA": 90.79999923706055,
+  "forget_class_rate": 9.200000017881393,
+  "retain_cond_acc": 79.14000153541565,
+  "FID_retain": 24.399435837036776,
+  "unlearn_time_s": 40.6
+ },
+ "mmu": {
+  "UA": 81.40000104904175,
+  "forget_class_rate": 18.60000044107437,
+  "retain_cond_acc": 68.98000240325928,
+  "FID_retain": 34.97307954004731,
+  "unlearn_time_s": 83.8
+ },
+ "mmu_noskip": {
+  "UA": 91.79999828338623,
+  "forget_class_rate": 8.20000022649765,
+  "retain_cond_acc": 80.62000274658203,
+  "FID_retain": 23.143490779481624,
+  "unlearn_time_s": 83.4
+ },
+ "mmu_retainonly": {
+  "UA": 30.399999022483826,
+  "forget_class_rate": 69.59999799728394,
+  "retain_cond_acc": 72.079998254776,
+  "FID_retain": 34.5434184808214,
+  "unlearn_time_s": 52.1
+ }
+}

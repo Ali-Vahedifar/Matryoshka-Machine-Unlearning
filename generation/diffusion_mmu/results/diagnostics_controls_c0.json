@@ -1,0 +1,144 @@
+{
+ "mmu_retainonly": [
+  {
+   "epoch": 0,
+   "retain_loss": 0.47783896099953427,
+   "forget_loss": 0.0,
+   "retain_batches": 105,
+   "forget_batches": 0,
+   "d_mean": {
+    "0.25": null,
+    "0.5": null,
+    "1.0": null
+   },
+   "hinge_active": {
+    "0.25": null,
+    "0.5": null,
+    "1.0": null
+   },
+   "probe_after_retain": {
+    "0.25": 0.16363626718521118,
+    "0.5": 0.0860784500837326,
+    "1.0": 0.0323013961315155
+   },
+   "probe_after_forget": {
+    "0.25": 0.16363626718521118,
+    "0.5": 0.0860784500837326,
+    "1.0": 0.0323013961315155
+   }
+  },
+  {
+   "epoch": 1,
+   "retain_loss": 0.43300101302918936,
+   "forget_loss": 0.0,
+   "retain_batches": 105,
+   "forget_batches": 0,
+   "d_mean": {
+    "0.25": null,
+    "0.5": null,
+    "1.0": null
+   },
+   "hinge_active": {
+    "0.25": null,
+    "0.5": null,
+    "1.0": null
+   },
+   "probe_after_retain": {
+    "0.25": 0.1575608104467392,
+    "0.5": 0.08134643733501434,
+    "1.0": 0.03200053423643112
+   },
+   "probe_after_forget": {
+    "0.25": 0.1575608104467392,
+    "0.5": 0.08134643733501434,
+    "1.0": 0.03200053423643112
+   }
+  },
+  {
+   "epoch": 2,
+   "retain_loss": 0.4304087051323482,
+   "forget_loss": 0.0,
+   "retain_batches": 105,
+   "forget_batches": 0,
+   "d_mean": {
+    "0.25": null,
+    "0.5": null,
+    "1.0": null
+   },
+   "hinge_active": {
+    "0.25": null,
+    "0.5": null,
+    "1.0": null
+   },
+   "probe_after_retain": {
+    "0.25": 0.1589609980583191,
+    "0.5": 0.08078421652317047,
+    "1.0": 0.03192508965730667
+   },
+   "probe_after_forget": {
+    "0.25": 0.1589609980583191,
+    "0.5": 0.08078421652317047,
+    "1.0": 0.03192508965730667
+   }
+  }
+ ],
+ "mmu_fullwidth": [
+  {
+   "epoch": 0,
+   "retain_loss": 0.029853440005154837,
+   "forget_loss": 0.154749962190787,
+   "retain_batches": 105,
+   "forget_batches": 39,
+   "d_mean": {
+    "1.0": 1.4299967362398418
+   },
+   "hinge_active": {
+    "1.0": 0.37900641025641024
+   },
+   "probe_after_retain": {
+    "1.0": 0.03171147406101227
+   },
+   "probe_after_forget": {
+    "1.0": 3.0934340953826904
+   }
+  },
+  {
+   "epoch": 1,
+   "retain_loss": 0.5208044918697505,
+   "forget_loss": 0.11414360479475597,
+   "retain_batches": 105,
+   "forget_batches": 39,
+   "d_mean": {
+    "1.0": 1.3683942183971596
+   },
+   "hinge_active": {
+    "1.0": 0.28966346153846156
+   },
+   "probe_after_retain": {
+    "1.0": 0.03372029587626457
+   },
+   "probe_after_forget": {
+    "1.0": 2.332582950592041
+   }
+  },
+  {
+   "epoch": 2,
+   "retain_loss": 0.445528551989368,
+   "forget_loss": 0.07446596883714963,
+   "retain_batches": 105,
+   "forget_batches": 39,
+   "d_mean": {
+    "1.0": 1.1783067389176443
+   },
+   "hinge_active": {
+    "1.0": 0.2309695512820513
+   },
+   "probe_after_retain": {
+    "1.0": 0.035325244069099426
+   },
+   "probe_after_forget": {
+    "1.0": 1.817448377609253
+   }
+  }
+ ]
+}

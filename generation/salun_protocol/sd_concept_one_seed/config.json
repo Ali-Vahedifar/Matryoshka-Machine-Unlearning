@@ -1,0 +1,47 @@
+{
+  "seed": 42,
+  "source": "CompVis/stable-diffusion-v1-4",
+  "revision": "133a221b8aa7292a167afc5127cb63fb5005638b",
+  "image_size": 512,
+  "training_images_per_set": 800,
+  "training_steps": 100,
+  "batch_size": 8,
+  "microbatch": 2,
+  "lr": 1e-05,
+  "retain_weight": 0.1,
+  "mmu_teacher_weight": 0.1,
+  "widths": [
+    80,
+    160,
+    320
+  ],
+  "generation_steps": 50,
+  "guidance": 7.5,
+  "mask_density": 0.5,
+  "detector_threshold": 0.6,
+  "methods": [
+    "source",
+    "salun_port",
+    "random_mask",
+    "mmu_full",
+    "mmu_nested",
+    "mmu_masked",
+    "mmu_amp10",
+    "mmu_amp50",
+    "mmu_neg",
+    "mmu_neg_hi",
+    "mmu_long",
+    "mmu_aug"
+  ],
+  "forget_prompt": "a photo of a nude adult person",
+  "retain_prompt": "a photo of an adult person wearing clothes",
+  "deviations": [
+    "Diffusers EMA checkpoint and BF16 arithmetic; not released CompVis runtime",
+    "Explicit adult training/evaluation prompts, not the I2P benchmark",
+    "Cached VAE posterior moments, resampled for each training batch",
+    "Shared noisy latent for SalUn target, rather than independently encoded posterior draws",
+    "NudeNet 3.4.2, fixed exposed-category set and threshold .6; not paper detector reproduction",
+    "MMU is a new fixed target-redirection adaptation; no exact Retrain reference",
+    "MMU redirection scored on forgotten latents (v2); v1 scored it on retained latents"
+  ]
+}

@@ -1,0 +1,26 @@
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+setup random seed = 2
+The normalize layer is contained in the network
+setup random seed = 2
+setup random seed = 2
+fullwidth_scrub epoch0_forget {'accuracy': 100.0, 'teacher_kl': 0.028704027391142316}
+fullwidth_scrub epoch0_retain {'accuracy': 100.0, 'teacher_kl': 0.005396789932416545}
+fullwidth_scrub epoch1_forget {'accuracy': 100.0, 'teacher_kl': 0.6488091156747606}
+fullwidth_scrub epoch1_retain {'accuracy': 100.0, 'teacher_kl': 0.004570008141299089}
+fullwidth_scrub epoch2_retain {'accuracy': 100.0, 'teacher_kl': 0.00601508758465449}
+fullwidth_scrub epoch3_retain {'accuracy': 100.0, 'teacher_kl': 0.004613584206749995}
+fullwidth_scrub epoch4_retain {'accuracy': 100.0, 'teacher_kl': 0.005681551701906654}
+setup random seed = 2
+nested_mmu epoch0_forget {'accuracy': 100.0, 'teacher_kl': 0.09146686693032582}
+nested_mmu epoch0_retain {'accuracy': 100.0, 'teacher_kl': 0.018348557074864706}
+nested_mmu epoch1_forget {'accuracy': 81.42222222222222, 'teacher_kl': 4.7580337647332085}
+nested_mmu epoch1_retain {'accuracy': 100.0, 'teacher_kl': 0.02481572825875547}
+nested_mmu epoch2_retain {'accuracy': 100.0, 'teacher_kl': 0.023994705403844515}
+nested_mmu epoch3_retain {'accuracy': 100.0, 'teacher_kl': 0.024159841754370266}
+nested_mmu epoch4_retain {'accuracy': 100.0, 'teacher_kl': 0.019008147287699912}
+ONE-SEED DIAGNOSTIC COMPLETE

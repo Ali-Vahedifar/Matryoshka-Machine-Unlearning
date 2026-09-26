@@ -1,0 +1,18 @@
+{
+  "UA": 14.328885078430176,
+  "RA": 89.50666785240173,
+  "TA": 84.17999744415283,
+  "MIA": 18.413333333333338,
+  "RTE_min": 0.7127166473500741,
+  "seed": 1,
+  "ratio": 0.5,
+  "method": "MMU2T",
+  "protocol": "paper-aligned-tuned-v1",
+  "evaluation_split": "validation",
+  "hyperparameters": {
+    "lr": 0.01,
+    "epochs": 5,
+    "alpha": 0.2,
+    "density": 0.5
+  }
+}

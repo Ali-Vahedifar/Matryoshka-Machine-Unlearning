@@ -1,0 +1,18 @@
+Source generated 160 additional samples in 34.4 seconds
+Retrain reference generated 160 additional samples in 33.6 seconds
+SalUn (local) generated 160 additional samples in 34.7 seconds
+Random mask (local) generated 160 additional samples in 35.3 seconds
+MMU full width, beta=1 generated 160 additional samples in 35.6 seconds
+MMU full width, beta=4 generated 160 additional samples in 35.8 seconds
+MMU nested, warm-up=2 generated 160 additional samples in 35.9 seconds
+Rendered airplane
+Rendered automobile
+Rendered bird
+Rendered cat
+Rendered deer
+Rendered dog
+Rendered frog
+Rendered horse
+Rendered ship
+Rendered truck
+EXPANDED GENERATION COMPLETE

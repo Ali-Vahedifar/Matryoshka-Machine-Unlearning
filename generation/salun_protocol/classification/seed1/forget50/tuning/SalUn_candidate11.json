@@ -1,0 +1,18 @@
+{
+  "UA": 73.20888936519623,
+  "RA": 26.448890566825867,
+  "TA": 27.12000012397766,
+  "MIA": 39.56444444444445,
+  "RTE_min": 1.0313357217334367,
+  "seed": 1,
+  "ratio": 0.5,
+  "method": "SalUn",
+  "protocol": "paper-aligned-tuned-v1",
+  "evaluation_split": "validation",
+  "hyperparameters": {
+    "lr": 0.05,
+    "epochs": 10,
+    "alpha": 0.2,
+    "density": 0.9
+  }
+}

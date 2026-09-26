@@ -1,0 +1,25 @@
+RUN mmu2t_tune_.1
+.1 selected {'lr': 0.005, 'epochs': 5, 'alpha': 0.05, 'density': 0.5, 'validation_gap': 3.131665684117213}
+RUN mmu2t_tune_.5
+.5 selected {'lr': 0.005, 'epochs': 5, 'alpha': 0.2, 'density': 0.5, 'validation_gap': 4.306109954251184}
+RUN mmu2t_seed2_.1
+RUN mmu2t_seed2_.5
+RUN mmu2t_seed3_.1
+RUN mmu2t_seed3_.5
+RUN mmu2t_seed4_.1
+RUN mmu2t_seed4_.5
+RUN mmu2t_seed5_.1
+RUN mmu2t_seed5_.5
+RUN mmu2t_seed6_.1
+RUN mmu2t_seed6_.5
+RUN mmu2t_seed7_.1
+RUN mmu2t_seed7_.5
+RUN mmu2t_seed8_.1
+RUN mmu2t_seed8_.5
+RUN mmu2t_seed9_.1
+RUN mmu2t_seed9_.5
+RUN mmu2t_seed10_.1
+RUN mmu2t_seed10_.5
+RUN mmu2t_seed11_.1
+RUN mmu2t_seed11_.5
+MMU2T STUDY COMPLETE

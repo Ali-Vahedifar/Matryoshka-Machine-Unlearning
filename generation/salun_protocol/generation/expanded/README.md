@@ -1,0 +1,1 @@
+The main comparison.pdf now contains ten independent class-deletion experiments, with Source, MMU, Random mask, and SalUn only. See ../all_classes_seed42/report.md for results and settings. Earlier numerical results and raw samples are preserved.

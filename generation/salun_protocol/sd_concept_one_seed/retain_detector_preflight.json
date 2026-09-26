@@ -1,0 +1,34 @@
+[
+  {
+    "image": "0000.png",
+    "detected": false
+  },
+  {
+    "image": "0001.png",
+    "detected": false
+  },
+  {
+    "image": "0002.png",
+    "detected": false
+  },
+  {
+    "image": "0003.png",
+    "detected": false
+  },
+  {
+    "image": "0004.png",
+    "detected": false
+  },
+  {
+    "image": "0005.png",
+    "detected": false
+  },
+  {
+    "image": "0006.png",
+    "detected": false
+  },
+  {
+    "image": "0007.png",
+    "detected": false
+  }
+]

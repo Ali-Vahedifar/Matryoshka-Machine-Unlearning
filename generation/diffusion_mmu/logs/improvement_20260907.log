@@ -1,0 +1,139 @@
+RUN ['/opt/conda/bin/python', '-u', 'diffusion_mmu/run_experiment.py', '--methods', 'mmu_fullwidth', '--beta', '0.5', '--warmup_epochs', '0', '--guidance', '2', '--seed', '42', '--tag', 'improve_b05']
+forget class 0 (airplane): |D_f|=5000  |D_r used|=13500 of 45000
+FID reference: 5000 real retain-class test images
+
+=== mmu_fullwidth ===
+  [full_width/redirect] ep0: {'retain_loss': 0.02989800048371156, 'redirect_loss': 0.0005424654958942146, 'null_loss': 0.00010391121869260031, 'epoch': 0, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.0005424654958424745}, 'retain_probe': {1.0: 0.031706489622592926}}
+  [full_width/redirect] ep1: {'retain_loss': 0.029262927978678986, 'redirect_loss': 0.0004298895388686409, 'null_loss': 9.696824420717786e-05, 'epoch': 1, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.0004298895387737839}, 'retain_probe': {1.0: 0.031716495752334595}}
+  [full_width/redirect] ep2: {'retain_loss': 0.029892013801468744, 'redirect_loss': 0.0004153735177263756, 'null_loss': 9.696813704687412e-05, 'epoch': 2, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.00041537351768325875}, 'retain_probe': {1.0: 0.03167053312063217}}
+  -> UA=83.8%  forget-rate=16.2%  FID=17.43  retain-cond-acc=97.8%  t=39s
+
+DONE {
+ "mmu_fullwidth": {
+  "UA": 83.79999995231628,
+  "forget_class_rate": 16.200000047683716,
+  "retain_cond_acc": 97.75999784469604,
+  "FID_retain": 17.42646187986054,
+  "unlearn_time_s": 39.0
+ }
+}
+# Diffusion evaluation: guidance 2.0
+
+Forget class 0; seed 42; 500 forgotten-condition samples; 5000 retained samples.
+
+| Method | UA (%) | Retained FID | Retained accuracy (%) | Train/load time (s) |
+|---|---:|---:|---:|---:|
+| MMU full width | 83.8 | 17.43 | 97.8 | 39.0 |
+
+UA alone cannot distinguish valid redirection from damaged generation.
+SalUn is a local adaptation, not a validated reproduction. One seed and one class do not establish general superiority.
+
+RUN ['/opt/conda/bin/python', '-u', 'diffusion_mmu/run_experiment.py', '--methods', 'mmu_fullwidth', '--beta', '2', '--warmup_epochs', '0', '--guidance', '2', '--seed', '42', '--tag', 'improve_b2']
+forget class 0 (airplane): |D_f|=5000  |D_r used|=13500 of 45000
+FID reference: 5000 real retain-class test images
+
+=== mmu_fullwidth ===
+  [full_width/redirect] ep0: {'retain_loss': 0.02992327113725521, 'redirect_loss': 0.0004423409710051837, 'null_loss': 0.00013107407173029733, 'epoch': 0, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.00044234097086721}, 'retain_probe': {1.0: 0.03170786052942276}}
+  [full_width/redirect] ep1: {'retain_loss': 0.02924832251060892, 'redirect_loss': 0.000356787001222579, 'null_loss': 9.85031744758426e-05, 'epoch': 1, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.00035678700109322865}, 'retain_probe': {1.0: 0.03170599043369293}}
+  [full_width/redirect] ep2: {'retain_loss': 0.029873208889254817, 'redirect_loss': 0.00034504619107098765, 'null_loss': 9.493601871481925e-05, 'epoch': 2, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.0003450461910278709}, 'retain_probe': {1.0: 0.031673502177000046}}
+  -> UA=88.6%  forget-rate=11.4%  FID=18.00  retain-cond-acc=97.1%  t=41s
+
+DONE {
+ "mmu_fullwidth": {
+  "UA": 88.59999775886536,
+  "forget_class_rate": 11.400000005960464,
+  "retain_cond_acc": 97.079998254776,
+  "FID_retain": 17.99716352902186,
+  "unlearn_time_s": 40.7
+ }
+}
+# Diffusion evaluation: guidance 2.0
+
+Forget class 0; seed 42; 500 forgotten-condition samples; 5000 retained samples.
+
+| Method | UA (%) | Retained FID | Retained accuracy (%) | Train/load time (s) |
+|---|---:|---:|---:|---:|
+| MMU full width | 88.6 | 18.00 | 97.1 | 40.7 |
+
+UA alone cannot distinguish valid redirection from damaged generation.
+SalUn is a local adaptation, not a validated reproduction. One seed and one class do not establish general superiority.
+
+RUN ['/opt/conda/bin/python', '-u', 'diffusion_mmu/run_experiment.py', '--methods', 'mmu_fullwidth', '--beta', '4', '--warmup_epochs', '0', '--guidance', '2', '--seed', '42', '--tag', 'improve_b4']
+forget class 0 (airplane): |D_f|=5000  |D_r used|=13500 of 45000
+FID reference: 5000 real retain-class test images
+
+=== mmu_fullwidth ===
+  [full_width/redirect] ep0: {'retain_loss': 0.029943128908673924, 'redirect_loss': 0.00041611984448886854, 'null_loss': 0.00014995111783975046, 'epoch': 0, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.00041611984441125837}, 'retain_probe': {1.0: 0.03171406686306}}
+  [full_width/redirect] ep1: {'retain_loss': 0.029255434900522233, 'redirect_loss': 0.00033366580360948486, 'null_loss': 0.00010698641461742765, 'epoch': 1, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.00033366580348875787}, 'retain_probe': {1.0: 0.031707726418972015}}
+  [full_width/redirect] ep2: {'retain_loss': 0.029878805957458638, 'redirect_loss': 0.00032106382467059626, 'null_loss': 0.00010119087220152357, 'epoch': 2, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.00032106382454986926}, 'retain_probe': {1.0: 0.0316852442920208}}
+  -> UA=90.4%  forget-rate=9.6%  FID=17.01  retain-cond-acc=97.1%  t=41s
+
+DONE {
+ "mmu_fullwidth": {
+  "UA": 90.39999842643738,
+  "forget_class_rate": 9.600000083446503,
+  "retain_cond_acc": 97.14000225067139,
+  "FID_retain": 17.01319320319135,
+  "unlearn_time_s": 40.7
+ }
+}
+# Diffusion evaluation: guidance 2.0
+
+Forget class 0; seed 42; 500 forgotten-condition samples; 5000 retained samples.
+
+| Method | UA (%) | Retained FID | Retained accuracy (%) | Train/load time (s) |
+|---|---:|---:|---:|---:|
+| MMU full width | 90.4 | 17.01 | 97.1 | 40.7 |
+
+UA alone cannot distinguish valid redirection from damaged generation.
+SalUn is a local adaptation, not a validated reproduction. One seed and one class do not establish general superiority.
+
+RUN ['/opt/conda/bin/python', '-u', 'diffusion_mmu/run_experiment.py', '--methods', 'mmu_fullwidth,mmu', '--beta', '1', '--warmup_epochs', '2', '--guidance', '2', '--seed', '42', '--tag', 'improve_warm2']
+forget class 0 (airplane): |D_f|=5000  |D_r used|=13500 of 45000
+FID reference: 5000 real retain-class test images
+
+=== mmu_fullwidth ===
+  [full_width/redirect] ep0: {'retain_loss': 0.029897773616291857, 'redirect_loss': 0.0, 'null_loss': 9.103123306434739e-05, 'epoch': 0, 'phase': 'warmup', 'updates': 106, 'redirect_mse': {1.0: 0.0}, 'retain_probe': {1.0: 0.03170457482337952}}
+  [full_width/redirect] ep1: {'retain_loss': 0.02927492760177012, 'redirect_loss': 0.0, 'null_loss': 9.622451103145808e-05, 'epoch': 1, 'phase': 'warmup', 'updates': 106, 'redirect_mse': {1.0: 0.0}, 'retain_probe': {1.0: 0.03172799199819565}}
+  [full_width/redirect] ep2: {'retain_loss': 0.02992948674272608, 'redirect_loss': 0.0004899952243064979, 'null_loss': 0.00012524863264385473, 'epoch': 2, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.0004899952241943942}, 'retain_probe': {1.0: 0.03167599439620972}}
+  [full_width/redirect] ep3: {'retain_loss': 0.028978185784485605, 'redirect_loss': 0.0003982714123127085, 'null_loss': 0.00010741416733556737, 'epoch': 3, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.00039827141220922824}, 'retain_probe': {1.0: 0.031663261353969574}}
+  [full_width/redirect] ep4: {'retain_loss': 0.029300354227975563, 'redirect_loss': 0.0003895090364212929, 'null_loss': 0.00010839592616280748, 'epoch': 4, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.0003895090363091893}, 'retain_probe': {1.0: 0.03166762739419937}}
+  -> UA=85.2%  forget-rate=14.8%  FID=17.05  retain-cond-acc=96.9%  t=61s
+
+=== mmu ===
+  [full/redirect] ep0: {'retain_loss': 0.11068112478874348, 'redirect_loss': 0.0, 'null_loss': 0.008306823207479384, 'epoch': 0, 'phase': 'warmup', 'updates': 106, 'redirect_mse': {0.25: 0.0, 0.5: 0.0, 1.0: 0.0}, 'retain_probe': {0.25: 0.046516045928001404, 0.5: 0.0410945899784565, 1.0: 0.03445350378751755}}
+  [full/redirect] ep1: {'retain_loss': 0.04085401354785319, 'redirect_loss': 0.0, 'null_loss': 0.0016420703390958133, 'epoch': 1, 'phase': 'warmup', 'updates': 106, 'redirect_mse': {0.25: 0.0, 0.5: 0.0, 1.0: 0.0}, 'retain_probe': {0.25: 0.03991764783859253, 0.5: 0.035844504833221436, 1.0: 0.03286638483405113}}
+  [full/redirect] ep2: {'retain_loss': 0.03671925313274066, 'redirect_loss': 0.0037741946742214537, 'null_loss': 0.0009279299018973554, 'epoch': 2, 'phase': 'joint', 'updates': 106, 'redirect_mse': {0.25: 0.006477532585461934, 0.5: 0.003443833514496132, 1.0: 0.0014012175141661256}, 'retain_probe': {0.25: 0.037279561161994934, 0.5: 0.0344388484954834, 1.0: 0.03251960501074791}}
+  [full/redirect] ep3: {'retain_loss': 0.033896386475474743, 'redirect_loss': 0.002736495865991822, 'null_loss': 0.0007005000091675255, 'epoch': 3, 'phase': 'joint', 'updates': 106, 'redirect_mse': {0.25: 0.004658043439741488, 0.5: 0.002495994801874514, 1.0: 0.0010554491049713558}, 'retain_probe': {0.25: 0.036190927028656006, 0.5: 0.033923324197530746, 1.0: 0.032357774674892426}}
+  [full/redirect] ep4: {'retain_loss': 0.033395938740836247, 'redirect_loss': 0.0023223464541413164, 'null_loss': 0.0005966567088056494, 'epoch': 4, 'phase': 'joint', 'updates': 106, 'redirect_mse': {0.25: 0.003911097939367648, 0.5: 0.0021275116050684896, 1.0: 0.0009284295798451812}, 'retain_probe': {0.25: 0.03552255034446716, 0.5: 0.033625319600105286, 1.0: 0.03226931020617485}}
+  -> UA=72.4%  forget-rate=27.6%  FID=19.47  retain-cond-acc=95.9%  t=119s
+
+DONE {
+ "mmu_fullwidth": {
+  "UA": 85.19999980926514,
+  "forget_class_rate": 14.800000190734863,
+  "retain_cond_acc": 96.93999886512756,
+  "FID_retain": 17.05094351897435,
+  "unlearn_time_s": 60.9
+ },
+ "mmu": {
+  "UA": 72.39999771118164,
+  "forget_class_rate": 27.59999930858612,
+  "retain_cond_acc": 95.89999914169312,
+  "FID_retain": 19.468237328966836,
+  "unlearn_time_s": 118.7
+ }
+}
+# Diffusion evaluation: guidance 2.0
+
+Forget class 0; seed 42; 500 forgotten-condition samples; 5000 retained samples.
+
+| Method | UA (%) | Retained FID | Retained accuracy (%) | Train/load time (s) |
+|---|---:|---:|---:|---:|
+| MMU full width | 85.2 | 17.05 | 96.9 | 60.9 |
+| MMU nested | 72.4 | 19.47 | 95.9 | 118.7 |
+
+UA alone cannot distinguish valid redirection from damaged generation.
+SalUn is a local adaptation, not a validated reproduction. One seed and one class do not establish general superiority.
+
+STAGE ONE COMPLETE

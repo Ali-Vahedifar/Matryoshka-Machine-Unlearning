@@ -1,0 +1,75 @@
+{
+ "protocol": {
+  "protocol_version": "cifar10-mu-v2-e30",
+  "dataset": "cifar10",
+  "backbone": "fpecnn",
+  "optimizer": "adam",
+  "forget_mode": "class",
+  "forget_class": 0,
+  "num_forget": null,
+  "seed": 42,
+  "epochs": 30,
+  "batch_size": 64,
+  "source_lr": 0.001,
+  "retain_ratio": 0.1,
+  "selection_split": "cifar10_train_validation_only",
+  "test_split": "cifar10_official_test_once_after_selection",
+  "mia": "independent_calibration_selection_final_splits"
+ },
+ "results": {
+  "mmu": {
+   "config": {
+    "msteps": 1,
+    "lr": 0.0001,
+    "epochs": 5,
+    "head_mode": "tied"
+   },
+   "metrics": {
+    "forget_acc": 0.0,
+    "retain_acc": 91.43333333333334,
+    "test_acc": 82.28999999999999,
+    "mia": 52.47777777777778,
+    "mia_auc": 53.93831111111111,
+    "kl_divergence": 0.010456506320782766,
+    "output_kl_divergence": 0.4711655731888334,
+    "unlearn_time": 5.900576204992831
+   },
+   "source_sha256": "223f93f862111fb084cc6bb7b24d1c32598376c3412ee22b46daeba0f621c9b1",
+   "diagnostics": {
+    "granularities": [
+     8,
+     16,
+     32,
+     64
+    ],
+    "head_mode": "tied",
+    "weighting": "mrl",
+    "forget_scales": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "retain_scales": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "prefix_forget_acc_before": {
+     "8": 0.3333333333333333,
+     "16": 27.044444444444444,
+     "32": 86.24444444444444,
+     "64": 99.17777777777778
+    },
+    "prefix_forget_acc_after": {
+     "8": 7.977777777777778,
+     "16": 0.0,
+     "32": 0.0,
+     "64": 0.0
+    }
+   }
+  }
+ },
+ "complete": true
+}

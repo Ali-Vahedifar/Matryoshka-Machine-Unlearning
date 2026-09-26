@@ -1,0 +1,54 @@
+{
+ "protocol": {
+  "protocol_version": "cifar10-mu-v2-e100",
+  "dataset": "cifar10",
+  "backbone": "resnet18",
+  "optimizer": "adam",
+  "forget_mode": "subclass",
+  "forget_class": 0,
+  "num_forget": null,
+  "seed": 43,
+  "epochs": 100,
+  "batch_size": 64,
+  "source_lr": 0.001,
+  "source_weight_decay": 0.0,
+  "source_momentum": 0.9,
+  "source_scheduler": "plateau",
+  "source_min_lr": 0.0,
+  "source_lr_milestones": [
+   60,
+   120
+  ],
+  "source_lr_gamma": 0.2,
+  "early_stopping_patience": 10,
+  "min_epochs": 20,
+  "retain_ratio": 0.1,
+  "selection_split": "cifar10_train_validation_only",
+  "test_split": "cifar10_official_test_once_after_selection",
+  "mia": "independent_calibration_selection_final_splits",
+  "selection": "utility",
+  "utility_tolerance": 2.0,
+  "relearn_epochs": 5,
+  "relearn_lr": 0.0001
+ },
+ "source_train_time": 700.2706922279904,
+ "source_training": {
+  "best_epoch": 54,
+  "epochs_ran": 64,
+  "best_val_acc": 0.955,
+  "scheduler": "plateau",
+  "early_stopping_patience": 10,
+  "min_epochs": 20
+ },
+ "source_sha256": "47e7f081e84efbadc96c8101257a6216c662bb76c7df6e2604d2e954676ec880",
+ "retrain_time": 490.3793297029915,
+ "retrain_training": {
+  "best_epoch": 39,
+  "epochs_ran": 49,
+  "best_val_acc": 0.9542222222222222,
+  "scheduler": "plateau",
+  "early_stopping_patience": 10,
+  "min_epochs": 20
+ },
+ "retrain_sha256": "0cafe1bf0fd0a6016a1b8b4a19ea99e9abf5321bb345dc7079645f9881f68dcb"
+}

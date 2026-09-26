@@ -1,0 +1,91 @@
+forget class 0 (airplane): |D_f|=5000  |D_r used|=13500 of 45000
+FID reference: 5000 real retain-class test images
+
+=== source ===
+  -> UA=1.8%  forget-rate=98.2%  FID=16.44  retain-cond-acc=97.9%  t=0s
+
+=== retrain ===
+  -> UA=82.6%  forget-rate=17.4%  FID=16.44  retain-cond-acc=98.1%  t=0s
+
+=== finetune ===
+  finetune ep0: 0.0295
+  finetune ep1: 0.0291
+  finetune ep2: 0.0300
+  -> UA=1.4%  forget-rate=98.6%  FID=18.73  retain-cond-acc=97.6%  t=11s
+
+=== neggrad ===
+  neggrad ep0: -2.8096
+  neggrad ep1: -18.6673
+  neggrad ep2: -43.5963
+  -> UA=60.4%  forget-rate=39.6%  FID=266.35  retain-cond-acc=7.2%  t=21s
+
+=== salun ===
+  salun mask keeps 50.0% of weights
+  salun ep0: 0.0525
+  salun ep1: 0.0529
+  salun ep2: 0.0511
+  -> UA=0.4%  forget-rate=99.6%  FID=29.44  retain-cond-acc=69.5%  t=22s
+
+=== mmu ===
+  mmu ep0: retain 0.4815  forget 0.0660
+  mmu ep1: retain 0.7494  forget 0.0588
+  mmu ep2: retain 0.9256  forget 0.0628
+  -> UA=100.0%  forget-rate=0.0%  FID=316.52  retain-cond-acc=12.8%  t=61s
+
+=== mmu_noskip ===
+  mmu ep0: retain 0.0934  forget 0.1574
+  mmu ep1: retain 1.0922  forget 0.1369
+  mmu ep2: retain 1.4121  forget 0.1595
+  -> UA=99.8%  forget-rate=0.2%  FID=331.82  retain-cond-acc=0.0%  t=60s
+
+DONE {
+ "source": {
+  "UA": 1.7999999225139618,
+  "forget_class_rate": 98.19999933242798,
+  "retain_cond_acc": 97.89999723434448,
+  "FID_retain": 16.444075391829585,
+  "unlearn_time_s": 0.1
+ },
+ "retrain": {
+  "UA": 82.59999752044678,
+  "forget_class_rate": 17.399999499320984,
+  "retain_cond_acc": 98.1000006198883,
+  "FID_retain": 16.442438446208087,
+  "unlearn_time_s": 0.1
+ },
+ "finetune": {
+  "UA": 1.4000000432133675,
+  "forget_class_rate": 98.60000014305115,
+  "retain_cond_acc": 97.5600004196167,
+  "FID_retain": 18.733950024572323,
+  "unlearn_time_s": 10.6
+ },
+ "neggrad": {
+  "UA": 60.39999723434448,
+  "forget_class_rate": 39.59999978542328,
+  "retain_cond_acc": 7.159999758005142,
+  "FID_retain": 266.3498867110766,
+  "unlearn_time_s": 20.9
+ },
+ "salun": {
+  "UA": 0.4000000189989805,
+  "forget_class_rate": 99.59999918937683,
+  "retain_cond_acc": 69.49999928474426,
+  "FID_retain": 29.437053179122472,
+  "unlearn_time_s": 22.2
+ },
+ "mmu": {
+  "UA": 100.0,
+  "forget_class_rate": 0.0,
+  "retain_cond_acc": 12.759999930858612,
+  "FID_retain": 316.5192599092403,
+  "unlearn_time_s": 60.6
+ },
+ "mmu_noskip": {
+  "UA": 99.80000257492065,
+  "forget_class_rate": 0.20000000949949026,
+  "retain_cond_acc": 0.0,
+  "FID_retain": 331.8223224019099,
+  "unlearn_time_s": 60.4
+ }
+}

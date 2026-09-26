@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "mask_seed": 4242,
+  "train_steps": 1000,
+  "lr": 0.0001,
+  "batch_size": 128,
+  "margin": 0.002,
+  "mmu_retain_weight": 3.072,
+  "mask_fraction": 0.5,
+  "sampling_seed": 10043,
+  "sampling_steps": 1000,
+  "guidance": 2,
+  "samples_per_condition": 16,
+  "display_sample_index": 0,
+  "target_rule": "(forgotten_class + 1) % 10",
+  "note": "Local DDPM adaptation; full-width MMU with two frozen-source conditioned targets; no sweep."
+}

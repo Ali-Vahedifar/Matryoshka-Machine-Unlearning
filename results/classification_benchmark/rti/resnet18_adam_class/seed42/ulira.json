@@ -1,0 +1,105 @@
+{
+ "protocol": {
+  "protocol_version": "rti-mu-protocol-v3",
+  "dataset": "rti",
+  "backbone": "resnet18",
+  "optimizer": "adam",
+  "forget_mode": "class",
+  "forget_class": 0,
+  "num_forget": null,
+  "seed": 42,
+  "epochs": 150,
+  "batch_size": 64,
+  "source_lr": 0.001,
+  "source_weight_decay": 0.0,
+  "source_momentum": 0.9,
+  "source_scheduler": "plateau",
+  "source_min_lr": 0.0,
+  "source_lr_milestones": [
+   60,
+   120
+  ],
+  "source_lr_gamma": 0.2,
+  "early_stopping_patience": 15,
+  "min_epochs": 30,
+  "retain_ratio": 0.1,
+  "selection_split": "rti_train_validation_only",
+  "test_split": "rti_official_test_once_after_selection",
+  "mia": "independent_calibration_selection_final_splits",
+  "selection": "utility",
+  "utility_tolerance": 2.0,
+  "relearn_epochs": 5,
+  "relearn_lr": 0.0001
+ },
+ "shadows": 16,
+ "n_forget": 2250,
+ "results": {
+  "baseline": {
+   "auc": 100.0,
+   "tpr_at_1pct_fpr": 100.0,
+   "tpr_at_0.1pct_fpr": 100.0,
+   "balanced_acc": 95.84444444444445,
+   "finite_shadows": 16
+  },
+  "finetune": {
+   "auc": 99.93615802469135,
+   "tpr_at_1pct_fpr": 99.5111111111111,
+   "tpr_at_0.1pct_fpr": 97.2,
+   "balanced_acc": 92.82222222222222,
+   "finite_shadows": 16
+  },
+  "ssd": {
+   "auc": 97.91700740740741,
+   "tpr_at_1pct_fpr": 55.64444444444444,
+   "tpr_at_0.1pct_fpr": 0.4,
+   "balanced_acc": 81.44444444444446,
+   "finite_shadows": 16
+  },
+  "badteacher": {
+   "auc": 100.0,
+   "tpr_at_1pct_fpr": 100.0,
+   "tpr_at_0.1pct_fpr": 100.0,
+   "balanced_acc": 97.66666666666667,
+   "finite_shadows": 16
+  },
+  "unsir": {
+   "auc": 99.99998024691358,
+   "tpr_at_1pct_fpr": 100.0,
+   "tpr_at_0.1pct_fpr": 100.0,
+   "balanced_acc": 92.6,
+   "finite_shadows": 16
+  },
+  "scrub": {
+   "auc": 51.681688888888885,
+   "tpr_at_1pct_fpr": 1.0888888888888888,
+   "tpr_at_0.1pct_fpr": 0.1,
+   "balanced_acc": 50.044444444444444,
+   "finite_shadows": 16
+  },
+  "mmu": {
+   "auc": 66.11222716049383,
+   "tpr_at_1pct_fpr": 4.044444444444444,
+   "tpr_at_0.1pct_fpr": 0.4,
+   "balanced_acc": 50.17777777777778,
+   "finite_shadows": 16
+  },
+  "salun": {
+   "auc": 99.9388049382716,
+   "tpr_at_1pct_fpr": 98.97777777777777,
+   "tpr_at_0.1pct_fpr": 87.33333333333333,
+   "balanced_acc": 93.75555555555556,
+   "finite_shadows": 16
+  },
+  "uniclun": {
+   "auc": 99.92985679012347,
+   "tpr_at_1pct_fpr": 99.28888888888889,
+   "tpr_at_0.1pct_fpr": 78.71111111111111,
+   "balanced_acc": 93.22222222222223,
+   "finite_shadows": 16
+  },
+  "retrain": {
+   "auc": 50.0,
+   "note": "reference by construction"
+  }
+ }
+}

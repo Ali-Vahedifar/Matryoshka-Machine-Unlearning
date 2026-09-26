@@ -1,0 +1,152 @@
+forget class 0 (airplane): |D_f|=5000  |D_r used|=13500 of 45000
+FID reference: 5000 real retain-class test images
+
+=== mmu_fullwidth ===
+  [full_width/redirect] ep0: {'retain_loss': 0.029766451124791746, 'redirect_loss': 0.0004750455829521848, 'null_loss': 0.00011327274671445291, 'epoch': 0, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.00047504558290044466}, 'retain_probe': {1.0: 0.031296610832214355}}
+  [full_width/redirect] ep1: {'retain_loss': 0.030299419062557044, 'redirect_loss': 0.00039112622433566246, 'null_loss': 9.712574038874462e-05, 'epoch': 1, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.00039112622428823403}, 'retain_probe': {1.0: 0.03127412497997284}}
+  [full_width/redirect] ep2: {'retain_loss': 0.029850827272843432, 'redirect_loss': 0.0003874559392462726, 'null_loss': 0.00010172159193273358, 'epoch': 2, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.0003874559390048186}, 'retain_probe': {1.0: 0.03126968443393707}}
+  -> UA=92.2%  forget-rate=7.8%  FID=17.01  retain-cond-acc=97.7%  t=40s
+
+DONE {
+ "mmu_fullwidth": {
+  "UA": 92.1999990940094,
+  "forget_class_rate": 7.800000160932541,
+  "retain_cond_acc": 97.69999980926514,
+  "FID_retain": 17.00785810960241,
+  "unlearn_time_s": 39.8
+ }
+}
+# Diffusion evaluation: guidance 2.0
+
+Forget class 0; seed 43; 500 forgotten-condition samples; 5000 retained samples.
+
+| Method | UA (%) | Retained FID | Retained accuracy (%) | Train/load time (s) |
+|---|---:|---:|---:|---:|
+| MMU full width | 92.2 | 17.01 | 97.7 | 39.8 |
+
+UA alone cannot distinguish valid redirection from damaged generation.
+SalUn is a local adaptation, not a validated reproduction. One seed and one class do not establish general superiority.
+
+forget class 0 (airplane): |D_f|=5000  |D_r used|=13500 of 45000
+FID reference: 5000 real retain-class test images
+
+=== mmu_fullwidth ===
+  [full_width/redirect] ep0: {'retain_loss': 0.02981127291697043, 'redirect_loss': 0.0004158819969915957, 'null_loss': 0.0001528379415696556, 'epoch': 0, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.0004158819969053622}, 'retain_probe': {1.0: 0.03129686042666435}}
+  [full_width/redirect] ep1: {'retain_loss': 0.030298626205711453, 'redirect_loss': 0.00033252155495790283, 'null_loss': 0.00010870005795408764, 'epoch': 1, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.00033252155491047435}, 'retain_probe': {1.0: 0.031285665929317474}}
+  [full_width/redirect] ep2: {'retain_loss': 0.029832432659135925, 'redirect_loss': 0.0003250485355017224, 'null_loss': 0.00010301283699529314, 'epoch': 2, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.000325048535372372}, 'retain_probe': {1.0: 0.03127988055348396}}
+  -> UA=91.2%  forget-rate=8.8%  FID=19.60  retain-cond-acc=97.0%  t=41s
+
+DONE {
+ "mmu_fullwidth": {
+  "UA": 91.20000004768372,
+  "forget_class_rate": 8.799999952316284,
+  "retain_cond_acc": 97.02000021934509,
+  "FID_retain": 19.60322641351985,
+  "unlearn_time_s": 40.9
+ }
+}
+# Diffusion evaluation: guidance 2.0
+
+Forget class 0; seed 43; 500 forgotten-condition samples; 5000 retained samples.
+
+| Method | UA (%) | Retained FID | Retained accuracy (%) | Train/load time (s) |
+|---|---:|---:|---:|---:|
+| MMU full width | 91.2 | 19.60 | 97.0 | 40.9 |
+
+UA alone cannot distinguish valid redirection from damaged generation.
+SalUn is a local adaptation, not a validated reproduction. One seed and one class do not establish general superiority.
+
+forget class 0 (airplane): |D_f|=5000  |D_r used|=13500 of 45000
+FID reference: 5000 real retain-class test images
+
+=== mmu_fullwidth ===
+  [full_width/redirect] ep0: {'retain_loss': 0.02932654783791966, 'redirect_loss': 0.0004716374622140494, 'null_loss': 0.00010941934949476962, 'epoch': 0, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.00047163746216230925}, 'retain_probe': {1.0: 0.0308532677590847}}
+  [full_width/redirect] ep1: {'retain_loss': 0.02963043877482414, 'redirect_loss': 0.00039617994820906056, 'null_loss': 9.93772549684056e-05, 'epoch': 1, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.0003961799481400737}, 'retain_probe': {1.0: 0.03082926571369171}}
+  [full_width/redirect] ep2: {'retain_loss': 0.02886590498906595, 'redirect_loss': 0.00038053067808936316, 'null_loss': 9.639849545675571e-05, 'epoch': 2, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.00038053067801175293}, 'retain_probe': {1.0: 0.030842049047350883}}
+  -> UA=90.0%  forget-rate=10.0%  FID=17.31  retain-cond-acc=97.7%  t=41s
+
+DONE {
+ "mmu_fullwidth": {
+  "UA": 89.99999761581421,
+  "forget_class_rate": 10.000000149011612,
+  "retain_cond_acc": 97.680002450943,
+  "FID_retain": 17.31487366792146,
+  "unlearn_time_s": 40.8
+ }
+}
+# Diffusion evaluation: guidance 2.0
+
+Forget class 0; seed 44; 500 forgotten-condition samples; 5000 retained samples.
+
+| Method | UA (%) | Retained FID | Retained accuracy (%) | Train/load time (s) |
+|---|---:|---:|---:|---:|
+| MMU full width | 90.0 | 17.31 | 97.7 | 40.8 |
+
+UA alone cannot distinguish valid redirection from damaged generation.
+SalUn is a local adaptation, not a validated reproduction. One seed and one class do not establish general superiority.
+
+forget class 0 (airplane): |D_f|=5000  |D_r used|=13500 of 45000
+FID reference: 5000 real retain-class test images
+
+=== mmu_fullwidth ===
+  [full_width/redirect] ep0: {'retain_loss': 0.029374671617039928, 'redirect_loss': 0.00041457517181212706, 'null_loss': 0.00014908494602423162, 'epoch': 0, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.0004145751716914}, 'retain_probe': {1.0: 0.030851801857352257}}
+  [full_width/redirect] ep1: {'retain_loss': 0.029625921316720823, 'redirect_loss': 0.0003368458551423693, 'null_loss': 0.00010922004899044556, 'epoch': 1, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.00033684585505613576}, 'retain_probe': {1.0: 0.03085336647927761}}
+  [full_width/redirect] ep2: {'retain_loss': 0.028867425940103, 'redirect_loss': 0.00032625116386312853, 'null_loss': 0.00010501302748323522, 'epoch': 2, 'phase': 'joint', 'updates': 106, 'redirect_mse': {1.0: 0.00032625116380276503}, 'retain_probe': {1.0: 0.030843425542116165}}
+  -> UA=93.2%  forget-rate=6.8%  FID=17.01  retain-cond-acc=97.0%  t=41s
+
+DONE {
+ "mmu_fullwidth": {
+  "UA": 93.19999814033508,
+  "forget_class_rate": 6.800000369548798,
+  "retain_cond_acc": 97.02000021934509,
+  "FID_retain": 17.00790651174998,
+  "unlearn_time_s": 40.8
+ }
+}
+# Diffusion evaluation: guidance 2.0
+
+Forget class 0; seed 44; 500 forgotten-condition samples; 5000 retained samples.
+
+| Method | UA (%) | Retained FID | Retained accuracy (%) | Train/load time (s) |
+|---|---:|---:|---:|---:|
+| MMU full width | 93.2 | 17.01 | 97.0 | 40.8 |
+
+UA alone cannot distinguish valid redirection from damaged generation.
+SalUn is a local adaptation, not a validated reproduction. One seed and one class do not establish general superiority.
+
+# MMU improvement study
+
+CIFAR-10 airplane forgetting; guidance 2; 100 DDIM steps; 500 forgotten-condition and 5,000 retained samples per evaluation. Three joint epochs; warm-up adds two retained-only epochs with the same optimizer. The beta=1 and nested no-warm-up references reuse the completed experiment.
+
+| Seed-42 configuration | UA (%) | Retained FID | Retained accuracy (%) |
+|---|---:|---:|---:|
+| Full width beta=0.5 | 83.8 | 17.43 | 97.76 |
+| Full width beta=1 | 86.2 | 17.66 | 97.56 |
+| Full width beta=2 | 88.6 | 18.00 | 97.08 |
+| Full width beta=4 | 90.4 | 17.01 | 97.14 |
+| Full width warm-up=2 | 85.2 | 17.05 | 96.94 |
+| Nested warm-up=0 | 49.0 | 25.72 | 93.68 |
+| Nested warm-up=2 | 72.4 | 19.47 | 95.90 |
+
+Seed 42 is the tuning run. Additional seeds share the same pretrained source checkpoint; they measure variation in retained subset selection, unlearning and sampling, not source training. Higher UA alone does not establish improved unlearning.
+
+[Forgotten-condition grid](samples_forget.png)
+
+[Retained-condition grid](samples_retain.png)
+
+## Paired-seed comparison
+
+| Configuration | Seed | UA (%) | Retained FID | Retained accuracy (%) |
+|---|---:|---:|---:|---:|
+| Baseline beta=1 | 42 | 86.2 | 17.66 | 97.56 |
+| Baseline beta=1 | 43 | 92.2 | 17.01 | 97.70 |
+| Baseline beta=1 | 44 | 90.0 | 17.31 | 97.68 |
+| Baseline beta=1 | mean ± sample SD | 89.47 ± 3.04 | 17.33 ± 0.33 | 97.65 ± 0.08 |
+| Selected candidate | 42 | 90.4 | 17.01 | 97.14 |
+| Selected candidate | 43 | 91.2 | 19.60 | 97.02 |
+| Selected candidate | 44 | 93.2 | 17.01 | 97.02 |
+| Selected candidate | mean ± sample SD | 91.60 ± 1.44 | 17.87 ± 1.50 | 97.06 ± 0.07 |
+
+The three-seed summary includes the tuning seed. The seed-43/44 rows are the additional checks.
+
+VALIDATION COMPLETE

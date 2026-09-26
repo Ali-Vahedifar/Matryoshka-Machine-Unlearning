@@ -1,0 +1,26 @@
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+setup random seed = 2
+The normalize layer is contained in the network
+setup random seed = 2
+setup random seed = 2
+setup random seed = 2
+fullwidth_joint 0 {'accuracy': 100.0, 'teacher_kl': 0.024030641979641384}
+fullwidth_joint 1 {'accuracy': 100.0, 'teacher_kl': 0.03860598012142711}
+fullwidth_joint 2 {'accuracy': 100.0, 'teacher_kl': 0.05779871350195673}
+fullwidth_joint 3 {'accuracy': 100.0, 'teacher_kl': 0.07683618593878216}
+fullwidth_joint 4 {'accuracy': 100.0, 'teacher_kl': 0.09874918236997393}
+FINAL fullwidth_joint {'UA': 0.0, 'RA': 100.0, 'TA': 94.43999528884888, 'MIA': 2.3333333333333317, 'RTE_min': 0.9935880490307075, 'seed': 2, 'method': 'fullwidth_joint', 'widths': [512]}
+setup random seed = 2
+setup random seed = 2
+nested_joint 0 {'accuracy': 100.0, 'teacher_kl': 0.1120085959566964}
+nested_joint 1 {'accuracy': 99.97777777777777, 'teacher_kl': 0.125346074157291}
+nested_joint 2 {'accuracy': 99.97777777777777, 'teacher_kl': 0.16462350406911638}
+nested_joint 3 {'accuracy': 99.82222222222222, 'teacher_kl': 0.2597780834303962}
+nested_joint 4 {'accuracy': 99.8, 'teacher_kl': 0.25412102484703064}
+FINAL nested_joint {'UA': 0.1999974250793457, 'RA': 100.0, 'TA': 94.48999762535095, 'MIA': 5.533333333333335, 'RTE_min': 1.0121254064821794, 'seed': 2, 'method': 'nested_joint', 'widths': [32, 64, 128, 256, 512]}
+ONE-SEED JOINT TARGET COMPLETE

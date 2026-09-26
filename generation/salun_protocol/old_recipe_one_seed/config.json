@@ -1,0 +1,17 @@
+{
+  "seed": 2,
+  "ratio": 0.1,
+  "recipe_source": "cifar10_protocol_v3/mu/resnet18_adam_instance/seed42/final.json",
+  "hyperparameters": {
+    "msteps": 3,
+    "lr": 0.005,
+    "epochs": 5,
+    "head_mode": "tied",
+    "weighting": "mrl",
+    "max_grad_norm": 5.0
+  },
+  "retain_samples": 4050,
+  "forget_samples": 4500,
+  "batch_size": 64,
+  "note": "Archived recipe transferred without tuning; same current source, split and full-set evaluator."
+}

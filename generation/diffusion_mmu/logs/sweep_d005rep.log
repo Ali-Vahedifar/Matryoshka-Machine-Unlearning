@@ -1,0 +1,21 @@
+forget class 0 (airplane): |D_f|=5000  |D_r used|=13500 of 45000
+FID reference: 5000 real retain-class test images
+
+=== mmu ===
+  [full] retain probe @start: m=0.25:0.5133  m=0.5:0.2197  m=1.0:0.0316
+  [full] ep0: L_r=0.4778 L_f=0.0133 | m=0.25:d=0.3361/on=0.00  m=0.5:d=0.4114/on=0.02  m=1.0:d=0.3166/on=0.31 | probe(afterR->afterF) m=0.25:0.1636->0.1567  m=0.5:0.0861->0.2329  m=1.0:0.0323->0.5285
+  [full] ep1: L_r=0.5253 L_f=0.0080 | m=0.25:d=0.2657/on=0.00  m=0.5:d=0.3089/on=0.00  m=1.0:d=0.2537/on=0.21 | probe(afterR->afterF) m=0.25:0.1588->0.1020  m=0.5:0.0824->0.1042  m=1.0:0.0323->0.3174
+  [full] ep2: L_r=0.4708 L_f=0.0075 | m=0.25:d=0.2594/on=0.00  m=0.5:d=0.2561/on=0.00  m=1.0:d=0.2015/on=0.21 | probe(afterR->afterF) m=0.25:0.1574->0.1015  m=0.5:0.0810->0.0750  m=1.0:0.0323->0.1977
+  [full] repair0: L_r=0.4552 | probe m=0.25:0.1579  m=0.5:0.0807  m=1.0:0.0323
+  [full] repair1: L_r=0.4297 | probe m=0.25:0.1564  m=0.5:0.0805  m=1.0:0.0321
+  -> UA=95.8%  forget-rate=4.2%  FID=23.95  retain-cond-acc=98.1%  t=92s
+
+DONE {
+ "mmu": {
+  "UA": 95.80000042915344,
+  "forget_class_rate": 4.1999999433755875,
+  "retain_cond_acc": 98.07999730110168,
+  "FID_retain": 23.949422172309255,
+  "unlearn_time_s": 92.3
+ }
+}

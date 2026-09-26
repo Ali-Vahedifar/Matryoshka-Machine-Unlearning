@@ -1,0 +1,14 @@
+{
+  "seed": 2,
+  "ratios": [
+    0.1,
+    0.5
+  ],
+  "epochs": 5,
+  "lr": 0.001,
+  "margin": 0.002,
+  "temperature": 1,
+  "good_teacher": "source fine-tuned on retained data for 5 epochs, SGD lr .01",
+  "bad_teacher": "frozen source",
+  "note": "Classification adaptation, not identical to conditioned diffusion. Full width; teacher construction time included. No test tuning; seed 2 reuses paired source and retrain. SCRUB control is local full-width max/min objective, not an official reproduction."
+}

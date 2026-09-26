@@ -1,0 +1,72 @@
+[
+  {
+    "label": "Full width beta=0.5",
+    "run": "diffusion_mmu/results/improve_b05_c0_seed42",
+    "method": "mmu_fullwidth",
+    "UA": 83.79999995231628,
+    "forget_class_rate": 16.200000047683716,
+    "retain_cond_acc": 97.75999784469604,
+    "FID_retain": 17.42646187986054,
+    "unlearn_time_s": 39.0
+  },
+  {
+    "label": "Full width beta=1",
+    "run": "diffusion_mmu/results/full_redirect_20260907_cfg2_mmu_fullwidth_c0_seed42",
+    "method": "mmu_fullwidth",
+    "UA": 86.19999885559082,
+    "forget_class_rate": 13.79999965429306,
+    "retain_cond_acc": 97.5600004196167,
+    "FID_retain": 17.66309720773046,
+    "unlearn_time_s": 0.1
+  },
+  {
+    "label": "Full width beta=2",
+    "run": "diffusion_mmu/results/improve_b2_c0_seed42",
+    "method": "mmu_fullwidth",
+    "UA": 88.59999775886536,
+    "forget_class_rate": 11.400000005960464,
+    "retain_cond_acc": 97.079998254776,
+    "FID_retain": 17.99716352902186,
+    "unlearn_time_s": 40.7
+  },
+  {
+    "label": "Full width beta=4",
+    "run": "diffusion_mmu/results/improve_b4_c0_seed42",
+    "method": "mmu_fullwidth",
+    "UA": 90.39999842643738,
+    "forget_class_rate": 9.600000083446503,
+    "retain_cond_acc": 97.14000225067139,
+    "FID_retain": 17.01319320319135,
+    "unlearn_time_s": 40.7
+  },
+  {
+    "label": "Full width warm-up=2",
+    "run": "diffusion_mmu/results/improve_warm2_c0_seed42",
+    "method": "mmu_fullwidth",
+    "UA": 85.19999980926514,
+    "forget_class_rate": 14.800000190734863,
+    "retain_cond_acc": 96.93999886512756,
+    "FID_retain": 17.05094351897435,
+    "unlearn_time_s": 60.9
+  },
+  {
+    "label": "Nested warm-up=0",
+    "run": "diffusion_mmu/results/full_redirect_20260907_cfg2_mmu_c0_seed42",
+    "method": "mmu",
+    "UA": 49.000000953674316,
+    "forget_class_rate": 50.999999046325684,
+    "retain_cond_acc": 93.68000030517578,
+    "FID_retain": 25.715146097217826,
+    "unlearn_time_s": 0.0
+  },
+  {
+    "label": "Nested warm-up=2",
+    "run": "diffusion_mmu/results/improve_warm2_c0_seed42",
+    "method": "mmu",
+    "UA": 72.39999771118164,
+    "forget_class_rate": 27.59999930858612,
+    "retain_cond_acc": 95.89999914169312,
+    "FID_retain": 19.468237328966836,
+    "unlearn_time_s": 118.7
+  }
+]

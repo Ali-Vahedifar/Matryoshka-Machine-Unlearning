@@ -1,0 +1,74 @@
+{
+  "Source": {
+    "forget_airplane_count": 31,
+    "forget_n": 32,
+    "forget_airplane_rate": 96.875,
+    "retain_correct": 287,
+    "retain_n": 288,
+    "retain_cond_acc": 99.65277910232544
+  },
+  "Retrain reference": {
+    "forget_airplane_count": 1,
+    "forget_n": 32,
+    "forget_airplane_rate": 3.125,
+    "retain_correct": 287,
+    "retain_n": 288,
+    "retain_cond_acc": 99.65277910232544
+  },
+  "SalUn (local)": {
+    "forget_airplane_count": 0,
+    "forget_n": 32,
+    "forget_airplane_rate": 0.0,
+    "retain_correct": 280,
+    "retain_n": 288,
+    "retain_cond_acc": 97.22222089767456
+  },
+  "Random mask (local)": {
+    "forget_airplane_count": 0,
+    "forget_n": 32,
+    "forget_airplane_rate": 0.0,
+    "retain_correct": 281,
+    "retain_n": 288,
+    "retain_cond_acc": 97.56944179534912
+  },
+  "MMU full width, beta=1": {
+    "forget_airplane_count": 2,
+    "forget_n": 32,
+    "forget_airplane_rate": 6.25,
+    "retain_correct": 282,
+    "retain_n": 288,
+    "retain_cond_acc": 97.91666865348816
+  },
+  "MMU full width, beta=4": {
+    "forget_airplane_count": 3,
+    "forget_n": 32,
+    "forget_airplane_rate": 9.375,
+    "retain_correct": 283,
+    "retain_n": 288,
+    "retain_cond_acc": 98.26388955116272
+  },
+  "MMU nested, warm-up=2": {
+    "forget_airplane_count": 10,
+    "forget_n": 32,
+    "forget_airplane_rate": 31.25,
+    "retain_correct": 127,
+    "retain_n": 288,
+    "retain_cond_acc": 44.09722089767456
+  },
+  "frozen_redirect": {
+    "forget_airplane_count": 0,
+    "forget_n": 32,
+    "forget_airplane_rate": 0.0,
+    "retain_correct": 285,
+    "retain_n": 288,
+    "retain_cond_acc": 98.95833134651184
+  },
+  "two_teacher": {
+    "forget_airplane_count": 0,
+    "forget_n": 32,
+    "forget_airplane_rate": 0.0,
+    "retain_correct": 285,
+    "retain_n": 288,
+    "retain_cond_acc": 98.95833134651184
+  }
+}
